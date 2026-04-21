@@ -7598,3 +7598,103 @@ Install the project...
 -- Up-to-date: /usr/local/lib/libopencv_videostab.so
 -- Up-to-date: /usr/local/include/opencv4/opencv2/videostab.hpp
 -- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/deblurring.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/fast_marching.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/fast_marching_inl.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/frame_source.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/global_motion.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/inpainting.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/log.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/motion_core.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/motion_stabilizing.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/optical_flow.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/outlier_rejection.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/ring_buffer.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/stabilizer.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videostab/wobble_suppression.hpp
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_eye.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_eye_tree_eyeglasses.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_frontalcatface.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_frontalcatface_extended.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_frontalface_alt.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_frontalface_alt2.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_frontalface_alt_tree.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_frontalface_default.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_fullbody.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_lefteye_2splits.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_license_plate_rus_16stages.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_lowerbody.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_profileface.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_righteye_2splits.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_russian_plate_number.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_smile.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_upperbody.xml
+-- Up-to-date: /usr/local/share/opencv4/lbpcascades/lbpcascade_frontalcatface.xml
+-- Up-to-date: /usr/local/share/opencv4/lbpcascades/lbpcascade_frontalface.xml
+-- Up-to-date: /usr/local/share/opencv4/lbpcascades/lbpcascade_frontalface_improved.xml
+-- Up-to-date: /usr/local/share/opencv4/lbpcascades/lbpcascade_profileface.xml
+-- Up-to-date: /usr/local/share/opencv4/lbpcascades/lbpcascade_silverware.xml
+-- Up-to-date: /usr/local/bin/opencv_annotation
+-- Up-to-date: /usr/local/bin/opencv_visualisation
+-- Up-to-date: /usr/local/bin/opencv_interactive-calibration
+-- Up-to-date: /usr/local/bin/opencv_version
+-- Up-to-date: /usr/local/bin/opencv_model_diagnostics
+tech24@DESKTOP-1VHTLCM:~/build$ sudo ldconfig
+tech24@DESKTOP-1VHTLCM:~/build$ python3 -c "import cv2; print(cv2.__file__)"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'cv2'
+tech24@DESKTOP-1VHTLCM:~/build$ find ~/build/lib/python3 -name "cv2*.so"
+find: ‘/home/tech24/build/lib/python3’: No such file or directory
+tech24@DESKTOP-1VHTLCM:~/build$ sudo make install
+[  0%] Built target opencv_dnn_plugins
+[  0%] Built target opencv_highgui_plugins
+[  1%] Built target libopenjp2
+[  2%] Built target ippiw
+[  3%] Built target ipphal
+[  3%] Built target opencv_videoio_plugins
+[  3%] Built target opencv_cudev
+[  3%] Built target ittnotify
+[  7%] Built target opencv_core
+[ 11%] Built target opencv_imgproc
+[ 12%] Built target opencv_imgcodecs
+[ 13%] Built target opencv_videoio
+[ 13%] Built target opencv_highgui
+[ 13%] Built target opencv_ts
+[ 14%] Built target opencv_test_cudev
+[ 16%] Built target opencv_test_core
+[ 18%] Built target opencv_perf_core
+[ 20%] Built target opencv_cudaarithm
+[ 21%] Built target opencv_test_cudaarithm
+[ 21%] Built target opencv_perf_cudaarithm
+[ 21%] Built target opencv_flann
+[ 21%] Built target opencv_test_flann
+[ 23%] Built target opencv_test_imgproc
+[ 25%] Built target opencv_perf_imgproc
+[ 25%] Built target opencv_intensity_transform
+[ 26%] Built target opencv_test_intensity_transform
+[ 26%] Built target opencv_ml
+[ 26%] Built target opencv_test_ml
+[ 26%] Built target opencv_phase_unwrapping
+[ 26%] Built target opencv_test_phase_unwrapping
+[ 26%] Built target opencv_plot
+[ 26%] Built target opencv_quality
+[ 26%] Built target opencv_test_quality
+[ 27%] Built target opencv_reg
+[ 27%] Built target opencv_test_reg
+[ 27%] Built target opencv_perf_reg
+[ 27%] Built target opencv_signal
+[ 27%] Built target opencv_test_signal
+[ 27%] Built target opencv_perf_signal
+[ 27%] Built target opencv_surface_matching
+[ 28%] Built target opencv_cudafilters
+[ 28%] Built target opencv_test_cudafilters
+[ 28%] Built target opencv_perf_cudafilters
+[ 30%] Built target opencv_cudaimgproc
+[ 31%] Built target opencv_test_cudaimgproc
+[ 32%] Built target opencv_perf_cudaimgproc
+[ 32%] Built target opencv_cudawarping
+[ 32%] Built target opencv_test_cudawarping
+[ 32%] Built target opencv_perf_cudawarping
+[ 34%] Built target libprotobuf
+[ 42%] Built target opencv_dnn
+[ 42%] Built target opencv_test_dnn
