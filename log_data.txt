@@ -5198,3 +5198,103 @@ CMake Warning at /home/tech24/build/opencv_contrib/modules/cudacodec/CMakeLists.
 [  0%] Built target opencv_dnn_plugins
 [  0%] Built target opencv_highgui_plugins
 [  1%] Built target libopenjp2
+[  1%] Linking C static library ../lib/libippiw.a
+[  2%] Built target ippiw
+[  3%] Built target ipphal
+[  3%] Built target opencv_videoio_plugins
+[  3%] Linking CXX shared library ../../lib/libopencv_cudev.so
+[  3%] Built target opencv_cudev
+[  3%] Built target ittnotify
+[  3%] Linking CXX shared library ../../lib/libopencv_core.so
+[  7%] Built target opencv_core
+[  7%] Linking CXX shared library ../../lib/libopencv_imgproc.so
+[ 11%] Built target opencv_imgproc
+[ 11%] Linking CXX shared library ../../lib/libopencv_imgcodecs.so
+[ 12%] Built target opencv_imgcodecs
+[ 12%] Linking CXX shared library ../../lib/libopencv_videoio.so
+[ 13%] Built target opencv_videoio
+[ 13%] Linking CXX shared library ../../lib/libopencv_highgui.so
+[ 13%] Built target opencv_highgui
+[ 13%] Built target opencv_ts
+[ 13%] Linking CXX executable ../../../bin/opencv_test_cudev
+[ 14%] Built target opencv_test_cudev
+[ 14%] Linking CXX executable ../../bin/opencv_test_core
+[ 16%] Built target opencv_test_core
+[ 16%] Linking CXX executable ../../bin/opencv_perf_core
+[ 18%] Built target opencv_perf_core
+[ 18%] Linking CXX shared library ../../lib/libopencv_cudaarithm.so
+[ 20%] Built target opencv_cudaarithm
+[ 20%] Linking CXX executable ../../bin/opencv_test_cudaarithm
+[ 21%] Built target opencv_test_cudaarithm
+[ 21%] Linking CXX executable ../../bin/opencv_perf_cudaarithm
+[ 21%] Built target opencv_perf_cudaarithm
+[ 21%] Linking CXX shared library ../../lib/libopencv_flann.so
+[ 21%] Built target opencv_flann
+[ 21%] Linking CXX executable ../../bin/opencv_test_flann
+[ 21%] Built target opencv_test_flann
+[ 21%] Linking CXX executable ../../bin/opencv_test_imgproc
+[ 23%] Built target opencv_test_imgproc
+[ 23%] Linking CXX executable ../../bin/opencv_perf_imgproc
+[ 25%] Built target opencv_perf_imgproc
+[ 25%] Linking CXX shared library ../../lib/libopencv_intensity_transform.so
+[ 25%] Built target opencv_intensity_transform
+[ 26%] Linking CXX executable ../../bin/opencv_test_intensity_transform
+[ 26%] Built target opencv_test_intensity_transform
+[ 26%] Linking CXX shared library ../../lib/libopencv_ml.so
+[ 26%] Built target opencv_ml
+[ 26%] Linking CXX executable ../../bin/opencv_test_ml
+[ 26%] Built target opencv_test_ml
+[ 26%] Linking CXX shared library ../../lib/libopencv_phase_unwrapping.so
+[ 26%] Built target opencv_phase_unwrapping
+[ 26%] Linking CXX executable ../../bin/opencv_test_phase_unwrapping
+[ 26%] Built target opencv_test_phase_unwrapping
+[ 26%] Linking CXX shared library ../../lib/libopencv_plot.so
+[ 26%] Built target opencv_plot
+[ 26%] Linking CXX shared library ../../lib/libopencv_quality.so
+[ 26%] Built target opencv_quality
+[ 26%] Linking CXX executable ../../bin/opencv_test_quality
+[ 26%] Built target opencv_test_quality
+[ 26%] Linking CXX shared library ../../lib/libopencv_reg.so
+[ 27%] Built target opencv_reg
+[ 27%] Linking CXX executable ../../bin/opencv_test_reg
+[ 27%] Built target opencv_test_reg
+[ 27%] Linking CXX executable ../../bin/opencv_perf_reg
+[ 27%] Built target opencv_perf_reg
+[ 27%] Linking CXX shared library ../../lib/libopencv_signal.so
+[ 27%] Built target opencv_signal
+[ 27%] Linking CXX executable ../../bin/opencv_test_signal
+[ 27%] Built target opencv_test_signal
+[ 27%] Linking CXX executable ../../bin/opencv_perf_signal
+[ 27%] Built target opencv_perf_signal
+[ 27%] Linking CXX shared library ../../lib/libopencv_surface_matching.so
+[ 27%] Built target opencv_surface_matching
+[ 27%] Linking CXX shared library ../../lib/libopencv_cudafilters.so
+[ 28%] Built target opencv_cudafilters
+[ 28%] Linking CXX executable ../../bin/opencv_test_cudafilters
+[ 28%] Built target opencv_test_cudafilters
+[ 28%] Linking CXX executable ../../bin/opencv_perf_cudafilters
+[ 28%] Built target opencv_perf_cudafilters
+[ 28%] Linking CXX shared library ../../lib/libopencv_cudaimgproc.so
+[ 30%] Built target opencv_cudaimgproc
+[ 30%] Linking CXX executable ../../bin/opencv_test_cudaimgproc
+[ 31%] Built target opencv_test_cudaimgproc
+[ 31%] Linking CXX executable ../../bin/opencv_perf_cudaimgproc
+[ 32%] Built target opencv_perf_cudaimgproc
+[ 32%] Linking CXX shared library ../../lib/libopencv_cudawarping.so
+[ 32%] Built target opencv_cudawarping
+[ 32%] Linking CXX executable ../../bin/opencv_test_cudawarping
+[ 32%] Built target opencv_test_cudawarping
+[ 32%] Linking CXX executable ../../bin/opencv_perf_cudawarping
+[ 32%] Built target opencv_perf_cudawarping
+[ 34%] Built target libprotobuf
+[ 34%] Linking CXX shared library ../../lib/libopencv_dnn.so
+[ 42%] Built target opencv_dnn
+[ 42%] Linking CXX executable ../../bin/opencv_test_dnn
+[ 42%] Built target opencv_test_dnn
+[ 42%] Linking CXX executable ../../bin/opencv_perf_dnn
+[ 42%] Built target opencv_perf_dnn
+[ 42%] Linking CXX shared library ../../lib/libopencv_dnn_superres.so
+[ 42%] Built target opencv_dnn_superres
+[ 42%] Linking CXX executable ../../bin/opencv_test_dnn_superres
+[ 43%] Built target opencv_test_dnn_superres
+[ 43%] Linking CXX executable ../../bin/opencv_perf_dnn_superres
