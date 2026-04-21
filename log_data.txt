@@ -2898,3 +2898,103 @@ In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::ra
 [ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/layers_rvp052.cpp.o
 [ 28%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/estimator.cpp.o
 [ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/pooling_layer.cpp.o
+[ 28%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/fundamental_solver.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/quantization_utils.cpp.o
+[ 28%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/gamma_values.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/scale_layer.cpp.o
+[ 28%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/homography_solver.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/softmax_layer.cpp.o
+[ 28%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/local_optimization.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layer.cpp.o
+[ 28%] Building NVCC (Device) object modules/cudacodec/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_ColorSpace.cu.o
+[ 28%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/pnp_solver.cpp.o
+[ 28%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.16uc1.cu.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layer_factory.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/accum_layer.cpp.o
+[ 28%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/quality.cpp.o
+[ 28%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/ransac_solvers.cpp.o
+/home/tech24/build/opencv_contrib/modules/cudacodec/src/cuda/ColorSpace.cu:308:6: warning: no previous declaration for ‘void cv::cuda::device::Y8ToGray8(uint8_t*, int, uint8_t*, int, int, int, ColorMatrix, bool, cudaStream_t)’ [-Wmissing-declarations]
+  308 | void Y8ToGray8(uint8_t* dpY8, int nY8Pitch, uint8_t* dpGray, int nGrayPitch, int nWidth, int nHeight, ColorMatrix matYuv2Color, bool videoFullRangeFlag, const cudaStream_t stream) {
+      |      ^~~~~~~~~
+/home/tech24/build/opencv_contrib/modules/cudacodec/src/cuda/ColorSpace.cu:316:6: warning: no previous declaration for ‘void cv::cuda::device::Y8ToGray16(uint8_t*, int, uint8_t*, int, int, int, ColorMatrix, bool, cudaStream_t)’ [-Wmissing-declarations]
+  316 | void Y8ToGray16(uint8_t* dpY8, int nY8Pitch, uint8_t* dpGray, int nGrayPitch, int nWidth, int nHeight, ColorMatrix matYuv2Color, bool videoFullRangeFlag, const cudaStream_t stream) {
+      |      ^~~~~~~~~~
+/home/tech24/build/opencv_contrib/modules/cudacodec/src/cuda/ColorSpace.cu:324:6: warning: no previous declaration for ‘void cv::cuda::device::Y16ToGray8(uint8_t*, int, uint8_t*, int, int, int, ColorMatrix, bool, cudaStream_t)’ [-Wmissing-declarations]
+  324 | void Y16ToGray8(uint8_t* dpY16, int nY16Pitch, uint8_t* dpGray, int nGrayPitch, int nWidth, int nHeight, ColorMatrix matYuv2Color, bool videoFullRangeFlag, const cudaStream_t stream) {
+      |      ^~~~~~~~~~
+/home/tech24/build/opencv_contrib/modules/cudacodec/src/cuda/ColorSpace.cu:332:6: warning: no previous declaration for ‘void cv::cuda::device::Y16ToGray16(uint8_t*, int, uint8_t*, int, int, int, ColorMatrix, bool, cudaStream_t)’ [-Wmissing-declarations]
+  332 | void Y16ToGray16(uint8_t* dpY16, int nY16Pitch, uint8_t* dpGray, int nGrayPitch, int nWidth, int nHeight, ColorMatrix matYuv2Color, bool videoFullRangeFlag, const cudaStream_t stream) {
+      |      ^~~~~~~~~~~
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/arg_layer.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/attention_layer.cpp.o
+[ 28%] Building CXX object modules/cudacodec/CMakeFiles/opencv_cudacodec.dir/src/NvEncoder.cpp.o
+[ 28%] Building CXX object modules/cudacodec/CMakeFiles/opencv_cudacodec.dir/src/NvEncoderCuda.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/batch_norm_layer.cpp.o
+[ 28%] Building CXX object modules/cudacodec/CMakeFiles/opencv_cudacodec.dir/src/cuvid_video_source.cpp.o
+[ 28%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/sampler.cpp.o
+[ 28%] Building CXX object modules/cudacodec/CMakeFiles/opencv_cudacodec.dir/src/ffmpeg_video_source.cpp.o
+[ 28%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/termination.cpp.o
+[ 28%] Building CXX object modules/cudacodec/CMakeFiles/opencv_cudacodec.dir/src/frame_queue.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/blank_layer.cpp.o
+[ 28%] Building CXX object modules/cudacodec/CMakeFiles/opencv_cudacodec.dir/src/nvidia_surface_format_to_color_converter.cpp.o
+[ 28%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/utils.cpp.o
+[ 28%] Building CXX object modules/cudacodec/CMakeFiles/opencv_cudacodec.dir/src/thread.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/concat_layer.cpp.o
+[ 28%] Building CXX object modules/cudacodec/CMakeFiles/opencv_cudacodec.dir/src/video_decoder.cpp.o
+[ 28%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/opencl_kernels_calib3d.cpp.o
+[ 28%] Building CXX object modules/cudacodec/CMakeFiles/opencv_cudacodec.dir/src/video_parser.cpp.o
+[ 28%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/undistort.avx2.cpp.o
+[ 28%] Building CXX object modules/cudacodec/CMakeFiles/opencv_cudacodec.dir/src/video_reader.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/const_layer.cpp.o
+[ 28%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.16uc3.cu.o
+[ 28%] Building CXX object modules/cudacodec/CMakeFiles/opencv_cudacodec.dir/src/video_source.cpp.o
+[ 28%] Linking CXX shared library ../../lib/libopencv_calib3d.so
+[ 28%] Built target opencv_calib3d
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/convolution_layer.cpp.o
+[ 28%] Building CXX object modules/cudacodec/CMakeFiles/opencv_cudacodec.dir/src/video_writer.cpp.o
+[ 28%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.16uc4.cu.o
+[ 28%] Linking CXX shared library ../../lib/libopencv_cudacodec.so
+[ 28%] Built target opencv_cudacodec
+[ 28%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.32fc1.cu.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/correlation_layer.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cpu_kernels/conv_depthwise.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cpu_kernels/conv_winograd_f63.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cpu_kernels/conv_winograd_f63.dispatch.cpp.o[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cpu_kernels/convolution.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cpu_kernels/fast_gemm.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cpu_kernels/fast_norm.cpp.o
+[ 28%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.32fc3.cu.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cpu_kernels/softmax.cpp.o
+[ 28%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/crop_and_resize_layer.cpp.o
+[ 29%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cumsum_layer.cpp.o
+[ 29%] Processing OpenCL kernels (bioinspired)
+[ 29%] Building CXX object modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/src/basicretinafilter.cpp.o
+[ 29%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.32fc4.cu.o
+[ 29%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/depth_space_ops_layer.cpp.o
+[ 29%] Building CXX object modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/src/imagelogpolprojection.cpp.o
+[ 29%] Building CXX object modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/src/magnoretinafilter.cpp.o
+[ 29%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/detection_output_layer.cpp.o
+[ 29%] Building CXX object modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/src/parvoretinafilter.cpp.o
+[ 29%] Building CXX object modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/src/retina.cpp.o
+[ 29%] Building CXX object modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/src/retina_ocl.cpp.o
+[ 29%] Building CXX object modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/src/retinacolor.cpp.o
+[ 29%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/einsum_layer.cpp.o
+[ 29%] Building CXX object modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/src/retinafasttonemapping.cpp.o
+[ 29%] Building CXX object modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/src/retinafilter.cpp.o
+[ 29%] Building CXX object modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/src/transientareassegmentationmodule.cpp.o
+[ 29%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/elementwise_layers.cpp.o
+[ 29%] Building CXX object modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/opencl_kernels_bioinspired.cpp.o
+[ 29%] Linking CXX shared library ../../lib/libopencv_bioinspired.so
+[ 29%] Built target opencv_bioinspired
+[ 29%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/eltwise_layer.cpp.o
+[ 29%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.32sc1.cu.o
+[ 29%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/expand_layer.cpp.o
+[ 29%] Building CXX object modules/ccalib/CMakeFiles/opencv_ccalib.dir/src/ccalib.cpp.o
+[ 29%] Building CXX object apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o
+[ 30%] Building CXX object modules/ccalib/CMakeFiles/opencv_ccalib.dir/src/multicalib.cpp.o
+[ 30%] Linking CXX executable ../../bin/opencv_annotation
+[ 30%] Built target opencv_annotation
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/flatten_layer.cpp.o
+[ 30%] Building CXX object modules/ccalib/CMakeFiles/opencv_ccalib.dir/src/omnidir.cpp.o
+[ 30%] Building CXX object apps/visualisation/CMakeFiles/opencv_visualisation.dir/opencv_visualisation.cpp.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/flow_warp_layer.cpp.o
+[ 30%] Linking CXX executable ../../bin/opencv_visualisation
