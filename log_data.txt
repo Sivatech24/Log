@@ -4398,3 +4398,103 @@ In file included from /usr/include/string.h:548,
                  from /home/tech24/build/opencv/modules/core/include/opencv2/core/cuda.hpp:51,
                  from /home/tech24/build/opencv_contrib/modules/cudalegacy/include/opencv2/cudalegacy.hpp:46,
                  from /home/tech24/build/opencv_contrib/modules/cudalegacy/src/precomp.hpp:57,
+                 from /home/tech24/build/opencv_contrib/modules/cudalegacy/src/NCV.cpp:43:
+In function ‘void* memcpy(void*, const void*, size_t)’,
+    inlined from ‘NCVStatus ncvGroupRectangles_host(NCVVector<NcvRect32u>&, Ncv32u&, Ncv32u, Ncv32f, NCVVector<unsigned int>*)’ at /home/tech24/build/opencv_contrib/modules/cudalegacy/src/NCV.cpp:809:15:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: argument 2 null where non-null expected [-Wnonnull]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   30 |                                  __glibc_objsize0 (__dest));
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: note: in a call to built-in function ‘void* __builtin_memcpy(void*, const void*, long unsigned int)’
+[ 81%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/bm.cpp.o
+[ 81%] Building CXX object modules/xphoto/CMakeFiles/opencv_test_xphoto.dir/test/simple_color_balance.cpp.o
+[ 81%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/render_ocv.cpp.o
+[ 81%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerMIL_legacy.cpp.o
+[ 81%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/bm_fast.cpp.o
+[ 81%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerMedianFlow.cpp.o
+[ 81%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/ginfer.cpp.o
+[ 81%] Building CXX object modules/xphoto/CMakeFiles/opencv_test_xphoto.dir/test/test_denoise_bm3d.cpp.o
+[ 81%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/calib3d.cpp.o
+[ 81%] Building CXX object modules/xphoto/CMakeFiles/opencv_test_xphoto.dir/test/test_grayworld.cpp.o
+[ 81%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/media.cpp.o
+[ 81%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerSampler.cpp.o
+[ 81%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/fgd.cpp.o
+[ 81%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerSamplerAlgorithm.cpp.o
+[ 81%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/rmat.cpp.o
+[ 81%] Building CXX object modules/xphoto/CMakeFiles/opencv_test_xphoto.dir/test/test_hdr.cpp.o
+In file included from /usr/include/c++/12/string:50,
+                 from /usr/include/c++/12/bits/locale_classes.h:40,
+                 from /usr/include/c++/12/bits/ios_base.h:41,
+                 from /usr/include/c++/12/ios:42,
+                 from /usr/include/c++/12/ostream:38,
+                 from /home/tech24/build/opencv/modules/gapi/include/opencv2/gapi/gmat.hpp:11,
+                 from /home/tech24/build/opencv/modules/gapi/include/opencv2/gapi/rmat.hpp:10,
+                 from /home/tech24/build/opencv/modules/gapi/src/api/rmat.cpp:7:
+In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(_Tp*, _Tp*, _Up*) [with _Tp = const long unsigned int; _Up = long unsigned int; bool _IsMove = false]’,
+    inlined from ‘_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*]’ at /usr/include/c++/12/bits/stl_algobase.h:501:30,
+    inlined from ‘_OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*]’ at /usr/include/c++/12/bits/stl_algobase.h:528:42,
+    inlined from ‘_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*]’ at /usr/include/c++/12/bits/stl_algobase.h:535:31,
+    inlined from ‘_OI std::copy(_II, _II, _OI) [with _II = const long unsigned int*; _OI = long unsigned int*]’ at /usr/include/c++/12/bits/stl_algobase.h:626:7,
+    inlined from ‘static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const long unsigned int*; _ForwardIterator = long unsigned int*]’ at /usr/include/c++/12/bits/stl_uninitialized.h:147:27,
+    inlined from ‘_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const long unsigned int*; _ForwardIterator = long unsigned int*]’ at /usr/include/c++/12/bits/stl_uninitialized.h:185:15,
+    inlined from ‘_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, allocator<_Tp>&) [with _InputIterator = const long unsigned int*; _ForwardIterator = long unsigned int*; _Tp = long unsigned int]’ at /usr/include/c++/12/bits/stl_uninitialized.h:372:37,
+    inlined from ‘void std::vector<_Tp, _Alloc>::_M_assign_aux(_ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = const long unsigned int*; _Tp = long unsigned int; _Alloc = std::allocator<long unsigned int>]’ at /usr/include/c++/12/bits/vector.tcc:339:35,
+    inlined from ‘std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = long unsigned int; _Alloc = std::allocator<long unsigned int>]’ at /usr/include/c++/12/bits/stl_vector.h:787:21,
+    inlined from ‘View& cv::RMat::View::operator=(cv::RMat::View&&)’ at /home/tech24/build/opencv/modules/gapi/src/api/rmat.cpp:72:20:
+/usr/include/c++/12/bits/stl_algobase.h:434:30: warning: ‘void* __builtin_memcpy(void*, const void*, long unsigned int)’ forming offset 8 is out of the bounds [0, 8] of object ‘<anonymous>’ with type ‘const long unsigned int [1]’ [-Warray-bounds]
+  434 |             __builtin_memmove(__result, __first, sizeof(_Tp) * _Num);
+      |             ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tech24/build/opencv/modules/gapi/src/api/rmat.cpp: In member function ‘View& cv::RMat::View::operator=(cv::RMat::View&&)’:
+/home/tech24/build/opencv/modules/gapi/src/api/rmat.cpp:72:20: note: ‘<anonymous>’ declared here
+   72 |     v.m_steps = {0u};
+      |                    ^
+[ 81%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gmodel.cpp.o
+[ 81%] Building CXX object modules/xphoto/CMakeFiles/opencv_test_xphoto.dir/test/test_inpainting.cpp.o
+[ 81%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/gmg.cpp.o
+[ 81%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerStateEstimator.cpp.o
+[ 81%] Building CXX object modules/xphoto/CMakeFiles/opencv_test_xphoto.dir/test/test_learning_based_color_balance.cpp.o
+[ 81%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/tracking_by_matching.cpp.o
+[ 81%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/graphcuts.cpp.o
+[ 81%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/image_pyramid.cpp.o
+[ 81%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gmodelbuilder.cpp.o
+[ 81%] Building CXX object modules/xphoto/CMakeFiles/opencv_test_xphoto.dir/test/test_main.cpp.o
+[ 81%] Building CXX object modules/xphoto/CMakeFiles/opencv_test_xphoto.dir/test/test_oil_painting.cpp.o
+[ 81%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/interpolate_frames.cpp.o
+[ 81%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/tracking_utils.cpp.o
+[ 81%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/needle_map.cpp.o
+[ 81%] Linking CXX executable ../../bin/opencv_test_xphoto
+[ 81%] Built target opencv_test_xphoto
+[ 81%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gislandmodel.cpp.o
+[ 82%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/twist.cpp.o
+[ 82%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/unscented_kalman.cpp.o
+[ 82%] Linking CXX shared library ../../lib/libopencv_cudalegacy.so
+[ 82%] Building CXX object modules/xphoto/CMakeFiles/opencv_perf_xphoto.dir/perf/perf_grayworld.cpp.o
+[ 82%] Built target opencv_cudalegacy
+[ 82%] Building CXX object modules/xphoto/CMakeFiles/opencv_perf_xphoto.dir/perf/perf_learning_based_color_balance.cpp.o
+[ 82%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/opencl_kernels_tracking.cpp.o
+[ 82%] Linking CXX shared library ../../lib/libopencv_tracking.so
+[ 82%] Built target opencv_tracking
+[ 82%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gcompiler.cpp.o
+[ 82%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gcompiled.cpp.o
+[ 82%] Building CXX object modules/xphoto/CMakeFiles/opencv_perf_xphoto.dir/perf/perf_main.cpp.o
+[ 82%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_test_wechat_qrcode.dir/test/test_main.cpp.o
+[ 82%] Linking CXX executable ../../bin/opencv_perf_xphoto
+[ 82%] Built target opencv_perf_xphoto
+[ 82%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_test_wechat_qrcode.dir/test/test_qrcode.cpp.o
+[ 82%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_perf_wechat_qrcode.dir/perf/perf_main.cpp.o
+[ 82%] Building CXX object modules/ximgproc/CMakeFiles/opencv_test_ximgproc.dir/test/test_adaptive_manifold.cpp.o
+[ 82%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_perf_wechat_qrcode.dir/perf/perf_wechat_qrcode_pipeline.cpp.o
+[ 82%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gstreaming.cpp.o
+[ 82%] Linking CXX executable ../../bin/opencv_test_wechat_qrcode
+[ 82%] Building CXX object modules/ximgproc/CMakeFiles/opencv_test_ximgproc.dir/test/test_adaptive_manifold_ref_impl.cpp.o
+[ 82%] Built target opencv_test_wechat_qrcode
+[ 82%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/helpers.cpp.o
+[ 82%] Linking CXX executable ../../bin/opencv_perf_wechat_qrcode
+[ 82%] Built target opencv_perf_wechat_qrcode
+[ 82%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/dump_dot.cpp.o
+[ 82%] Building CXX object modules/ximgproc/CMakeFiles/opencv_test_ximgproc.dir/test/test_anisodiff.cpp.o
+[ 82%] Building CXX object modules/ximgproc/CMakeFiles/opencv_test_ximgproc.dir/test/test_bilateral_texture_filter.cpp.o
+[ 82%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/islands.cpp.o
+[ 82%] Building CXX object modules/ximgproc/CMakeFiles/opencv_perf_ximgproc.dir/perf/perf_adaptive_manifold.cpp.o
+[ 82%] Building CXX object modules/bgsegm/CMakeFiles/opencv_test_bgsegm.dir/test/test_backgroundsubtractor_gbh.cpp.o
