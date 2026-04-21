@@ -5498,3 +5498,103 @@ make[2]: warning:  Clock skew detected.  Your build may be incomplete.
 [ 93%] Built target opencv_stitching
 [ 93%] Linking CXX executable ../../bin/opencv_test_stitching
 [ 94%] Built target opencv_test_stitching
+[ 94%] Linking CXX executable ../../bin/opencv_perf_stitching
+[ 94%] Built target opencv_perf_stitching
+[ 94%] Linking CXX shared library ../../lib/libopencv_tracking.so
+[ 96%] Built target opencv_tracking
+[ 96%] Linking CXX executable ../../bin/opencv_test_tracking
+[ 96%] Built target opencv_test_tracking
+[ 96%] Linking CXX executable ../../bin/opencv_perf_tracking
+[ 96%] Built target opencv_perf_tracking
+[ 96%] Linking CXX shared library ../../lib/libopencv_cudaoptflow.so
+[ 96%] Built target opencv_cudaoptflow
+[ 97%] Linking CXX executable ../../bin/opencv_test_cudaoptflow
+[ 97%] Built target opencv_test_cudaoptflow
+[ 97%] Linking CXX executable ../../bin/opencv_perf_cudaoptflow
+[ 97%] Built target opencv_perf_cudaoptflow
+[ 97%] Linking CXX shared library ../../lib/libopencv_stereo.so
+[ 97%] Built target opencv_stereo
+[ 97%] Linking CXX executable ../../bin/opencv_test_stereo
+[ 97%] Built target opencv_test_stereo
+[ 97%] Linking CXX executable ../../bin/opencv_perf_stereo
+[ 98%] Built target opencv_perf_stereo
+[ 98%] Linking CXX shared library ../../lib/libopencv_superres.so
+[ 98%] Built target opencv_superres
+[ 98%] Linking CXX executable ../../bin/opencv_test_superres
+[ 98%] Built target opencv_test_superres
+[ 98%] Linking CXX executable ../../bin/opencv_perf_superres
+[ 98%] Built target opencv_perf_superres
+[ 98%] Linking CXX shared library ../../lib/libopencv_videostab.so
+[ 99%] Built target opencv_videostab
+[ 99%] Linking CXX executable ../../bin/opencv_test_videostab
+[ 99%] Built target opencv_test_videostab
+[ 99%] Linking CXX executable ../../bin/opencv_annotation
+[ 99%] Built target opencv_annotation
+[ 99%] Linking CXX executable ../../bin/opencv_visualisation
+[ 99%] Built target opencv_visualisation
+[ 99%] Linking CXX executable ../../bin/opencv_interactive-calibration
+[100%] Built target opencv_interactive-calibration
+[100%] Linking CXX executable ../../bin/opencv_version
+[100%] Built target opencv_version
+[100%] Linking CXX executable ../../bin/opencv_model_diagnostics
+[100%] Built target opencv_model_diagnostics
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /usr/local/share/licenses/opencv4/dlpack-LICENSE
+-- Installing: /usr/local/share/licenses/opencv4/ippicv-readme.htm
+-- Installing: /usr/local/share/licenses/opencv4/ippicv-EULA.txt
+-- Installing: /usr/local/share/licenses/opencv4/ippicv-third-party-programs.txt
+-- Installing: /usr/local/share/licenses/opencv4/ippiw-support.txt
+-- Installing: /usr/local/share/licenses/opencv4/ippiw-third-party-programs.txt
+-- Installing: /usr/local/share/licenses/opencv4/ippiw-EULA.txt
+-- Installing: /usr/local/share/licenses/opencv4/flatbuffers-LICENSE.txt
+-- Installing: /usr/local/share/licenses/opencv4/opencl-headers-LICENSE.txt
+-- Installing: /usr/local/share/licenses/opencv4/ade-LICENSE
+-- Installing: /usr/local/include/opencv4/opencv2/cvconfig.h
+-- Installing: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
+-- Installing: /usr/local/lib/cmake/opencv4/OpenCVModules.cmake
+-- Installing: /usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake
+-- Installing: /usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake
+-- Installing: /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake
+-- Installing: /usr/local/bin/setup_vars_opencv4.sh
+-- Installing: /usr/local/share/opencv4/valgrind.supp
+-- Installing: /usr/local/share/opencv4/valgrind_3rdparty.supp
+-- Installing: /usr/local/share/licenses/opencv4/libopenjp2-README.md
+-- Installing: /usr/local/share/licenses/opencv4/libopenjp2-LICENSE
+-- Installing: /usr/local/share/licenses/opencv4/protobuf-LICENSE
+-- Installing: /usr/local/share/licenses/opencv4/protobuf-README.md
+-- Installing: /usr/local/share/licenses/opencv4/ittnotify-BSD-3-Clause.txt
+-- Installing: /usr/local/share/licenses/opencv4/ittnotify-GPL-2.0-only.txt
+-- Installing: /usr/local/include/opencv4/opencv2/opencv.hpp
+-- Installing: /usr/local/lib/libopencv_cudev.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_cudev.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudev.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_cudev.so
+-- Installing: /usr/local/include/opencv4/opencv2/cudev.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/block/block.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/block/detail/reduce.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/block/detail/reduce_key_val.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/block/dynamic_smem.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/block/reduce.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/block/scan.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/block/vec_distance.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/common.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/common.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/expr/binary_func.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/expr/binary_op.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/expr/color.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/expr/deriv.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/expr/expr.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/expr/per_element_func.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/expr/reduction.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/expr/unary_func.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/expr/unary_op.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/expr/warping.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/functional/color_cvt.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/functional/detail/color_cvt.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/functional/functional.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/functional/tuple_adapter.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/grid/copy.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/grid/detail/copy.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/grid/detail/histogram.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudev/grid/detail/integral.hpp
