@@ -2198,3 +2198,103 @@ tech24@DESKTOP-1VHTLCM:~/build$ make -j4
 [  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/norm.avx.cpp.o
 [  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.o
 [  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.o
+[  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/arithm.avx2.cpp.o
+[  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/convert.avx2.cpp.o
+[  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/convert_scale.avx2.cpp.o
+[  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/count_non_zero.avx2.cpp.o
+[  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/has_non_zero.avx2.cpp.o
+[  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/matmul.avx2.cpp.o
+[  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/mean.avx2.cpp.o
+[  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/merge.avx2.cpp.o
+[  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/split.avx2.cpp.o
+[  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/sum.avx2.cpp.o
+[  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/reduce.avx2.cpp.o
+[  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/norm.avx2.cpp.o
+[  9%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/matmul.avx512_skx.cpp.o
+[  9%] Linking CXX shared library ../../lib/libopencv_core.so
+[  9%] Built target opencv_core
+[  9%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_transpose.cu.o
+[  9%] Processing OpenCL kernels (imgproc)
+[  9%] Building CXX object modules/flann/CMakeFiles/opencv_flann.dir/src/flann.cpp.o
+[  9%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/ann_mlp.cpp.o
+[  9%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.cpp.o
+[  9%] Building CXX object modules/flann/CMakeFiles/opencv_flann.dir/src/miniflann.cpp.o
+[  9%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.dispatch.cpp.o
+[  9%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/boost.cpp.o
+[  9%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/data.cpp.o
+[  9%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/approx.cpp.o
+[  9%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/bilateral_filter.dispatch.cpp.o
+[  9%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/em.cpp.o
+[  9%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_absdiff_mat.cu.o
+[ 10%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/blend.cpp.o
+[ 10%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/gbt.cpp.o
+[ 10%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/inner_functions.cpp.o
+[ 10%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/box_filter.dispatch.cpp.o
+[ 10%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/kdtree.cpp.o
+[ 10%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/knearest.cpp.o
+[ 10%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/lr.cpp.o
+[ 10%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_absdiff_scalar.cu.o
+[ 10%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/canny.cpp.o
+[ 10%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/nbayes.cpp.o
+[ 10%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/rtrees.cpp.o
+[ 10%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/clahe.cpp.o
+[ 10%] Linking CXX shared library ../../lib/libopencv_flann.so
+[ 10%] Built target opencv_flann
+[ 10%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/svm.cpp.o
+[ 10%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_add_mat.cu.o
+[ 10%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color.cpp.o
+[ 10%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_hsv.dispatch.cpp.o
+[ 10%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_add_scalar.cu.o
+[ 10%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/svmsgd.cpp.o
+[ 10%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_lab.cpp.o
+[ 10%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/testset.cpp.o
+[ 10%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/tree.cpp.o
+[ 10%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_rgb.dispatch.cpp.o
+[ 10%] Linking CXX shared library ../../lib/libopencv_ml.so
+[ 10%] Built target opencv_ml
+[ 10%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_add_weighted.cu.o
+[ 10%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_yuv.dispatch.cpp.o
+[ 10%] Building CXX object modules/signal/CMakeFiles/opencv_signal.dir/src/signal_resample.cpp.o
+[ 10%] Linking CXX shared library ../../lib/libopencv_signal.so
+[ 10%] Built target opencv_signal
+[ 10%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bitwise_mat.cu.o
+[ 10%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/colormap.cpp.o
+[ 10%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/connectedcomponents.cpp.o
+[ 10%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours.cpp.o
+[ 10%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bitwise_scalar.cu.o
+[ 10%] Building CXX object modules/surface_matching/CMakeFiles/opencv_surface_matching.dir/src/icp.cpp.o
+[ 10%] Building CXX object modules/surface_matching/CMakeFiles/opencv_surface_matching.dir/src/pose_3d.cpp.o
+[ 10%] Building CXX object modules/surface_matching/CMakeFiles/opencv_surface_matching.dir/src/ppf_helpers.cpp.o
+[ 10%] Building CXX object apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.o
+[ 11%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_cmp_mat.cu.o
+[ 11%] Linking CXX executable ../../bin/opencv_version
+[ 11%] Built target opencv_version
+[ 11%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours_approx.cpp.o
+[ 11%] Building CXX object modules/surface_matching/CMakeFiles/opencv_surface_matching.dir/src/ppf_match_3d.cpp.o
+[ 11%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_cmp_scalar.cu.o
+[ 11%] Building CXX object modules/surface_matching/CMakeFiles/opencv_surface_matching.dir/src/t_hash_int.cpp.o
+[ 11%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours_common.cpp.o
+[ 11%] Linking CXX shared library ../../lib/libopencv_surface_matching.so
+[ 11%] Built target opencv_surface_matching
+[ 11%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_copy_make_border.cu.o
+[ 11%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours_link.cpp.o
+[ 11%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours_new.cpp.o
+[ 11%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_countnonzero.cu.o
+[ 11%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/convhull.cpp.o
+[ 11%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.cpp.o
+[ 11%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/cornersubpix.cpp.o
+[ 11%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/demosaicing.cpp.o
+[ 11%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/deriv.cpp.o
+[ 11%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_div_mat.cu.o
+[ 11%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/distransform.cpp.o
+[ 11%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/drawing.cpp.o
+[ 11%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd.cpp.o
+[ 11%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_div_scalar.cu.o
+[ 11%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_in_range.cu.o
+[ 11%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd_new.cpp.o
+[ 12%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featureselect.cpp.o
+[ 12%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/filter.dispatch.cpp.o
+[ 12%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_integral.cu.o
+[ 12%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/floodfill.cpp.o
+[ 12%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/gabor.cpp.o
+[ 12%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_lut.cu.o
