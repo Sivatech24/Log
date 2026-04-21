@@ -3898,3 +3898,103 @@ In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::ra
 [ 61%] Built target opencv_test_shape
 [ 61%] Building CXX object modules/rgbd/CMakeFiles/opencv_test_rgbd.dir/test/test_utils.cpp.o
 [ 61%] Building CXX object modules/structured_light/CMakeFiles/opencv_test_structured_light.dir/test/test_plane.cpp.o
+[ 61%] Linking CXX shared library ../../lib/libopencv_objdetect.so
+[ 61%] Processing OpenCL kernels (video)
+[ 61%] Built target opencv_objdetect
+[ 61%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o
+[ 61%] Processing OpenCL kernels (xfeatures2d)
+[ 61%] Building NVCC (Device) object modules/xfeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_surf.cu.o
+[ 61%] Linking CXX executable ../../bin/opencv_test_rgbd
+[ 61%] Built target opencv_test_rgbd
+[ 61%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o
+[ 61%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/affine_feature2d.cpp.o
+[ 61%] Building CXX object modules/xobjdetect/CMakeFiles/opencv_xobjdetect.dir/src/feature_evaluator.cpp.o
+[ 61%] Linking CXX executable ../../bin/opencv_test_structured_light
+[ 61%] Built target opencv_test_structured_light
+[ 61%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/beblid.cpp.o
+[ 61%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.o
+[ 61%] Building CXX object modules/xobjdetect/CMakeFiles/opencv_xobjdetect.dir/src/lbpfeatures.cpp.o
+[ 61%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.o
+[ 61%] Building CXX object modules/aruco/CMakeFiles/opencv_aruco.dir/src/aruco.cpp.o
+[ 61%] Building CXX object modules/xobjdetect/CMakeFiles/opencv_xobjdetect.dir/src/waldboost.cpp.o
+[ 61%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/boostdesc.cpp.o
+[ 61%] Building CXX object modules/aruco/CMakeFiles/opencv_aruco.dir/src/aruco_calib.cpp.o
+[ 61%] Building CXX object modules/xobjdetect/CMakeFiles/opencv_xobjdetect.dir/src/wbdetector.cpp.o
+[ 61%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.o
+[ 61%] Building CXX object modules/aruco/CMakeFiles/opencv_aruco.dir/src/charuco.cpp.o
+[ 61%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/brief.cpp.o
+[ 61%] Linking CXX shared library ../../lib/libopencv_xobjdetect.so
+[ 61%] Linking CXX shared library ../../lib/libopencv_aruco.so
+[ 61%] Built target opencv_xobjdetect
+[ 61%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/eccms.cpp.o
+[ 61%] Built target opencv_aruco
+[ 61%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/daisy.cpp.o
+[ 61%] Building CXX object modules/dnn_objdetect/CMakeFiles/opencv_dnn_objdetect.dir/src/core_detect.cpp.o
+[ 61%] Linking CXX shared library ../../lib/libopencv_dnn_objdetect.so
+[ 61%] Building CXX object modules/dpm/CMakeFiles/opencv_dpm.dir/src/dpm_cascade.cpp.o
+[ 61%] Built target opencv_dnn_objdetect
+[ 61%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/ellipticKeyPoint.cpp.o
+[ 61%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.o
+[ 61%] Building CXX object modules/dpm/CMakeFiles/opencv_dpm.dir/src/dpm_cascade_detector.cpp.o
+[ 61%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o
+[ 61%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/fast.cpp.o
+[ 62%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.dispatch.cpp.o
+[ 62%] Building CXX object modules/dpm/CMakeFiles/opencv_dpm.dir/src/dpm_convolution.cpp.o
+[ 62%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/freak.cpp.o
+[ 62%] Building CXX object modules/dpm/CMakeFiles/opencv_dpm.dir/src/dpm_feature.cpp.o
+[ 62%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/gms.cpp.o
+[ 62%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o
+[ 62%] Building CXX object modules/dpm/CMakeFiles/opencv_dpm.dir/src/dpm_model.cpp.o
+[ 62%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/bif.cpp.o
+[ 62%] Building CXX object modules/dpm/CMakeFiles/opencv_dpm.dir/src/dpm_nms.cpp.o
+[ 62%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/harris_lapace_detector.cpp.o
+[ 62%] Linking CXX shared library ../../lib/libopencv_dpm.so
+[ 62%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/eigen_faces.cpp.o
+[ 62%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.o
+[ 62%] Built target opencv_dpm
+[ 62%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/latch.cpp.o
+[ 62%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.o
+[ 63%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/face_alignment.cpp.o
+[ 63%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.o
+[ 63%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/logos.cpp.o
+[ 63%] Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.o
+[ 63%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/face_basic.cpp.o
+[ 63%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.o
+[ 64%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/logos/Logos.cpp.o
+[ 64%] Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.o
+[ 64%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/facemark.cpp.o
+[ 64%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.o
+[ 64%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/logos/Match.cpp.o
+[ 64%] Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.o
+[ 64%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/logos/Point.cpp.o
+[ 64%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.o
+[ 64%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/facemarkAAM.cpp.o
+[ 64%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/logos/PointPair.cpp.o
+[ 64%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/lucid.cpp.o
+[ 65%] Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.o
+[ 65%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/msd.cpp.o
+[ 65%] Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.o
+[ 65%] Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.o
+[ 65%] Linking CXX executable ../../bin/opencv_interactive-calibration
+[ 65%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures.cpp.o
+[ 65%] Built target opencv_interactive-calibration
+[ 65%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/facemarkLBF.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.o
+[ 65%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures/grayscale_bitmap.cpp.o
+[ 65%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/facerec.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.o
+[ 65%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures/pct_clusterizer.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.o
+[ 65%] Building CXX object apps/model-diagnostics/CMakeFiles/opencv_model_diagnostics.dir/model_diagnostics.cpp.o
+[ 65%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/fisher_faces.cpp.o
+[ 65%] Linking CXX executable ../../bin/opencv_model_diagnostics
+[ 65%] Built target opencv_model_diagnostics
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.o
+[ 65%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures/pct_sampler.cpp.o
+[ 65%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures_sqfd.cpp.o
+[ 65%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/getlandmarks.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.o
