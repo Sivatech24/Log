@@ -10698,3 +10698,103 @@ Note: Class cv::detail::GraphCutSeamFinder has more than 1 base class (not suppo
 [ 20%] Linking CXX shared library ../../lib/libopencv_img_hash.so
 [ 20%] Linking CXX shared library ../../lib/libopencv_hfs.so
 [ 20%] Built target opencv_freetype
+[ 20%] Linking CXX shared library ../../lib/libopencv_line_descriptor.so
+[ 20%] Built target opencv_img_hash
+[ 20%] Linking CXX shared library ../../lib/libopencv_saliency.so
+[ 21%] Built target opencv_hfs
+[ 21%] Built target opencv_line_descriptor
+[ 21%] Linking CXX shared library ../../lib/libopencv_cudafeatures2d.so
+[ 21%] Linking CXX shared library ../../lib/libopencv_calib3d.so
+[ 29%] Built target opencv_dnn
+[ 30%] Built target opencv_saliency
+[ 30%] Linking CXX shared library ../../lib/libopencv_videoio.so
+[ 31%] Linking CXX shared library ../../lib/libopencv_cudaimgproc.so
+[ 32%] Built target opencv_cudafeatures2d
+[ 32%] Linking CXX shared library ../../lib/libopencv_dnn_superres.so
+[ 34%] Built target opencv_calib3d
+[ 34%] Linking CXX shared library ../../lib/libopencv_text.so
+[ 34%] Built target opencv_dnn_superres
+[ 35%] Linking CXX shared library ../../lib/libopencv_cudastereo.so
+[ 36%] Built target opencv_videoio
+[ 36%] Built target opencv_text
+[ 36%] Linking CXX shared library ../../lib/libopencv_mcc.so
+[ 36%] Linking CXX shared library ../../lib/libopencv_objdetect.so
+[ 37%] Built target opencv_cudaimgproc
+[ 37%] Linking CXX shared library ../../lib/libopencv_rapid.so
+[ 37%] Built target opencv_cudastereo
+[ 37%] Linking CXX shared library ../../lib/libopencv_rgbd.so
+[ 37%] Built target opencv_mcc
+[ 39%] Built target opencv_objdetect
+[ 39%] Built target opencv_rapid
+[ 39%] Linking CXX shared library ../../lib/libopencv_structured_light.so
+[ 39%] Linking CXX shared library ../../lib/libopencv_shape.so
+[ 39%] Linking CXX shared library ../../lib/libopencv_video.so
+[ 39%] Built target opencv_structured_light
+[ 39%] Built target opencv_shape
+[ 39%] Linking CXX shared library ../../lib/libopencv_xobjdetect.so
+[ 40%] Built target opencv_rgbd
+[ 40%] Linking CXX shared library ../../lib/libopencv_aruco.so
+[ 40%] Linking CXX shared library ../../lib/libopencv_wechat_qrcode.so
+[ 41%] Built target opencv_video
+[ 41%] Linking CXX executable ../../bin/opencv_model_diagnostics
+[ 41%] Built target opencv_aruco
+[ 41%] Linking CXX shared library ../../lib/libopencv_highgui.so
+[ 41%] Built target opencv_model_diagnostics
+[ 43%] Built target opencv_wechat_qrcode
+[ 43%] Built target opencv_xobjdetect
+[ 43%] Linking CXX shared library ../../lib/libopencv_photo.so
+[ 43%] Linking CXX shared library ../../lib/libopencv_cudacodec.so
+[ 43%] Linking CXX shared library ../../lib/libopencv_datasets.so
+[ 44%] Built target opencv_photo
+[ 44%] Built target opencv_highgui
+[ 44%] Built target opencv_cudacodec
+[ 44%] Linking CXX shared library ../../lib/libopencv_xfeatures2d.so
+[ 45%] Built target opencv_datasets
+[ 45%] Linking CXX executable ../../../../bin/opencv_waldboost_detector
+[ 45%] Linking CXX shared library ../../lib/libopencv_bgsegm.so
+[ 45%] Linking CXX shared library ../../lib/libopencv_ximgproc.so
+[ 45%] Built target opencv_waldboost_detector
+[ 45%] Linking CXX shared library ../../lib/libopencv_bioinspired.so
+[ 45%] Built target opencv_bgsegm
+[ 46%] Built target opencv_xfeatures2d
+[ 46%] Linking CXX shared library ../../lib/libopencv_ccalib.so
+[ 46%] Linking CXX shared library ../../lib/libopencv_cudabgsegm.so
+[ 48%] Built target opencv_ximgproc
+[ 48%] Linking CXX shared library ../../lib/libopencv_cudalegacy.so
+[ 48%] Built target opencv_bioinspired
+[ 48%] Linking CXX shared library ../../lib/libopencv_dnn_objdetect.so
+[ 48%] Built target opencv_cudabgsegm
+[ 49%] Built target opencv_ccalib
+[ 49%] Linking CXX shared library ../../lib/libopencv_dpm.so
+[ 49%] Linking CXX shared library ../../lib/libopencv_face.so
+[ 49%] Built target opencv_cudalegacy
+[ 49%] Linking CXX shared library ../../lib/libopencv_gapi.so
+[ 49%] Built target opencv_dnn_objdetect
+[ 49%] Linking CXX shared library ../../lib/libopencv_optflow.so
+[ 49%] Built target opencv_dpm
+[ 50%] Built target opencv_face
+[ 50%] Linking CXX shared library ../../lib/libopencv_stitching.so
+[ 50%] Linking CXX shared library ../../lib/libopencv_tracking.so
+[ 51%] Built target opencv_optflow
+[ 51%] Linking CXX executable ../../bin/opencv_annotation
+[ 52%] Built target opencv_stitching
+[ 52%] Linking CXX executable ../../bin/opencv_visualisation
+[ 54%] Built target opencv_tracking
+[ 55%] Linking CXX executable ../../bin/opencv_interactive-calibration
+[ 60%] Built target opencv_gapi
+[ 60%] Built target opencv_ts
+[ 61%] Linking CXX shared library ../../lib/libopencv_xphoto.so
+[ 62%] Built target opencv_annotation
+[ 62%] Linking CXX executable ../../bin/opencv_test_calib3d
+[ 62%] Built target opencv_visualisation
+[ 62%] Linking CXX executable ../../bin/opencv_perf_calib3d
+[ 62%] Built target opencv_interactive-calibration
+[ 62%] Linking CXX executable ../../bin/opencv_test_cudacodec
+[ 62%] Built target opencv_xphoto
+[ 62%] Linking CXX executable ../../bin/opencv_perf_cudacodec
+[ 62%] Built target opencv_perf_calib3d
+[ 62%] Linking CXX executable ../../bin/opencv_test_cudafeatures2d
+[ 62%] Built target opencv_perf_cudacodec
+[ 62%] Built target opencv_test_cudacodec
+[ 62%] Linking CXX executable ../../bin/opencv_perf_cudafeatures2d
+[ 62%] Linking CXX executable ../../bin/opencv_test_cudastereo
