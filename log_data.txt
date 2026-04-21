@@ -9198,3 +9198,103 @@ make[2]: warning:  Clock skew detected.  Your build may be incomplete.
 [ 72%] Linking CXX executable ../../bin/opencv_perf_cudabgsegm
 [ 72%] Built target opencv_test_bioinspired
 [ 72%] Linking CXX executable ../../bin/opencv_test_cudalegacy
+[ 72%] Built target opencv_perf_bioinspired
+[ 72%] Linking CXX executable ../../bin/opencv_perf_cudalegacy
+[ 72%] Built target opencv_test_cudabgsegm
+[ 72%] Linking CXX executable ../../bin/opencv_test_cudaobjdetect
+[ 72%] Built target opencv_perf_cudabgsegm
+[ 72%] Linking CXX executable ../../bin/opencv_perf_cudaobjdetect
+[ 72%] Built target opencv_test_cudalegacy
+[ 72%] Linking CXX executable ../../bin/opencv_test_face
+[ 72%] Built target opencv_perf_cudalegacy
+[ 72%] Built target opencv_perf_cudaobjdetect
+[ 72%] Linking CXX executable ../../bin/opencv_test_gapi
+[ 72%] Linking CXX executable ../../bin/opencv_perf_gapi
+[ 72%] Built target opencv_test_cudaobjdetect
+[ 72%] Linking CXX executable ../../bin/opencv_test_optflow
+[ 72%] Built target opencv_test_face
+[ 72%] Linking CXX executable ../../bin/opencv_perf_optflow
+[ 72%] Built target opencv_test_optflow
+[ 72%] Linking CXX executable ../../bin/opencv_test_stitching
+[ 72%] Built target opencv_perf_optflow
+[ 72%] Linking CXX executable ../../bin/opencv_perf_stitching
+[ 73%] Built target opencv_test_stitching
+[ 73%] Built target opencv_perf_stitching
+[ 73%] Linking CXX executable ../../bin/opencv_perf_tracking
+[ 73%] Linking CXX executable ../../bin/opencv_test_tracking
+[ 73%] Built target opencv_perf_gapi
+[ 73%] Linking CXX shared library ../../lib/libopencv_cudaoptflow.so
+[ 73%] Built target opencv_cudaoptflow
+[ 73%] Linking CXX shared library ../../lib/libopencv_stereo.so
+[ 73%] Built target opencv_perf_tracking
+[ 73%] Built target opencv_test_tracking
+[ 73%] Linking CXX shared library ../../lib/libopencv_superres.so
+[ 73%] Linking CXX shared library ../../lib/libopencv_videostab.so
+[ 73%] Built target opencv_stereo
+[ 73%] Linking CXX executable ../../../bin/opencv_test_cudev
+[ 77%] Built target opencv_test_gapi
+[ 77%] Built target opencv_superres
+[ 78%] Built target opencv_videostab
+[ 78%] Linking CXX executable ../../bin/opencv_test_cudaarithm
+[ 78%] Linking CXX executable ../../bin/opencv_test_core
+[ 78%] Linking CXX executable ../../bin/opencv_perf_core
+[ 79%] Built target opencv_test_cudaarithm
+[ 80%] Built target opencv_test_cudev
+[ 80%] Linking CXX executable ../../bin/opencv_perf_cudaarithm
+[ 80%] Linking CXX executable ../../bin/opencv_test_flann
+[ 82%] Built target opencv_perf_core
+[ 82%] Linking CXX executable ../../bin/opencv_test_imgproc
+[ 82%] Built target opencv_test_flann
+[ 82%] Linking CXX executable ../../bin/opencv_perf_imgproc
+[ 82%] Built target opencv_perf_cudaarithm
+[ 83%] Linking CXX executable ../../bin/opencv_test_intensity_transform
+[ 85%] Built target opencv_test_core
+[ 85%] Linking CXX executable ../../bin/opencv_test_ml
+[ 85%] Built target opencv_test_intensity_transform
+[ 85%] Linking CXX executable ../../bin/opencv_test_phase_unwrapping
+[ 87%] Built target opencv_perf_imgproc
+[ 87%] Built target opencv_test_ml
+[ 87%] Linking CXX executable ../../bin/opencv_test_quality
+[ 87%] Linking CXX executable ../../bin/opencv_test_reg
+[ 89%] Built target opencv_test_imgproc
+[ 89%] Built target opencv_test_phase_unwrapping
+[ 89%] Linking CXX executable ../../bin/opencv_perf_reg
+[ 89%] Linking CXX executable ../../bin/opencv_test_signal
+[ 89%] Built target opencv_test_quality
+[ 89%] Built target opencv_test_reg
+[ 89%] Built target opencv_test_signal
+[ 89%] Built target opencv_perf_reg
+[ 89%] Linking CXX executable ../../bin/opencv_test_cudafilters
+[ 89%] Linking CXX executable ../../bin/opencv_perf_signal
+[ 89%] Linking CXX executable ../../bin/opencv_perf_cudafilters
+[ 89%] Linking CXX executable ../../bin/opencv_test_cudaimgproc
+[ 89%] Built target opencv_perf_signal
+[ 89%] Linking CXX executable ../../bin/opencv_perf_cudaimgproc
+[ 89%] Built target opencv_perf_cudafilters
+[ 89%] Built target opencv_test_cudafilters
+[ 89%] Linking CXX executable ../../bin/opencv_test_cudawarping
+[ 89%] Linking CXX executable ../../bin/opencv_perf_cudawarping
+[ 90%] Built target opencv_test_cudaimgproc
+[ 90%] Linking CXX executable ../../bin/opencv_test_dnn
+[ 90%] Built target opencv_perf_cudawarping
+[ 91%] Built target opencv_perf_cudaimgproc
+[ 91%] Linking CXX executable ../../bin/opencv_perf_dnn
+[ 91%] Linking CXX executable ../../bin/opencv_test_dnn_superres
+[ 91%] Built target opencv_test_cudawarping
+[ 91%] Linking CXX executable ../../bin/opencv_perf_dnn_superres
+[ 92%] Built target opencv_test_dnn_superres
+[ 92%] Linking CXX executable ../../bin/opencv_test_features2d
+[ 92%] Built target opencv_perf_dnn_superres
+[ 92%] Linking CXX executable ../../bin/opencv_perf_features2d
+[ 92%] Built target opencv_perf_dnn
+[ 92%] Linking CXX executable ../../bin/opencv_test_freetype
+[ 93%] Built target opencv_perf_features2d
+[ 94%] Built target opencv_test_features2d
+[ 94%] Linking CXX executable ../../bin/opencv_test_fuzzy
+[ 94%] Linking CXX executable ../../bin/opencv_test_img_hash
+[ 94%] Built target opencv_test_freetype
+[ 94%] Built target opencv_test_dnn
+[ 94%] Linking CXX executable ../../bin/opencv_perf_imgcodecs
+[ 94%] Linking CXX executable ../../bin/opencv_test_imgcodecs
+[ 94%] Built target opencv_test_img_hash
+[ 94%] Built target opencv_test_fuzzy
