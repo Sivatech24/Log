@@ -10598,3 +10598,103 @@ cmake \
 -D CMAKE_CXX_COMPILER=g++-12 \
 -D WITH_NVCUVID=ON \
 -D WITH_NVCUVENC=ON \
+-D VIDEO_CODEC_SDK_INCLUDE_DIR=/home/tech24/nv_sdk/Interface/ \
+-D OPENCV_EXTRA_MODULES_PATH=/home/tech24/build/opencv_contrib/modules/ \
+-D BUILD_opencv_python3=ON \
+-D PYTHON3_EXECUTABLE=$(which python3) \
+/home/tech24/build/opencv | grep -A 20 "Python 3"
+
+^C
+tech24@DESKTOP-1VHTLCM:~/build$ rm CMakeCache.txt
+rm: cannot remove 'CMakeCache.txt': No such file or directory
+tech24@DESKTOP-1VHTLCM:~/build$ cmake -D WITH_CUDA=ON -D WITH_CUDNN=ON -D OPENCV_DNN_CUDA=ON -D CUDA_ARCH_BIN=8.6 -D CMAKE_C_COMPILER=gcc-12 -D CMAKE_CXX_COMPILER=g++-12 -D WITH_NVCUVID=ON -D WITH_NVCUVENC=ON -D VIDEO_CODEC_SDK_INCLUDE_DIR=/home/tech24/nv_sdk/Interface/ -D OPENCV_EXTRA_MODULES_PATH=/home/tech24/build/opencv_contrib/modules/ -D BUILD_opencv_python3=ON -D PYTHON3_EXECUTABLE=$(which python3) /home/tech24/build/opencv | grep -A 20 "Python 3"
+tech24@DESKTOP-1VHTLCM:~/build$ cmake -D WITH_CUDA=ON -D WITH_CUDNN=ON -D OPENCV_DNN_CUDA=ON -D CUDA_ARCH_BIN=8.6 -D CMAKE_C_COMPILER=gcc-12 -D CMAKE_CXX_COMPILER=g++-12 -D WITH_NVCUVID=ON -D WITH_NVCUVENC=ON -D VIDEO_CODEC_SDK_INCLUDE_DIR=/home/tech24/nv_sdk/Interface/ -D OPENCV_EXTRA_MODULES_PATH=/home/tech24/build/opencv_contrib/modules/ -D BUILD_opencv_python3=ON -D PYTHON3_EXECUTABLE=$(which python3) /home/tech24/build/opencv | grep -A 20 "Python 3"
+CMake Warning at /home/tech24/build/opencv_contrib/modules/cudacodec/CMakeLists.txt:26 (message):
+  cudacodec::VideoReader requires Nvidia Video Codec SDK.  Please resolve
+  dependency or disable WITH_NVCUVID=OFF
+
+
+CMake Warning at /home/tech24/build/opencv_contrib/modules/cudacodec/CMakeLists.txt:30 (message):
+  cudacodec::VideoWriter requires Nvidia Video Codec SDK.  Please resolve
+  dependency or disable WITH_NVCUVENC=OFF
+
+
+--   Python 3:
+--     Interpreter:                 /usr/bin/python3 (ver 3.12.3)
+--     Libraries:                   /usr/lib/x86_64-linux-gnu/libpython3.12.so (ver 3.12.3)
+--     Limited API:                 NO
+--     numpy:                       /usr/lib/python3/dist-packages/numpy/core/include (ver 1.26.4)
+--     install path:                lib/python3.12/dist-packages/cv2/python-3.12
+--
+--   Python (for build):            /usr/bin/python3
+--
+--   Java:
+--     ant:                         NO
+--     Java:                        NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+--
+--   Install to:                    /usr/local
+-- -----------------------------------------------------------------
+--
+-- Configuring done (89.9s)
+-- Generating done (1.6s)
+tech24@DESKTOP-1VHTLCM:~/build$ make -j4
+[  0%] Built target opencv_dnn_plugins
+[  0%] Built target opencv_highgui_plugins
+[  1%] Built target ippiw
+[  2%] Built target libopenjp2
+[  2%] Built target opencv_videoio_plugins
+[  2%] Built target ittnotify
+[  2%] Generate files for Python bindings and documentation
+[  2%] Built target ade
+[  3%] Built target ipphal
+[  4%] Built target libprotobuf
+[  4%] Built target opencv_cudev
+[  4%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o
+Note: Class cv::detail::GraphCutSeamFinder has more than 1 base class (not supported by Python C extensions)
+      Bases:  cv::detail::GraphCutSeamFinderBase, cv::detail::SeamFinder
+      Only the first base class will be used
+[  4%] Built target gen_opencv_python_source
+[  4%] Linking CXX shared library ../../lib/libopencv_core.so
+[  8%] Built target opencv_core
+[  8%] Linking CXX shared library ../../lib/libopencv_flann.so
+[  8%] Linking CXX shared library ../../lib/libopencv_ml.so
+[  8%] Linking CXX shared library ../../lib/libopencv_cudaarithm.so
+[  8%] Linking CXX shared library ../../lib/libopencv_imgproc.so
+[  8%] Built target opencv_flann
+[  8%] Linking CXX shared library ../../lib/libopencv_signal.so
+[  9%] Built target opencv_ml
+[  9%] Linking CXX shared library ../../lib/libopencv_surface_matching.so
+[  9%] Built target opencv_signal
+[  9%] Linking CXX executable ../../bin/opencv_version
+[ 10%] Built target opencv_surface_matching
+[ 12%] Built target opencv_cudaarithm
+[ 12%] Built target opencv_version
+[ 16%] Built target opencv_imgproc
+[ 16%] Linking CXX shared library ../../lib/libopencv_phase_unwrapping.so
+[ 16%] Linking CXX shared library ../../lib/libopencv_plot.so
+[ 16%] Linking CXX shared library ../../lib/libopencv_intensity_transform.so
+[ 16%] Linking CXX shared library ../../lib/libopencv_imgcodecs.so
+[ 16%] Built target opencv_phase_unwrapping
+[ 16%] Built target opencv_intensity_transform
+[ 16%] Built target opencv_plot
+[ 16%] Linking CXX shared library ../../lib/libopencv_quality.so
+[ 16%] Linking CXX shared library ../../lib/libopencv_reg.so
+[ 16%] Linking CXX shared library ../../lib/libopencv_cudafilters.so
+[ 17%] Built target opencv_imgcodecs
+[ 17%] Linking CXX shared library ../../lib/libopencv_cudawarping.so
+[ 17%] Built target opencv_reg
+[ 17%] Built target opencv_quality
+[ 17%] Linking CXX shared library ../../lib/libopencv_features2d.so
+[ 17%] Linking CXX shared library ../../lib/libopencv_dnn.so
+[ 17%] Built target opencv_cudawarping
+[ 18%] Built target opencv_features2d
+[ 18%] Linking CXX shared library ../../lib/libopencv_freetype.so
+[ 18%] Linking CXX shared library ../../lib/libopencv_fuzzy.so
+[ 19%] Built target opencv_fuzzy
+[ 20%] Built target opencv_cudafilters
+[ 20%] Linking CXX shared library ../../lib/libopencv_img_hash.so
+[ 20%] Linking CXX shared library ../../lib/libopencv_hfs.so
+[ 20%] Built target opencv_freetype
