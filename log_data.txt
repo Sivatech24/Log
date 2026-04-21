@@ -3998,3 +3998,103 @@ In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::ra
 [ 65%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures_sqfd.cpp.o
 [ 65%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/getlandmarks.cpp.o
 [ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.o
+[ 65%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_test_cudaimgproc.dir/test/test_bilateral_filter.cpp.o
+[ 65%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/stardetector.cpp.o
+In file included from /home/tech24/build/opencv_contrib/modules/face/src/getlandmarks.cpp:6:
+In member function ‘cv::face::tree_node& cv::face::tree_node::operator=(const cv::face::tree_node&)’,
+    inlined from ‘virtual void cv::face::FacemarkKazemiImpl::loadModel(cv::String)’ at /home/tech24/build/opencv_contrib/modules/face/src/getlandmarks.cpp:163:31:
+/home/tech24/build/opencv_contrib/modules/face/src/face_alignmentimpl.hpp:41:8: warning: ‘node.cv::face::tree_node::split’ may be used uninitialized [-Wmaybe-uninitialized]
+   41 | struct tree_node{
+      |        ^~~~~~~~~
+/home/tech24/build/opencv_contrib/modules/face/src/getlandmarks.cpp: In member function ‘virtual void cv::face::FacemarkKazemiImpl::loadModel(cv::String)’:
+/home/tech24/build/opencv_contrib/modules/face/src/getlandmarks.cpp:146:27: note: ‘node’ declared here
+  146 |                 tree_node node;
+      |                           ^~~~
+[ 65%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/lbph_faces.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_nano.cpp.o
+[ 65%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/mace.cpp.o
+[ 65%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/surf.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_vit.cpp.o
+[ 65%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_test_cudaimgproc.dir/test/test_blend.cpp.o
+[ 65%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/predict_collector.cpp.o
+[ 65%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/surf.cuda.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.o
+[ 65%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/regtree.cpp.o
+[ 65%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/surf.ocl.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o
+[ 65%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_test_cudaimgproc.dir/test/test_canny.cpp.o
+[ 65%] Building CXX object modules/face/CMakeFiles/opencv_face.dir/src/trainFacemark.cpp.o
+[ 65%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/tbmr.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/lkpyramid.sse4_1.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/lkpyramid.avx2.cpp.o
+[ 65%] Linking CXX shared library ../../lib/libopencv_face.so
+[ 65%] Built target opencv_face
+[ 65%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_test_cudaimgproc.dir/test/test_color.cpp.o
+[ 65%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/vgg.cpp.o
+[ 65%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/lkpyramid.avx512_skx.cpp.o
+[ 66%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_perf_cudaimgproc.dir/perf/perf_bilateral_filter.cpp.o
+[ 66%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/xfeatures2d_init.cpp.o
+[ 66%] Linking CXX shared library ../../lib/libopencv_video.so
+[ 66%] Built target opencv_video
+[ 66%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/opencl_kernels_xfeatures2d.cpp.o
+[ 66%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_test_cudaimgproc.dir/test/test_connectedcomponents.cpp.o
+[ 66%] Linking CXX shared library ../../lib/libopencv_xfeatures2d.so
+[ 66%] Built target opencv_xfeatures2d
+[ 66%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_perf_cudaimgproc.dir/perf/perf_blend.cpp.o
+[ 66%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_test_cudaimgproc.dir/test/test_corners.cpp.o
+[ 66%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_perf_cudaimgproc.dir/perf/perf_canny.cpp.o
+[ 66%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_perf_cudaimgproc.dir/perf/perf_color.cpp.o
+[ 66%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_perf_cudaimgproc.dir/perf/perf_corners.cpp.o
+[ 67%] Building CXX object modules/dnn_superres/CMakeFiles/opencv_test_dnn_superres.dir/test/test_dnn_superres.cpp.o
+[ 67%] Building CXX object modules/dnn_superres/CMakeFiles/opencv_perf_dnn_superres.dir/perf/perf_dnn_superres.cpp.o
+[ 67%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_perf_cudaimgproc.dir/perf/perf_gftt.cpp.o
+[ 67%] Building CXX object modules/dnn_superres/CMakeFiles/opencv_test_dnn_superres.dir/test/test_main.cpp.o
+[ 67%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_test_cudaimgproc.dir/test/test_gftt.cpp.o
+[ 67%] Linking CXX executable ../../bin/opencv_test_dnn_superres
+[ 67%] Built target opencv_test_dnn_superres
+[ 67%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_perf_cudaimgproc.dir/perf/perf_histogram.cpp.o
+[ 67%] Building CXX object modules/dnn_superres/CMakeFiles/opencv_perf_dnn_superres.dir/perf/perf_main.cpp.o
+[ 67%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_test_cudaimgproc.dir/test/test_histogram.cpp.o
+[ 67%] Linking CXX executable ../../bin/opencv_perf_dnn_superres
+[ 67%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_perf_cudaimgproc.dir/perf/perf_hough.cpp.o
+[ 67%] Built target opencv_perf_dnn_superres
+[ 67%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_perf_cudaimgproc.dir/perf/perf_main.cpp.o
+[ 67%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_test_cudaimgproc.dir/test/test_hough.cpp.o
+[ 67%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_test_cudaimgproc.dir/test/test_main.cpp.o
+[ 67%] Building CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/ocl/test_denoising.cpp.o
+[ 67%] Building CXX object modules/photo/CMakeFiles/opencv_perf_photo.dir/perf/opencl/perf_denoising.cpp.o
+[ 67%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_perf_cudaimgproc.dir/perf/perf_match_template.cpp.o
+[ 67%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_test_cudaimgproc.dir/test/test_match_template.cpp.o
+[ 67%] Building CXX object modules/photo/CMakeFiles/opencv_perf_photo.dir/perf/perf_cuda.cpp.o
+[ 67%] Building CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_cloning.cpp.o
+[ 67%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_perf_cudaimgproc.dir/perf/perf_mean_shift.cpp.o
+[ 67%] Building CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_decolor.cpp.o
+[ 67%] Building CXX object modules/photo/CMakeFiles/opencv_perf_photo.dir/perf/perf_hdr.cpp.o
+[ 67%] Building CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_denoise_tvl1.cpp.o
+[ 68%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_test_cudaimgproc.dir/test/test_mean_shift.cpp.o
+[ 68%] Building CXX object modules/photo/CMakeFiles/opencv_perf_photo.dir/perf/perf_inpaint.cpp.o
+[ 68%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_perf_cudaimgproc.dir/perf/perf_moments.cpp.o
+[ 68%] Building CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_denoising.cpp.o
+[ 69%] Building CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_denoising.cuda.cpp.o
+[ 69%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_test_cudaimgproc.dir/test/test_moments.cpp.o
+[ 69%] Building CXX object modules/photo/CMakeFiles/opencv_perf_photo.dir/perf/perf_main.cpp.o
+[ 69%] Linking CXX executable ../../bin/opencv_perf_cudaimgproc
+[ 69%] Built target opencv_perf_cudaimgproc
+[ 69%] Building CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_hdr.cpp.o
+[ 69%] Linking CXX executable ../../bin/opencv_perf_photo
+[ 69%] Building CXX object modules/text/CMakeFiles/opencv_test_text.dir/test/test_detection.cpp.o
+[ 69%] Built target opencv_perf_photo
+[ 69%] Building CXX object modules/text/CMakeFiles/opencv_test_text.dir/test/test_detection_swt.cpp.o
+[ 69%] Linking CXX executable ../../bin/opencv_test_cudaimgproc
+[ 69%] Building CXX object modules/text/CMakeFiles/opencv_test_text.dir/test/test_main.cpp.o
+[ 69%] Building CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_inpaint.cpp.o
+[ 69%] Built target opencv_test_cudaimgproc
+[ 69%] Building CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_main.cpp.o
+[ 69%] Building CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_npr.cpp.o
+[ 69%] Linking CXX executable ../../bin/opencv_test_text
+[ 69%] Built target opencv_test_text
+[ 69%] Building CXX object modules/xphoto/CMakeFiles/opencv_xphoto.dir/src/bm3d_image_denoising.cpp.o
+[ 69%] Building CXX object modules/cudafeatures2d/CMakeFiles/opencv_test_cudafeatures2d.dir/test/test_features2d.cpp.o
+[ 69%] Building CXX object modules/xphoto/CMakeFiles/opencv_xphoto.dir/src/dct_image_denoising.cpp.o
+[ 69%] Building CXX object modules/cudafeatures2d/CMakeFiles/opencv_perf_cudafeatures2d.dir/perf/perf_features2d.cpp.o
+[ 69%] Linking CXX executable ../../bin/opencv_test_photo
