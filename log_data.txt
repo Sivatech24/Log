@@ -898,3 +898,103 @@ CMake Warning at /home/tech24/build/opencv_contrib/modules/cudacodec/CMakeLists.
 --       Metadata Support:          EXIF XMP ICC
 --     TIFF:                        /usr/lib/x86_64-linux-gnu/libtiff.so (ver 42 / 4.5.1)
 --     JPEG 2000:                   build (ver 2.5.3)
+--     OpenEXR:                     OpenEXR::OpenEXR (ver 3.1.5)
+--     GIF:                         YES
+--     HDR:                         YES
+--     SUNRASTER:                   YES
+--     PXM:                         YES
+--     PFM:                         YES
+--
+--   Video I/O:
+--     FFMPEG:                      YES
+--       avcodec:                   YES (60.31.102)
+--       avformat:                  YES (60.16.100)
+--       avutil:                    YES (58.29.100)
+--       swscale:                   YES (7.5.100)
+--       avdevice:                  NO
+--     GStreamer:                   YES (1.24.2)
+--     v4l/v4l2:                    YES (linux/videodev2.h)
+--     Orbbec:                      YES
+--
+--   Parallel framework:            pthreads
+--
+--   Trace:                         YES (with Intel ITT(3.25.4))
+--
+--   Other third-party libraries:
+--     Intel IPP:                   2022.3.0 [2022.3.0]
+--            at:                   /home/tech24/build/3rdparty/ippicv/ippicv_lnx/icv
+--     Intel IPP IW:                sources (2022.3.0)
+--               at:                /home/tech24/build/3rdparty/ippicv/ippicv_lnx/iw
+--     VA:                          NO
+--     Lapack:                      NO
+--     Eigen:                       NO
+--     Custom HAL:                  YES (ipp (ver 0.0.1))
+--     Protobuf:                    build (3.19.1)
+--     Flatbuffers:                 builtin/3rdparty (25.9.23)
+--
+--   NVIDIA CUDA:                   YES (ver 12.0, CUFFT CUBLAS)
+--     NVIDIA GPU arch:             86
+--     NVIDIA PTX archs:
+--
+--   cuDNN:                         YES (ver 9.21.0)
+--
+--   OpenCL:                        YES (no extra features)
+--     Include path:                /home/tech24/build/opencv/3rdparty/include/opencl/1.2
+--     Link libraries:              Dynamic load
+--
+--   Python (for build):            NO
+--
+--   Java:
+--     ant:                         NO
+--     Java:                        NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+--
+--   Install to:                    /usr/local
+-- -----------------------------------------------------------------
+--
+-- Configuring done (34.9s)
+-- Generating done (1.1s)
+-- Build files have been written to: /home/tech24/build
+tech24@DESKTOP-1VHTLCM:~/build$ mkdir -p ~/nv_sdk && cd ~/nv_sdk
+tech24@DESKTOP-1VHTLCM:~/nv_sdk$ git clone https://github.com/NVIDIA/video-sdk-samples.git
+Cloning into 'video-sdk-samples'...
+remote: Enumerating objects: 429, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 429 (delta 7), reused 5 (delta 5), pack-reused 413 (from 1)
+Receiving objects: 100% (429/429), 25.47 MiB | 2.71 MiB/s, done.
+Resolving deltas: 100% (181/181), done.
+tech24@DESKTOP-1VHTLCM:~/nv_sdk$ # The headers are located in the 'Lookat' or 'Samples' folder depending on the git version
+# We will create a clean 'Interface' folder for OpenCV
+mkdir -p ~/nv_sdk/Interface
+
+# Copy the required header files into our new Interface folder
+cp ~/nv_sdk/video-sdk-samples/Samples/External/AppDecUtils/*.h ~/nv_sdk/Interface/
+# Ensure the core API headers are included
+find ~/nv_sdk/video-sdk-samples -name "nvEncodeAPI.h" -exec cp {} ~/nv_sdk/Interface/ \;
+find ~/nv_sdk/video-sdk-samples -name "nvcuvid.h" -exec cp {} ~/nv_sdk/Interface/ \;
+find ~/nv_sdk/video-sdk-samples -name "cuviddec.h" -exec cp {} ~/nv_sdk/Interface/ \;
+cp: cannot stat '/home/tech24/nv_sdk/video-sdk-samples/Samples/External/AppDecUtils/*.h': No such file or directory
+tech24@DESKTOP-1VHTLCM:~/nv_sdk$ # Ensure the directory exists
+mkdir -p ~/nv_sdk/Interface
+
+# Find and copy the core SDK headers (the most important ones)
+find ~/nv_sdk/video-sdk-samples -name "nvEncodeAPI.h" -exec cp {} ~/nv_sdk/Interface/ \;
+find ~/nv_sdk/video-sdk-samples -name "nvcuvid.h" -exec cp {} ~/nv_sdk/Interface/ \;
+find ~/nv_sdk/video-sdk-samples -name "cuviddec.h" -exec cp {} ~/nv_sdk/Interface/ \;
+
+# Check if we got them
+ls ~/nv_sdk/Interface/
+cuviddec.h  nvEncodeAPI.h  nvcuvid.h
+tech24@DESKTOP-1VHTLCM:~/nv_sdk$ ls
+Interface  video-sdk-samples
+tech24@DESKTOP-1VHTLCM:~/nv_sdk$ cd ~/build
+rm -rf * cmake \
+-D WITH_CUDA=ON \
+-D WITH_CUDNN=ON \
+-D OPENCV_DNN_CUDA=ON \
+-D CUDA_ARCH_BIN=8.6 \
+-D CMAKE_C_COMPILER=gcc-12 \
+-D CMAKE_CXX_COMPILER=g++-12 \
