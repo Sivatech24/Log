@@ -3198,3 +3198,103 @@ In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::ra
 [ 36%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.cpp.o
 [ 36%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_addWeighted.cpp.o
 [ 36%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_allocation.cpp.o
+[ 36%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/torch/THDiskFile.cpp.o
+[ 36%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_arithm.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/torch/THFile.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/torch/THGeneral.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/torch/torch_importer.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv_1x1_fast_spv.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv_depthwise_3x3_spv.cpp.o
+[ 37%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_bitwise.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv_depthwise_spv.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv_implicit_gemm_spv.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/gemm_spv.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/nary_eltwise_binary_forward_spv.cpp.o
+[ 37%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_compare.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/spv_shader.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/buffer.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/command.cpp.o
+[ 37%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_convertTo.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/context.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/fence.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/internal.cpp.o
+[ 37%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_cvround.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_base.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_conv.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_matmul.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_naryEltwise.cpp.o
+[ 37%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dft.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/pipeline.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/tensor.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/vulkan/vk_functions.cpp.o
+[ 37%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dot.cpp.o
+[ 37%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin_emulator.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/vulkan/vk_loader.cpp.o
+[ 37%] Building NVCC (Device) object modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_pyramids.cu.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/opencl_kernels_dnn.cpp.o
+[ 37%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/layers_common.avx.cpp.o
+[ 37%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_flip.cpp.o
+[ 38%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/conv_block.avx.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_inRange.cpp.o
+[ 38%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/conv_depthwise.avx.cpp.o
+[ 38%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/conv_winograd_f63.avx.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_io_base64.cpp.o
+[ 38%] Building NVCC (Device) object modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_reduction.cu.o
+[ 38%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/fast_gemm_kernels.avx.cpp.o
+[ 38%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/layers_common.avx2.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_lut.cpp.o
+[ 38%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/int8layers/layers_common.avx2.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_main.cpp.o
+[ 38%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/conv_block.avx2.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_mat.cpp.o
+[ 38%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/conv_depthwise.avx2.cpp.o
+[ 38%] Building NVCC (Device) object modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_scan.cu.o
+[ 38%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/conv_winograd_f63.avx2.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_math.cpp.o
+[ 38%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/fast_gemm_kernels.avx2.cpp.o
+[ 38%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/layers_common.avx512_skx.cpp.o
+[ 38%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/int8layers/layers_common.avx512_skx.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_merge.cpp.o
+[ 38%] Linking CXX shared library ../../lib/libopencv_dnn.so
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_io.cpp.o
+[ 38%] Built target opencv_dnn
+[ 39%] Building NVCC (Device) object modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_split_merge.cu.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_minmaxloc.cpp.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_logger_replace.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_norm.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_reduce.cpp.o
+[ 40%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_test_cudaarithm.dir/test/test_arithm.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_sort.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_logtagconfigparser.cpp.o
+[ 40%] Building NVCC (Device) object modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_warp.cu.o
+[ 40%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_test_cudaarithm.dir/test/test_buffer_pool.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_split.cpp.o
+[ 40%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_test_cudaarithm.dir/test/test_core.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_logtagmanager.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_stat.cpp.o
+[ 40%] Building CXX object modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/test_main.cpp.o
+[ 40%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_test_cudaarithm.dir/test/test_element_operations.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_umat.cpp.o
+[ 40%] Linking CXX executable ../../../bin/opencv_test_cudev
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_lpsolver.cpp.o
+[ 40%] Built target opencv_test_cudev
+[ 40%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_test_cudaarithm.dir/test/test_event.cpp.o
+[ 40%] Linking CXX executable ../../bin/opencv_perf_core
+[ 40%] Built target opencv_perf_core
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_main.cpp.o
+[ 40%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_perf_cudaarithm.dir/perf/perf_arithm.cpp.o
+[ 40%] Building CXX object modules/flann/CMakeFiles/opencv_test_flann.dir/test/test_lshtable_badarg.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_mat.cpp.o
+[ 40%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_perf_cudaarithm.dir/perf/perf_core.cpp.o
+[ 40%] Building CXX object modules/flann/CMakeFiles/opencv_test_flann.dir/test/test_main.cpp.o
+[ 40%] Linking CXX executable ../../bin/opencv_test_flann
+[ 40%] Built target opencv_test_flann
+[ 40%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_test_cudaarithm.dir/test/test_gpumat.cpp.o
+[ 40%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_perf_cudaarithm.dir/perf/perf_element_operations.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_math.cpp.o
+[ 40%] Building CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_accumulate.cpp.o
+[ 40%] Building CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_blend.cpp.o
+[ 40%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_test_cudaarithm.dir/test/test_main.cpp.o
+[ 40%] Building CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_boxfilter.cpp.o
+[ 40%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_test_cudaarithm.dir/test/test_opengl.cpp.o
+[ 41%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_test_cudaarithm.dir/test/test_reductions.cpp.o
