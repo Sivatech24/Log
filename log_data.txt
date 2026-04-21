@@ -3698,3 +3698,103 @@ In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::ra
 [ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o
 [ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o
 [ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_microphone.cpp.o
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o
+[ 53%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_orientation.cpp.o
+[ 53%] Linking CXX shared library ../../lib/libopencv_photo.so
+[ 53%] Linking CXX executable ../../bin/opencv_perf_videoio
+[ 53%] Built target opencv_photo
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.o
+[ 53%] Built target opencv_perf_videoio
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_v4l2.cpp.o
+[ 53%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.o
+[ 54%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/opencl/perf_stereobm.cpp.o
+[ 54%] Building CXX object modules/cudacodec/CMakeFiles/opencv_test_cudacodec.dir/test/test_main.cpp.o
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.o
+[ 54%] Building CXX object modules/cudacodec/CMakeFiles/opencv_test_cudacodec.dir/test/test_video.cpp.o
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_affine2d.cpp.o
+[ 54%] Linking CXX executable ../../bin/opencv_test_cudacodec
+[ 54%] Built target opencv_test_cudacodec
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.o
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_calibratecamera.cpp.o
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.o
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_calibration_hand_eye.cpp.o
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_cicrlesGrid.cpp.o
+[ 54%] Building CXX object modules/cudacodec/CMakeFiles/opencv_perf_cudacodec.dir/perf/perf_main.cpp.o
+[ 54%] Linking CXX executable ../../bin/opencv_test_videoio
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_main.cpp.o
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.o
+[ 54%] Building CXX object modules/cudacodec/CMakeFiles/opencv_perf_cudacodec.dir/perf/perf_video.cpp.o
+[ 54%] Built target opencv_test_videoio
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.o
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_pnp.cpp.o
+[ 54%] Linking CXX executable ../../bin/opencv_perf_cudacodec
+[ 54%] Built target opencv_perf_cudacodec
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.o
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_stereosgbm.cpp.o
+[ 54%] Building CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_translation2d.cpp.o
+[ 54%] Building NVCC (Device) object modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_orb.cu.o
+[ 55%] Building NVCC (Device) object modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bf_knnmatch.cu.o
+[ 55%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.o
+[ 55%] Building CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_undistort.cpp.o
+[ 55%] Linking CXX executable ../../bin/opencv_perf_calib3d
+[ 55%] Built target opencv_perf_calib3d
+[ 55%] Building NVCC (Device) object modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bf_match.cu.o
+[ 55%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.o
+[ 55%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.o
+[ 55%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.o
+[ 55%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.o
+[ 55%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.o
+[ 55%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.o
+[ 55%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.o
+[ 55%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_filter_homography_decomp.cpp.o
+[ 55%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.o
+[ 55%] Building CXX object modules/cudastereo/CMakeFiles/opencv_test_cudastereo.dir/test/test_main.cpp.o
+[ 55%] Building CXX object modules/cudastereo/CMakeFiles/opencv_perf_cudastereo.dir/perf/perf_main.cpp.o
+[ 55%] Building NVCC (Device) object modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bf_radius_match.cu.o
+[ 55%] Building CXX object modules/cudastereo/CMakeFiles/opencv_test_cudastereo.dir/test/test_sgm_funcs.cpp.o
+[ 55%] Building CXX object modules/cudastereo/CMakeFiles/opencv_perf_cudastereo.dir/perf/perf_stereo.cpp.o
+[ 56%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.o
+[ 56%] Building CXX object modules/cudastereo/CMakeFiles/opencv_test_cudastereo.dir/test/test_stereo.cpp.o
+[ 56%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.o
+[ 57%] Linking CXX executable ../../bin/opencv_perf_cudastereo
+[ 57%] Built target opencv_perf_cudastereo
+[ 57%] Building NVCC (Device) object modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_fast.cu.o
+[ 57%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.o
+[ 57%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.o
+[ 57%] Building CXX object modules/cudafeatures2d/CMakeFiles/opencv_cudafeatures2d.dir/src/brute_force_matcher.cpp.o
+[ 57%] Linking CXX executable ../../bin/opencv_test_cudastereo
+[ 57%] Building CXX object modules/datasets/CMakeFiles/opencv_datasets.dir/src/ar_hmdb.cpp.o
+[ 57%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.o
+[ 57%] Built target opencv_test_cudastereo
+[ 57%] Building CXX object modules/cudafeatures2d/CMakeFiles/opencv_cudafeatures2d.dir/src/fast.cpp.o
+[ 57%] Building CXX object modules/datasets/CMakeFiles/opencv_datasets.dir/src/ar_sports.cpp.o
+[ 57%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.o
+[ 57%] Building CXX object modules/datasets/CMakeFiles/opencv_datasets.dir/src/dataset.cpp.o
+[ 57%] Building CXX object modules/cudafeatures2d/CMakeFiles/opencv_cudafeatures2d.dir/src/feature2d_async.cpp.o
+[ 57%] Building CXX object modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_gui.cpp.o
+[ 57%] Building CXX object modules/datasets/CMakeFiles/opencv_datasets.dir/src/fr_adience.cpp.o
+[ 57%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.o
+[ 57%] Building CXX object modules/cudafeatures2d/CMakeFiles/opencv_cudafeatures2d.dir/src/orb.cpp.o
+[ 57%] Building CXX object modules/datasets/CMakeFiles/opencv_datasets.dir/src/fr_lfw.cpp.o
+[ 57%] Building CXX object modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_main.cpp.o
+[ 57%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.o
+[ 57%] Linking CXX shared library ../../lib/libopencv_cudafeatures2d.so
+[ 57%] Built target opencv_cudafeatures2d
+[ 57%] Building CXX object modules/mcc/CMakeFiles/opencv_mcc.dir/src/bound_min.cpp.o
+[ 57%] Linking CXX executable ../../bin/opencv_test_highgui
+[ 57%] Built target opencv_test_highgui
+[ 57%] Building CXX object modules/datasets/CMakeFiles/opencv_datasets.dir/src/gr_chalearn.cpp.o
+[ 57%] Processing OpenCL kernels (objdetect)
+[ 57%] Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/aruco/apriltag/apriltag_quad_thresh.cpp.o
+[ 57%] Building CXX object modules/mcc/CMakeFiles/opencv_mcc.dir/src/ccm.cpp.o
+[ 57%] Building CXX object modules/datasets/CMakeFiles/opencv_datasets.dir/src/gr_skig.cpp.o
+[ 57%] Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/aruco/apriltag/zmaxheap.cpp.o
+[ 57%] Building CXX object modules/mcc/CMakeFiles/opencv_mcc.dir/src/charts.cpp.o
+[ 57%] Building CXX object modules/datasets/CMakeFiles/opencv_datasets.dir/src/hpe_humaneva.cpp.o
+[ 57%] Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/aruco/aruco_board.cpp.o
+[ 57%] Building CXX object modules/mcc/CMakeFiles/opencv_mcc.dir/src/checker_detector.cpp.o
+[ 57%] Building CXX object modules/datasets/CMakeFiles/opencv_datasets.dir/src/hpe_parse.cpp.o
