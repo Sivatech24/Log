@@ -4698,3 +4698,103 @@ In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::ra
 [ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/plaidml/gplaidmlcore.cpp.o
 [ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/plaidml/gplaidmlbackend.cpp.o
 [ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/common/gmetabackend.cpp.o
+[ 90%] Linking CXX executable ../../bin/opencv_perf_cudaobjdetect
+[ 90%] Building CXX object modules/optflow/CMakeFiles/opencv_test_optflow.dir/test/ocl/test_optflow_tvl1flow.cpp.o
+[ 90%] Built target opencv_perf_cudaobjdetect
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/common/gcompoundbackend.cpp.o
+[ 90%] Building CXX object modules/optflow/CMakeFiles/opencv_test_optflow.dir/test/test_OF_accuracy.cpp.o
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/common/gcompoundkernel.cpp.o
+[ 90%] Building CXX object modules/optflow/CMakeFiles/opencv_test_optflow.dir/test/test_main.cpp.o
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/s11n.cpp.o
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/common/serialization.cpp.o
+[ 90%] Building CXX object modules/optflow/CMakeFiles/opencv_test_optflow.dir/test/test_motiontemplates.cpp.o
+[ 90%] Building CXX object modules/optflow/CMakeFiles/opencv_perf_optflow.dir/perf/opencl/perf_optflow_dualTVL1.cpp.o
+[ 90%] Building CXX object modules/optflow/CMakeFiles/opencv_test_optflow.dir/test/test_tvl1optflow.cpp.o
+[ 90%] Building CXX object modules/optflow/CMakeFiles/opencv_perf_optflow.dir/perf/perf_deepflow.cpp.o
+[ 90%] Linking CXX executable ../../bin/opencv_test_optflow
+[ 90%] Built target opencv_test_optflow
+[ 90%] Building CXX object modules/optflow/CMakeFiles/opencv_perf_optflow.dir/perf/perf_main.cpp.o
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/streaming/gstreamingbackend.cpp.o
+[ 90%] Building CXX object modules/optflow/CMakeFiles/opencv_perf_optflow.dir/perf/perf_rlof.cpp.o
+[ 90%] Building CXX object modules/optflow/CMakeFiles/opencv_perf_optflow.dir/perf/perf_tvl1optflow.cpp.o
+[ 90%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ie/bindings_ie.cpp.o
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/onnx/bindings_onnx.cpp.o
+[ 90%] Linking CXX executable ../../bin/opencv_perf_optflow
+[ 90%] Built target opencv_perf_optflow
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ov/bindings_ov.cpp.o
+[ 90%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o
+[ 90%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.o
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/python/gpythonbackend.cpp.o
+[ 90%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o
+[ 90%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.o
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/queue_source.cpp.o
+[ 90%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.o
+[ 90%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/source.cpp.o
+[ 90%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/source_priv.cpp.o
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/file_data_provider.cpp.o
+In file included from /home/tech24/build/opencv/modules/gapi/src/streaming/onevpl/file_data_provider.cpp:9:
+/home/tech24/build/opencv/modules/gapi/src/streaming/onevpl/file_data_provider.hpp:31:61: warning: ignoring attributes on template argument ‘int (*)(FILE*)’ [-Wignored-attributes]
+   31 |     using file_ptr = std::unique_ptr<FILE, decltype(&fclose)>;
+      |                                                             ^
+[ 90%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/cfg_params.cpp.o
+[ 90%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.o
+[ 90%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.o
+[ 91%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/cfg_params_parser.cpp.o
+[ 91%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/utils.cpp.o
+[ 91%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/default.cpp.o
+[ 91%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/data_provider_interface_exception.cpp.o
+[ 91%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/surface/base_frame_adapter.cpp.o
+[ 91%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.o
+[ 91%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/surface/cpu_frame_adapter.cpp.o
+[ 92%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/surface/dx11_frame_adapter.cpp.o
+[ 92%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/surface/surface.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/surface/surface_pool.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/utils/shared_lock.cpp.o
+[ 92%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/accel_policy_cpu.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/accel_policy_dx11.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/accel_policy_va_api.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/dx11_alloc_resource.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/engine_session.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/processing_engine_base.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/decode/decode_engine_legacy.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/decode/decode_session.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/transcode/transcode_engine_legacy.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/transcode/transcode_session.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/preproc/preproc_engine.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/preproc/preproc_session.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/preproc/preproc_dispatcher.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/preproc_engine_interface.cpp.o
+[ 92%] Linking CXX executable ../../bin/opencv_test_stitching
+[ 92%] Built target opencv_test_stitching
+[ 92%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/demux/async_mfp_demux_data_provider.cpp.o
+[ 92%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/data_provider_dispatcher.cpp.o
+[ 93%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/cfg_param_device_selector.cpp.o
+[ 93%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/device_selector_interface.cpp.o
+[ 93%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/gstreamer/gstreamer_pipeline_facade.cpp.o
+[ 93%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/gstreamer/gstreamerpipeline.cpp.o
+[ 93%] Building CXX object modules/stereo/CMakeFiles/opencv_test_stereo.dir/test/test_block_matching.cpp.o
+[ 93%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/gstreamer/gstreamersource.cpp.o
+[ 93%] Building CXX object modules/stereo/CMakeFiles/opencv_test_stereo.dir/test/test_descriptors.cpp.o
+[ 93%] Linking CXX executable ../../bin/opencv_perf_stitching
+[ 93%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/gstreamer/gstreamer_buffer_utils.cpp.o
+[ 93%] Building CXX object modules/stereo/CMakeFiles/opencv_test_stereo.dir/test/test_main.cpp.o
+[ 93%] Built target opencv_perf_stitching
+[ 93%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/gstreamer/gstreamer_media_adapter.cpp.o
+[ 93%] Building CXX object modules/stereo/CMakeFiles/opencv_test_stereo.dir/test/test_qds_matching.cpp.o
+[ 93%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/gstreamer/gstreamerenv.cpp.o
+[ 94%] Building CXX object modules/stereo/CMakeFiles/opencv_perf_stereo.dir/perf/perf_bm.cpp.o
+[ 94%] Linking CXX executable ../../bin/opencv_test_stereo
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/pysrc/python_stream_source.cpp.o
+[ 94%] Built target opencv_test_stereo
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/utils/itt.cpp.o
+[ 94%] Building CXX object modules/stereo/CMakeFiles/opencv_perf_stereo.dir/perf/perf_descriptor.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/kalman_filter/kalman_filter_no_opencv.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/mtt/hungarian_wrap.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/mtt/objects_associator.cpp.o
