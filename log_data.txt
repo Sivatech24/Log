@@ -5898,3 +5898,103 @@ Install the project...
 -- Installing: /usr/local/include/opencv4/opencv2/reg/mappergradsimilar.hpp
 -- Installing: /usr/local/include/opencv4/opencv2/reg/mapperpyramid.hpp
 -- Installing: /usr/local/include/opencv4/opencv2/reg/mapprojec.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/reg/mapshift.hpp
+-- Installing: /usr/local/lib/libopencv_signal.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_signal.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_signal.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_signal.so
+-- Installing: /usr/local/include/opencv4/opencv2/signal.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/signal/signal_resample.hpp
+-- Installing: /usr/local/lib/libopencv_surface_matching.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_surface_matching.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_surface_matching.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_surface_matching.so
+-- Installing: /usr/local/include/opencv4/opencv2/surface_matching.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/surface_matching/icp.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/surface_matching/pose_3d.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/surface_matching/ppf_helpers.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/surface_matching/ppf_match_3d.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/surface_matching/t_hash_int.hpp
+-- Installing: /usr/local/lib/libopencv_cudafilters.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_cudafilters.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudafilters.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_cudafilters.so
+-- Installing: /usr/local/include/opencv4/opencv2/cudafilters.hpp
+-- Installing: /usr/local/lib/libopencv_cudaimgproc.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_cudaimgproc.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudaimgproc.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_cudaimgproc.so
+-- Installing: /usr/local/include/opencv4/opencv2/cudaimgproc.hpp
+-- Installing: /usr/local/lib/libopencv_cudawarping.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_cudawarping.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudawarping.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_cudawarping.so
+-- Installing: /usr/local/include/opencv4/opencv2/cudawarping.hpp
+-- Installing: /usr/local/lib/libopencv_dnn.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_dnn.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_dnn.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_dnn.so
+-- Installing: /usr/local/include/opencv4/opencv2/dnn.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/dnn/all_layers.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/dnn/dict.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/dnn/dnn.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/dnn/layer.details.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/dnn/layer.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/dnn/shape_utils.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/dnn/utils/debug_utils.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/dnn/version.hpp
+-- Installing: /usr/local/lib/libopencv_dnn_superres.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_dnn_superres.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_dnn_superres.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_dnn_superres.so
+-- Installing: /usr/local/include/opencv4/opencv2/dnn_superres.hpp
+-- Installing: /usr/local/lib/libopencv_features2d.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_features2d.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_features2d.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_features2d.so
+-- Installing: /usr/local/include/opencv4/opencv2/features2d.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/features2d/features2d.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/features2d/hal/interface.h
+-- Installing: /usr/local/share/licenses/opencv4/mscr-chi_table_LICENSE.txt
+-- Installing: /usr/local/share/licenses/opencv4/features2d-LICENSE.KAZE
+-- Installing: /usr/local/share/licenses/opencv4/features2d-LICENSE.AKAZE
+-- Installing: /usr/local/lib/libopencv_freetype.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_freetype.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_freetype.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_freetype.so
+-- Installing: /usr/local/include/opencv4/opencv2/freetype.hpp
+-- Installing: /usr/local/lib/libopencv_fuzzy.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_fuzzy.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_fuzzy.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_fuzzy.so
+-- Installing: /usr/local/include/opencv4/opencv2/fuzzy.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/fuzzy/fuzzy_F0_math.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/fuzzy/fuzzy_F1_math.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/fuzzy/fuzzy_image.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/fuzzy/types.hpp
+-- Installing: /usr/local/lib/libopencv_hfs.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_hfs.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_hfs.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_hfs.so
+-- Installing: /usr/local/include/opencv4/opencv2/hfs.hpp
+-- Installing: /usr/local/lib/libopencv_img_hash.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_img_hash.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_img_hash.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_img_hash.so
+-- Installing: /usr/local/include/opencv4/opencv2/img_hash.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/img_hash/average_hash.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/img_hash/block_mean_hash.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/img_hash/color_moment_hash.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/img_hash/img_hash_base.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/img_hash/marr_hildreth_hash.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/img_hash/phash.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/img_hash/radial_variance_hash.hpp
+-- Installing: /usr/local/lib/libopencv_imgcodecs.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_imgcodecs.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_imgcodecs.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_imgcodecs.so
+-- Installing: /usr/local/include/opencv4/opencv2/imgcodecs.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/imgcodecs/imgcodecs.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/imgcodecs/imgcodecs_c.h
