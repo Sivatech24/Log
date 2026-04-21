@@ -1198,3 +1198,103 @@ CMake Warning at /home/tech24/build/opencv_contrib/modules/cudacodec/CMakeLists.
 --     Protobuf:                    build (3.19.1)
 --     Flatbuffers:                 builtin/3rdparty (25.9.23)
 --
+--   NVIDIA CUDA:                   YES (ver 12.0, CUFFT CUBLAS)
+--     NVIDIA GPU arch:             86
+--     NVIDIA PTX archs:
+--
+--   cuDNN:                         YES (ver 9.21.0)
+--
+--   OpenCL:                        YES (no extra features)
+--     Include path:                /home/tech24/build/opencv/3rdparty/include/opencl/1.2
+--     Link libraries:              Dynamic load
+--
+--   Python (for build):            NO
+--
+--   Java:
+--     ant:                         NO
+--     Java:                        NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+--
+--   Install to:                    /usr/local
+-- -----------------------------------------------------------------
+--
+-- Configuring done (35.0s)
+-- Generating done (1.1s)
+-- Build files have been written to: /home/tech24/build
+tech24@DESKTOP-1VHTLCM:~/build$ sudo apt-get install build-essential git yasm nasm unzip wget sysstat
+[sudo] password for tech24:
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+build-essential is already the newest version (12.10ubuntu1).
+git is already the newest version (1:2.43.0-1ubuntu7.3).
+wget is already the newest version (1.21.4-1ubuntu4.1).
+wget set to manually installed.
+The following packages were automatically installed and are no longer required:
+  linux-headers-6.8.0-107 linux-headers-6.8.0-107-generic nvidia-cuda-toolkit-gcc
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  isag zip
+The following NEW packages will be installed:
+  nasm sysstat unzip yasm
+0 upgraded, 4 newly installed, 0 to remove and 2 not upgraded.
+Need to get 1606 kB of archives.
+After this operation, 7428 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 sysstat amd64 12.6.1-2 [489 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble/universe amd64 nasm amd64 2.16.01-1build1 [459 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 unzip amd64 6.0-28ubuntu4.1 [174 kB]
+Get:4 http://archive.ubuntu.com/ubuntu noble/universe amd64 yasm amd64 1.3.0-4 [483 kB]
+Fetched 1606 kB in 6s (250 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package sysstat.
+(Reading database ... 132166 files and directories currently installed.)
+Preparing to unpack .../sysstat_12.6.1-2_amd64.deb ...
+Unpacking sysstat (12.6.1-2) ...
+Selecting previously unselected package nasm.
+Preparing to unpack .../nasm_2.16.01-1build1_amd64.deb ...
+Unpacking nasm (2.16.01-1build1) ...
+Selecting previously unselected package unzip.
+Preparing to unpack .../unzip_6.0-28ubuntu4.1_amd64.deb ...
+Unpacking unzip (6.0-28ubuntu4.1) ...
+Selecting previously unselected package yasm.
+Preparing to unpack .../yasm_1.3.0-4_amd64.deb ...
+Unpacking yasm (1.3.0-4) ...
+Setting up unzip (6.0-28ubuntu4.1) ...
+Setting up yasm (1.3.0-4) ...
+Setting up nasm (2.16.01-1build1) ...
+Setting up sysstat (12.6.1-2) ...
+
+Creating config file /etc/default/sysstat with new version
+update-alternatives: using /usr/bin/sar.sysstat to provide /usr/bin/sar (sar) in auto mode
+Created symlink /etc/systemd/system/sysstat.service.wants/sysstat-collect.timer → /usr/lib/systemd/system/sysstat-collect.timer.
+Created symlink /etc/systemd/system/sysstat.service.wants/sysstat-summary.timer → /usr/lib/systemd/system/sysstat-summary.timer.
+Created symlink /etc/systemd/system/multi-user.target.wants/sysstat.service → /usr/lib/systemd/system/sysstat.service.
+Processing triggers for man-db (2.12.0-4build2) ...
+tech24@DESKTOP-1VHTLCM:~/build$ git clone https://git.videolan.org/git/ffmpeg/nv-codec-headers.git
+cd nv-codec-headers
+make
+sudo make install
+Cloning into 'nv-codec-headers'...
+remote: Enumerating objects: 1144, done.
+remote: Counting objects: 100% (1144/1144), done.
+remote: Compressing objects: 100% (968/968), done.
+remote: Total 1144 (delta 621), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (1144/1144), 199.81 KiB | 243.00 KiB/s, done.
+Resolving deltas: 100% (621/621), done.
+sed 's#@@PREFIX@@#/usr/local#' ffnvcodec.pc.in > ffnvcodec.pc
+sed 's#@@PREFIX@@#/usr/local#' ffnvcodec.pc.in > ffnvcodec.pc
+install -m 0755 -d '/usr/local/include/ffnvcodec'
+install -m 0644 include/ffnvcodec/*.h '/usr/local/include/ffnvcodec'
+install -m 0755 -d '/usr/local/lib/pkgconfig'
+install -m 0644 ffnvcodec.pc '/usr/local/lib/pkgconfig'
+tech24@DESKTOP-1VHTLCM:~/build/nv-codec-headers$ ffmpeg -encoders | grep nvenc
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
