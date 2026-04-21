@@ -2398,3 +2398,103 @@ tech24@DESKTOP-1VHTLCM:~/build$ make -j4
 [ 15%] Linking CXX shared library ../../lib/libopencv_phase_unwrapping.so
 [ 15%] Built target opencv_plot
 [ 15%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o
+[ 15%] Built target opencv_phase_unwrapping
+[ 15%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_avif.cpp.o
+[ 15%] Linking CXX shared library ../../lib/libopencv_intensity_transform.so
+[ 15%] Built target opencv_intensity_transform
+[ 15%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o
+[ 15%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o
+[ 15%] Building CXX object modules/quality/CMakeFiles/opencv_quality.dir/src/qualitybrisque.cpp.o
+[ 16%] Building CXX object modules/reg/CMakeFiles/opencv_reg.dir/src/map.cpp.o
+In file included from /usr/include/c++/12/algorithm:60,
+                 from /home/tech24/build/opencv/modules/core/include/opencv2/core/base.hpp:55,
+                 from /home/tech24/build/opencv/modules/core/include/opencv2/core.hpp:53,
+                 from /home/tech24/build/opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp:46,
+                 from /home/tech24/build/opencv/modules/imgcodecs/src/precomp.hpp:45,
+                 from /home/tech24/build/opencv/modules/imgcodecs/src/grfmt_bmp.cpp:43:
+In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(_Tp*, _Tp*, _Up*) [with _Tp = const int; _Up = int; bool _IsMove = false]’,
+    inlined from ‘_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = const int*; _OI = int*]’ at /usr/include/c++/12/bits/stl_algobase.h:501:30,
+    inlined from ‘_OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = const int*; _OI = int*]’ at /usr/include/c++/12/bits/stl_algobase.h:528:42,
+    inlined from ‘_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = const int*; _OI = int*]’ at /usr/include/c++/12/bits/stl_algobase.h:535:31,
+    inlined from ‘_OI std::copy(_II, _II, _OI) [with _II = const int*; _OI = int*]’ at /usr/include/c++/12/bits/stl_algobase.h:626:7,
+    inlined from ‘static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const int*; _ForwardIterator = int*]’ at /usr/include/c++/12/bits/stl_uninitialized.h:147:27,
+    inlined from ‘_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const int*; _ForwardIterator = int*]’ at /usr/include/c++/12/bits/stl_uninitialized.h:185:15,
+    inlined from ‘_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, allocator<_Tp>&) [with _InputIterator = const int*; _ForwardIterator = int*; _Tp = int]’ at /usr/include/c++/12/bits/stl_uninitialized.h:372:37,
+    inlined from ‘void std::vector<_Tp, _Alloc>::_M_assign_aux(_ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = const int*; _Tp = int; _Alloc = std::allocator<int>]’ at /usr/include/c++/12/bits/vector.tcc:339:35,
+    inlined from ‘std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>]’ at /usr/include/c++/12/bits/stl_vector.h:787:21,
+    inlined from ‘cv::BmpEncoder::BmpEncoder()’ at /home/tech24/build/opencv/modules/imgcodecs/src/grfmt_bmp.cpp:610:54:/usr/include/c++/12/bits/stl_algobase.h:434:30: warning: ‘void* __builtin_memcpy(void*, const void*, long unsigned int)’ forming offset 4 is out of the bounds [0, 4] of object ‘<anonymous>’ with type ‘const int [1]’ [-Warray-bounds]
+  434 |             __builtin_memmove(__result, __first, sizeof(_Tp) * _Num);
+      |             ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tech24/build/opencv/modules/imgcodecs/src/grfmt_bmp.cpp: In constructor ‘cv::BmpEncoder::BmpEncoder()’:
+/home/tech24/build/opencv/modules/imgcodecs/src/grfmt_bmp.cpp:610:54: note: ‘<anonymous>’ declared here
+  610 |     m_supported_encode_key = {IMWRITE_BMP_COMPRESSION};
+      |                                                      ^
+[ 16%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.8uc4.cu.o
+[ 16%] Building CXX object modules/quality/CMakeFiles/opencv_quality.dir/src/qualitygmsd.cpp.o
+[ 16%] Building CXX object modules/reg/CMakeFiles/opencv_reg.dir/src/mapaffine.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o
+[ 17%] Building CXX object modules/quality/CMakeFiles/opencv_quality.dir/src/qualitymse.cpp.o
+[ 17%] Building CXX object modules/reg/CMakeFiles/opencv_reg.dir/src/mapper.cpp.o
+[ 17%] Building CXX object modules/quality/CMakeFiles/opencv_quality.dir/src/qualityssim.cpp.o
+[ 17%] Building CXX object modules/reg/CMakeFiles/opencv_reg.dir/src/mappergradaffine.cpp.o
+[ 17%] Linking CXX shared library ../../lib/libopencv_quality.so
+[ 17%] Built target opencv_quality
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o
+[ 17%] Building CXX object modules/reg/CMakeFiles/opencv_reg.dir/src/mappergradeuclid.cpp.o
+[ 17%] Building CXX object modules/reg/CMakeFiles/opencv_reg.dir/src/mappergradproj.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o
+[ 17%] Building NVCC (Device) object modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_warp.cu.o
+[ 17%] Building CXX object modules/reg/CMakeFiles/opencv_reg.dir/src/mappergradshift.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gif.cpp.o
+[ 17%] Building CXX object modules/reg/CMakeFiles/opencv_reg.dir/src/mappergradsimilar.cpp.o
+[ 17%] Building CXX object modules/reg/CMakeFiles/opencv_reg.dir/src/mapperpyramid.cpp.o
+[ 17%] Building CXX object modules/reg/CMakeFiles/opencv_reg.dir/src/mapprojec.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o
+[ 17%] Building CXX object modules/reg/CMakeFiles/opencv_reg.dir/src/mapshift.cpp.o
+In file included from /usr/include/c++/12/algorithm:60,
+                 from /home/tech24/build/opencv/modules/core/include/opencv2/core/base.hpp:55,
+                 from /home/tech24/build/opencv/modules/core/include/opencv2/core.hpp:53,
+                 from /home/tech24/build/opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp:46,
+                 from /home/tech24/build/opencv/modules/imgcodecs/src/precomp.hpp:45,
+                 from /home/tech24/build/opencv/modules/imgcodecs/src/grfmt_hdr.cpp:43:
+In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(_Tp*, _Tp*, _Up*) [with _Tp = const int; _Up = int; bool _IsMove = false]’,
+    inlined from ‘_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = const int*; _OI = int*]’ at /usr/include/c++/12/bits/stl_algobase.h:501:30,
+    inlined from ‘_OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = const int*; _OI = int*]’ at /usr/include/c++/12/bits/stl_algobase.h:528:42,
+    inlined from ‘_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = const int*; _OI = int*]’ at /usr/include/c++/12/bits/stl_algobase.h:535:31,
+    inlined from ‘_OI std::copy(_II, _II, _OI) [with _II = const int*; _OI = int*]’ at /usr/include/c++/12/bits/stl_algobase.h:626:7,
+    inlined from ‘static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const int*; _ForwardIterator = int*]’ at /usr/include/c++/12/bits/stl_uninitialized.h:147:27,
+    inlined from ‘_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const int*; _ForwardIterator = int*]’ at /usr/include/c++/12/bits/stl_uninitialized.h:185:15,
+    inlined from ‘_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, allocator<_Tp>&) [with _InputIterator = const int*; _ForwardIterator = int*; _Tp = int]’ at /usr/include/c++/12/bits/stl_uninitialized.h:372:37,
+    inlined from ‘void std::vector<_Tp, _Alloc>::_M_assign_aux(_ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = const int*; _Tp = int; _Alloc = std::allocator<int>]’ at /usr/include/c++/12/bits/vector.tcc:339:35,
+    inlined from ‘std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>]’ at /usr/include/c++/12/bits/stl_vector.h:787:21,
+    inlined from ‘cv::HdrEncoder::HdrEncoder()’ at /home/tech24/build/opencv/modules/imgcodecs/src/grfmt_hdr.cpp:143:54:/usr/include/c++/12/bits/stl_algobase.h:434:30: warning: ‘void* __builtin_memcpy(void*, const void*, long unsigned int)’ forming offset 4 is out of the bounds [0, 4] of object ‘<anonymous>’ with type ‘const int [1]’ [-Warray-bounds]
+  434 |             __builtin_memmove(__result, __first, sizeof(_Tp) * _Num);
+      |             ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tech24/build/opencv/modules/imgcodecs/src/grfmt_hdr.cpp: In constructor ‘cv::HdrEncoder::HdrEncoder()’:
+/home/tech24/build/opencv/modules/imgcodecs/src/grfmt_hdr.cpp:143:54: note: ‘<anonymous>’ declared here
+  143 |     m_supported_encode_key = {IMWRITE_HDR_COMPRESSION};
+      |                                                      ^
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o
+[ 17%] Linking CXX shared library ../../lib/libopencv_reg.so
+[ 17%] Built target opencv_reg
+[ 17%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.16sc1.cu.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000_openjpeg.cpp.o
+In file included from /usr/include/c++/12/algorithm:60,
+                 from /home/tech24/build/opencv/modules/core/include/opencv2/core/base.hpp:55,
+                 from /home/tech24/build/opencv/modules/core/include/opencv2/core.hpp:53,
+                 from /home/tech24/build/opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp:46,
+                 from /home/tech24/build/opencv/modules/imgcodecs/src/precomp.hpp:45,
+                 from /home/tech24/build/opencv/modules/imgcodecs/src/grfmt_jpeg2000_openjpeg.cpp:7:
+In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(_Tp*, _Tp*, _Up*) [with _Tp = const int; _Up = int; bool _IsMove = false]’,
+    inlined from ‘_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = const int*; _OI = int*]’ at /usr/include/c++/12/bits/stl_algobase.h:501:30,
+    inlined from ‘_OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = const int*; _OI = int*]’ at /usr/include/c++/12/bits/stl_algobase.h:528:42,
+    inlined from ‘_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = const int*; _OI = int*]’ at /usr/include/c++/12/bits/stl_algobase.h:535:31,
+    inlined from ‘_OI std::copy(_II, _II, _OI) [with _II = const int*; _OI = int*]’ at /usr/include/c++/12/bits/stl_algobase.h:626:7,
+    inlined from ‘static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const int*; _ForwardIterator = int*]’ at /usr/include/c++/12/bits/stl_uninitialized.h:147:27,
+    inlined from ‘_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const int*; _ForwardIterator = int*]’ at /usr/include/c++/12/bits/stl_uninitialized.h:185:15,
+    inlined from ‘_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, allocator<_Tp>&) [with _InputIterator = const int*; _ForwardIterator = int*; _Tp = int]’ at /usr/include/c++/12/bits/stl_uninitialized.h:372:37,
+    inlined from ‘void std::vector<_Tp, _Alloc>::_M_assign_aux(_ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = const int*; _Tp = int; _Alloc = std::allocator<int>]’ at /usr/include/c++/12/bits/vector.tcc:339:35,
+    inlined from ‘std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>]’ at /usr/include/c++/12/bits/stl_vector.h:787:21,
+    inlined from ‘cv::Jpeg2KOpjEncoder::Jpeg2KOpjEncoder()’ at /home/tech24/build/opencv/modules/imgcodecs/src/grfmt_jpeg2000_openjpeg.cpp:694:65:
+/usr/include/c++/12/bits/stl_algobase.h:434:30: warning: ‘void* __builtin_memcpy(void*, const void*, long unsigned int)’ forming offset 4 is out of the bounds [0, 4] of object ‘<anonymous>’ with type ‘const int [1]’ [-Warray-bounds]
