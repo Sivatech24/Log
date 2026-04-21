@@ -9498,3 +9498,103 @@ sudo ldconfig
 [ 80%] Built target opencv_cudabgsegm
 [ 80%] Linking CXX executable ../../bin/opencv_test_cudabgsegm
 [ 80%] Built target opencv_test_cudabgsegm
+[ 80%] Linking CXX executable ../../bin/opencv_perf_cudabgsegm
+[ 80%] Built target opencv_perf_cudabgsegm
+[ 80%] Linking CXX shared library ../../lib/libopencv_cudalegacy.so
+[ 80%] Built target opencv_cudalegacy
+[ 80%] Linking CXX executable ../../bin/opencv_test_cudalegacy
+[ 80%] Built target opencv_test_cudalegacy
+[ 80%] Linking CXX executable ../../bin/opencv_perf_cudalegacy
+[ 80%] Built target opencv_perf_cudalegacy
+[ 80%] Linking CXX shared library ../../lib/libopencv_cudaobjdetect.so
+[ 81%] Built target opencv_cudaobjdetect
+[ 81%] Linking CXX executable ../../bin/opencv_test_cudaobjdetect
+[ 81%] Built target opencv_test_cudaobjdetect
+[ 81%] Linking CXX executable ../../bin/opencv_perf_cudaobjdetect
+[ 81%] Built target opencv_perf_cudaobjdetect
+[ 81%] Built target opencv_dnn_objdetect
+[ 81%] Built target opencv_dpm
+[ 82%] Built target opencv_face
+[ 82%] Built target opencv_test_face
+[ 82%] Built target ade
+[ 82%] Linking CXX shared library ../../lib/libopencv_gapi.so
+[ 87%] Built target opencv_gapi
+[ 87%] Linking CXX executable ../../bin/opencv_test_gapi
+[ 91%] Built target opencv_test_gapi
+[ 91%] Linking CXX executable ../../bin/opencv_perf_gapi
+[ 91%] Built target opencv_perf_gapi
+[ 91%] Linking CXX shared library ../../lib/libopencv_optflow.so
+[ 92%] Built target opencv_optflow
+[ 92%] Linking CXX executable ../../bin/opencv_test_optflow
+[ 92%] Built target opencv_test_optflow
+[ 92%] Linking CXX executable ../../bin/opencv_perf_optflow
+[ 92%] Built target opencv_perf_optflow
+[ 92%] Linking CXX shared library ../../lib/libopencv_stitching.so
+[ 93%] Built target opencv_stitching
+[ 93%] Linking CXX executable ../../bin/opencv_test_stitching
+[ 94%] Built target opencv_test_stitching
+[ 94%] Linking CXX executable ../../bin/opencv_perf_stitching
+[ 94%] Built target opencv_perf_stitching
+[ 94%] Linking CXX shared library ../../lib/libopencv_tracking.so
+[ 96%] Built target opencv_tracking
+[ 96%] Linking CXX executable ../../bin/opencv_test_tracking
+[ 96%] Built target opencv_test_tracking
+[ 96%] Linking CXX executable ../../bin/opencv_perf_tracking
+[ 96%] Built target opencv_perf_tracking
+[ 96%] Linking CXX shared library ../../lib/libopencv_cudaoptflow.so
+[ 96%] Built target opencv_cudaoptflow
+[ 97%] Linking CXX executable ../../bin/opencv_test_cudaoptflow
+[ 97%] Built target opencv_test_cudaoptflow
+[ 97%] Linking CXX executable ../../bin/opencv_perf_cudaoptflow
+[ 97%] Built target opencv_perf_cudaoptflow
+[ 97%] Linking CXX shared library ../../lib/libopencv_stereo.so
+[ 97%] Built target opencv_stereo
+[ 97%] Linking CXX executable ../../bin/opencv_test_stereo
+[ 97%] Built target opencv_test_stereo
+[ 97%] Linking CXX executable ../../bin/opencv_perf_stereo
+[ 98%] Built target opencv_perf_stereo
+[ 98%] Linking CXX shared library ../../lib/libopencv_superres.so
+[ 98%] Built target opencv_superres
+[ 98%] Linking CXX executable ../../bin/opencv_test_superres
+[ 98%] Built target opencv_test_superres
+[ 98%] Linking CXX executable ../../bin/opencv_perf_superres
+[ 98%] Built target opencv_perf_superres
+[ 98%] Linking CXX shared library ../../lib/libopencv_videostab.so
+[ 99%] Built target opencv_videostab
+[ 99%] Linking CXX executable ../../bin/opencv_test_videostab
+[ 99%] Built target opencv_test_videostab
+[ 99%] Built target opencv_annotation
+[ 99%] Built target opencv_visualisation
+[100%] Built target opencv_interactive-calibration
+[100%] Built target opencv_version
+[100%] Built target opencv_model_diagnostics
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /usr/local/share/licenses/opencv4/dlpack-LICENSE
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippicv-readme.htm
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippicv-EULA.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippicv-third-party-programs.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippiw-support.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippiw-third-party-programs.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippiw-EULA.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/flatbuffers-LICENSE.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/opencl-headers-LICENSE.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ade-LICENSE
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cvconfig.h
+-- Up-to-date: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
+-- Up-to-date: /usr/local/lib/cmake/opencv4/OpenCVModules.cmake
+-- Up-to-date: /usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake
+-- Up-to-date: /usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake
+-- Up-to-date: /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake
+-- Up-to-date: /usr/local/bin/setup_vars_opencv4.sh
+-- Up-to-date: /usr/local/share/opencv4/valgrind.supp
+-- Up-to-date: /usr/local/share/opencv4/valgrind_3rdparty.supp
+-- Up-to-date: /usr/local/share/licenses/opencv4/libopenjp2-README.md
+-- Up-to-date: /usr/local/share/licenses/opencv4/libopenjp2-LICENSE
+-- Up-to-date: /usr/local/share/licenses/opencv4/protobuf-LICENSE
+-- Up-to-date: /usr/local/share/licenses/opencv4/protobuf-README.md
+-- Up-to-date: /usr/local/share/licenses/opencv4/ittnotify-BSD-3-Clause.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ittnotify-GPL-2.0-only.txt
+-- Up-to-date: /usr/local/include/opencv4/opencv2/opencv.hpp
+-- Up-to-date: /usr/local/lib/libopencv_cudev.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_cudev.so.414
