@@ -10898,3 +10898,103 @@ Note: Class cv::detail::GraphCutSeamFinder has more than 1 base class (not suppo
 [ 83%] Linking CXX executable ../../bin/opencv_test_intensity_transform
 [ 85%] Built target opencv_test_core
 [ 85%] Linking CXX executable ../../bin/opencv_test_ml
+[ 86%] Built target opencv_test_intensity_transform
+[ 86%] Linking CXX executable ../../bin/opencv_test_phase_unwrapping
+[ 88%] Built target opencv_perf_imgproc
+[ 88%] Linking CXX executable ../../bin/opencv_test_quality
+[ 88%] Built target opencv_test_phase_unwrapping
+[ 88%] Linking CXX executable ../../bin/opencv_test_reg
+[ 88%] Built target opencv_test_ml
+[ 88%] Linking CXX executable ../../bin/opencv_perf_reg
+[ 90%] Built target opencv_test_imgproc
+[ 90%] Linking CXX executable ../../bin/opencv_test_signal
+[ 90%] Built target opencv_test_quality
+[ 90%] Linking CXX executable ../../bin/opencv_perf_signal
+[ 90%] Built target opencv_test_reg
+[ 90%] Built target opencv_perf_reg
+[ 90%] Linking CXX executable ../../bin/opencv_test_cudafilters
+[ 90%] Linking CXX executable ../../bin/opencv_perf_cudafilters
+[ 90%] Built target opencv_test_signal
+[ 90%] Linking CXX executable ../../bin/opencv_test_cudaimgproc
+[ 90%] Built target opencv_perf_signal
+[ 90%] Linking CXX executable ../../bin/opencv_perf_cudaimgproc
+[ 90%] Built target opencv_perf_cudafilters
+[ 90%] Linking CXX executable ../../bin/opencv_test_cudawarping
+[ 90%] Built target opencv_test_cudafilters
+[ 91%] Linking CXX executable ../../bin/opencv_perf_cudawarping
+[ 92%] Built target opencv_test_cudaimgproc
+[ 93%] Built target opencv_perf_cudaimgproc
+[ 94%] Linking CXX executable ../../bin/opencv_test_dnn
+[ 94%] Linking CXX executable ../../bin/opencv_perf_dnn
+[ 94%] Built target opencv_test_cudawarping
+[ 94%] Built target opencv_perf_cudawarping
+[ 94%] Linking CXX executable ../../bin/opencv_test_dnn_superres
+[ 94%] Linking CXX executable ../../bin/opencv_perf_dnn_superres
+[ 94%] Built target opencv_perf_dnn
+[ 94%] Linking CXX executable ../../bin/opencv_test_features2d
+[ 94%] Built target opencv_test_dnn_superres
+[ 94%] Linking CXX executable ../../bin/opencv_perf_features2d
+[ 94%] Built target opencv_perf_dnn_superres
+[ 94%] Linking CXX executable ../../bin/opencv_test_freetype
+[ 94%] Built target opencv_test_dnn
+[ 94%] Linking CXX executable ../../bin/opencv_test_fuzzy
+[ 94%] Built target opencv_test_freetype
+[ 95%] Built target opencv_test_features2d
+[ 95%] Built target opencv_perf_features2d
+[ 95%] Linking CXX executable ../../bin/opencv_test_img_hash
+[ 95%] Linking CXX executable ../../bin/opencv_perf_imgcodecs
+[ 95%] Linking CXX executable ../../bin/opencv_test_imgcodecs
+[ 95%] Built target opencv_test_fuzzy
+[ 95%] Built target opencv_test_img_hash
+[ 95%] Linking CXX executable ../../bin/opencv_perf_line_descriptor
+[ 95%] Linking CXX executable ../../bin/opencv_test_line_descriptor
+[ 95%] Built target opencv_perf_imgcodecs
+[ 95%] Linking CXX executable ../../bin/opencv_test_photo
+[ 96%] Built target opencv_test_imgcodecs
+[ 96%] Linking CXX executable ../../bin/opencv_perf_photo
+[ 96%] Built target opencv_perf_line_descriptor
+[ 96%] Built target opencv_test_line_descriptor
+[ 96%] Linking CXX executable ../../bin/opencv_test_saliency
+[ 96%] Linking CXX executable ../../bin/opencv_test_text
+[ 96%] Built target opencv_test_saliency
+[ 96%] Built target opencv_perf_photo
+[ 97%] Built target opencv_test_photo
+[ 97%] Linking CXX executable ../../bin/opencv_perf_videoio
+[ 97%] Built target opencv_test_text
+[ 97%] Linking CXX executable ../../bin/opencv_test_videoio
+[ 97%] Linking CXX executable ../../bin/opencv_test_xphoto
+[ 97%] Linking CXX executable ../../bin/opencv_perf_xphoto
+[ 97%] Built target opencv_perf_xphoto
+[ 97%] Built target opencv_test_xphoto
+[ 97%] Linking CXX executable ../../bin/opencv_test_cudaobjdetect
+[ 97%] Linking CXX executable ../../bin/opencv_perf_cudaobjdetect
+[ 97%] Built target opencv_perf_videoio
+[ 97%] Linking CXX executable ../../bin/opencv_test_cudaoptflow
+[ 98%] Built target opencv_test_videoio
+[ 98%] Linking CXX executable ../../bin/opencv_perf_cudaoptflow
+[ 98%] Built target opencv_perf_cudaobjdetect
+[ 98%] Linking CXX executable ../../bin/opencv_test_stereo
+[ 98%] Built target opencv_test_cudaobjdetect
+[ 99%] Linking CXX executable ../../bin/opencv_perf_stereo
+[100%] Built target opencv_test_cudaoptflow
+[100%] Linking CXX executable ../../bin/opencv_test_superres
+[100%] Built target opencv_test_stereo
+[100%] Linking CXX executable ../../bin/opencv_perf_superres
+[100%] Built target opencv_perf_cudaoptflow
+[100%] Linking CXX executable ../../bin/opencv_test_videostab
+[100%] Built target opencv_perf_stereo
+[100%] Building CXX object modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2.cpp.o
+[100%] Built target opencv_test_superres
+[100%] Building CXX object modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2_util.cpp.o
+[100%] Built target opencv_perf_superres
+[100%] Building CXX object modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2_numpy.cpp.o
+[100%] Built target opencv_test_videostab
+[100%] Building CXX object modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2_convert.cpp.o
+[100%] Building CXX object modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2_highgui.cpp.o
+[100%] Linking CXX shared module ../../lib/python3/cv2.cpython-312-x86_64-linux-gnu.so
+[100%] Built target opencv_python3
+tech24@DESKTOP-1VHTLCM:~/build$ ^C
+tech24@DESKTOP-1VHTLCM:~/build$ ^C
+tech24@DESKTOP-1VHTLCM:~/build$ sudo make install
+sudo ldconfig
+[  0%] Built target opencv_dnn_plugins
