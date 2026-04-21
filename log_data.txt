@@ -698,3 +698,103 @@ CMake Warning at /home/tech24/build/opencv_contrib/modules/cudacodec/CMakeLists.
 --     NVIDIA GPU arch:             61
 --     NVIDIA PTX archs:
 --
+--   cuDNN:                         YES (ver 9.21.0)
+--
+--   OpenCL:                        YES (no extra features)
+--     Include path:                /home/tech24/build/opencv/3rdparty/include/opencl/1.2
+--     Link libraries:              Dynamic load
+--
+--   Python (for build):            NO
+--
+--   Java:
+--     ant:                         NO
+--     Java:                        NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+--
+--   Install to:                    /usr/local
+-- -----------------------------------------------------------------
+--
+-- Configuring done (138.2s)
+-- Generating done (1.3s)
+-- Build files have been written to: /home/tech24/build
+tech24@DESKTOP-1VHTLCM:~/build$ cmake \
+-D WITH_CUDA=ON \
+-D WITH_CUDNN=ON \
+-D OPENCV_DNN_CUDA=ON \
+-D CUDA_ARCH_BIN=6.1 \
+-D CMAKE_C_COMPILER=gcc-12 \
+-D CMAKE_CXX_COMPILER=g++-12 \
+-D WITH_NVCUVID=ON \
+-D WITH_NVCUVENC=ON \
+-D VIDEO_CODEC_SDK_INCLUDE_DIR=/path/to/Video_Codec_SDK/Interface/ \
+-D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules/ \
+-D PYTHON3_EXECUTABLE=~/anaconda3/envs/cv/bin/python \
+..
+CMake Warning:
+  Ignoring extra path from command line:
+
+   ".."
+
+
+CMake Error: The source directory "/home/tech24" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+tech24@DESKTOP-1VHTLCM:~/build$ cmake \
+-D WITH_CUDA=ON \
+-D WITH_CUDNN=ON \
+-D OPENCV_DNN_CUDA=ON \
+-D CUDA_ARCH_BIN=8.6 \
+-D CMAKE_C_COMPILER=gcc-12 \
+-D CMAKE_CXX_COMPILER=g++-12 \
+-D WITH_NVCUVID=ON \
+-D WITH_NVCUVENC=ON \
+-D VIDEO_CODEC_SDK_INCLUDE_DIR=/path/to/Video_Codec_SDK/Interface/ \
+-D OPENCV_EXTRA_MODULES_PATH=./opencv_contrib/modules/ \
+-D PYTHON3_EXECUTABLE=~/anaconda3/envs/cv/bin/python \
+./opencv
+-- Detected processor: x86_64
+-- Looking for ccache - not found
+-- Could NOT find AVIF (missing: AVIF_LIBRARY AVIF_INCLUDE_DIR)
+-- Could NOT find OpenJPEG (minimal suitable version: 2.0, recommended version >= 2.3.1). OpenJPEG will be built from sources
+-- OpenJPEG: VERSION = 2.5.3, BUILD = opencv-4.14.0-pre-openjp2-2.5.3
+-- OpenJPEG libraries will be built from sources: libopenjp2 (version "2.5.3")
+-- libva: missing va.h header (VA_INCLUDE_DIR)
+-- found Intel IPP (ICV version): 2022.3.0 [2022.3.0]
+-- at: /home/tech24/build/3rdparty/ippicv/ippicv_lnx/icv
+-- found Intel IPP Integration Wrappers sources: 2022.3.0
+-- at: /home/tech24/build/3rdparty/ippicv/ippicv_lnx/iw
+-- NVCUVID: Header not found, WITH_NVCUVID requires Nvidia decoding library header /usr;/usr/include/nvcuvid.h
+-- NVCUVENC: Header not found, WITH_NVCUVENC requires Nvidia encoding library header /usr;/usr/include/nvEncodeAPI.h
+-- CUDA detected: 12.0
+-- CUDA: Using CUDA_ARCH_BIN=8.6
+-- CUDA: NVCC target flags -gencode;arch=compute_86,code=sm_86;-D_FORCE_INLINES
+-- Could NOT find Atlas (missing: Atlas_CBLAS_INCLUDE_DIR Atlas_CLAPACK_INCLUDE_DIR Atlas_CBLAS_LIBRARY Atlas_BLAS_LIBRARY Atlas_LAPACK_LIBRARY)
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES)
+-- Could NOT find LAPACK (missing: LAPACK_LIBRARIES)
+    Reason given by package: LAPACK could not be found because dependency BLAS could not be found.
+
+-- Could NOT find JNI (missing: JAVA_INCLUDE_PATH JAVA_INCLUDE_PATH2 AWT)
+-- VTK is not found. Please set -DVTK_DIR in CMake to VTK build directory, or to VTK install subdirectory with VTKConfig.cmake file
+-- Checking for module 'gtk+-3.0'
+--   Package 'gtk+-3.0', required by 'virtual:world', not found
+-- Checking for module 'libavdevice'
+--   Package 'libavdevice', required by 'virtual:world', not found
+-- Module opencv_alphamat disabled because the following dependencies are not found: Eigen
+-- freetype2:   YES (ver 26.1.20)
+-- harfbuzz:    YES (ver 8.3.0)
+-- Could NOT find HDF5 (missing: HDF5_LIBRARIES HDF5_INCLUDE_DIRS) (found version "")
+-- Julia not found. Not compiling Julia Bindings.
+-- Module opencv_ovis disabled because OGRE3D was not found
+-- No preference for use of exported gflags CMake configuration set, and no hints for include/library directories provided. Defaulting to preferring an installed/exported gflags CMake configuration if available.
+-- Failed to find installed gflags CMake configuration, searching for gflags build directories exported with CMake.
+-- Failed to find gflags - Failed to find an installed/exported CMake configuration for gflags, will perform search for installed gflags components.
+-- Failed to find gflags - Could not find gflags include directory, set GFLAGS_INCLUDE_DIR to directory containing gflags/gflags.h
+-- Failed to find glog - Could not find glog include directory, set GLOG_INCLUDE_DIR to directory containing glog/logging.h
+-- Module opencv_sfm disabled because the following dependencies are not found: Eigen Glog/Gflags
+-- Checking for module 'tesseract'
+--   Package 'tesseract', required by 'virtual:world', not found
+-- Tesseract:   NO
+-- Allocator metrics storage type: 'long long'
+-- Excluding from source files list: <BUILD>/modules/core/test/test_intrin256.lasx.cpp
+-- Excluding from source files list: <BUILD>/opencv/modules/imgproc/src/imgwarp.lasx.cpp
