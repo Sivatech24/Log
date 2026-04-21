@@ -6198,3 +6198,103 @@ Install the project...
 -- Installing: /usr/local/include/opencv4/opencv2/xfeatures2d/cuda.hpp
 -- Installing: /usr/local/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
 -- Installing: /usr/local/lib/libopencv_ximgproc.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_ximgproc.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_ximgproc.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_ximgproc.so
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/brightedges.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/color_match.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/deriche_filter.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/disparity_filter.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/edge_drawing.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/edge_filter.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/edgeboxes.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/edgepreserving_filter.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/estimated_covariance.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/fast_hough_transform.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/fast_line_detector.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/find_ellipses.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/fourier_descriptors.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/lsc.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/paillou_filter.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/peilin.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/radon_transform.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/ridgefilter.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/run_length_morphology.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/scansegment.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/seeds.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/segmentation.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/slic.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/sparse_match_interpolator.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/structured_edge_detection.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ximgproc/weighted_median_filter.hpp
+-- Installing: /usr/local/lib/libopencv_xobjdetect.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_xobjdetect.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_xobjdetect.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_xobjdetect.so
+-- Installing: /usr/local/include/opencv4/opencv2/xobjdetect.hpp
+-- Installing: /usr/local/bin/opencv_waldboost_detector
+-- Set non-toolchain portion of runtime path of "/usr/local/bin/opencv_waldboost_detector" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_aruco.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_aruco.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_aruco.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_aruco.so
+-- Installing: /usr/local/include/opencv4/opencv2/aruco.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/aruco/aruco_calib.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/aruco/charuco.hpp
+-- Installing: /usr/local/lib/libopencv_bgsegm.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_bgsegm.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_bgsegm.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_bgsegm.so
+-- Installing: /usr/local/include/opencv4/opencv2/bgsegm.hpp
+-- Installing: /usr/local/lib/libopencv_bioinspired.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_bioinspired.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_bioinspired.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_bioinspired.so
+-- Installing: /usr/local/include/opencv4/opencv2/bioinspired.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/bioinspired/bioinspired.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/bioinspired/retina.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/bioinspired/retinafasttonemapping.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/bioinspired/transientareassegmentationmodule.hpp
+-- Installing: /usr/local/lib/libopencv_ccalib.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_ccalib.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_ccalib.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_ccalib.so
+-- Installing: /usr/local/include/opencv4/opencv2/ccalib.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ccalib/multicalib.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ccalib/omnidir.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/ccalib/randpattern.hpp
+-- Installing: /usr/local/lib/libopencv_cudabgsegm.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_cudabgsegm.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudabgsegm.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_cudabgsegm.so
+-- Installing: /usr/local/include/opencv4/opencv2/cudabgsegm.hpp
+-- Installing: /usr/local/lib/libopencv_cudalegacy.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_cudalegacy.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudalegacy.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_cudalegacy.so
+-- Installing: /usr/local/include/opencv4/opencv2/cudalegacy.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudalegacy/NCV.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudalegacy/NCVBroxOpticalFlow.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudalegacy/NCVHaarObjectDetection.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudalegacy/NCVPyramid.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/cudalegacy/NPP_staging.hpp
+-- Installing: /usr/local/lib/libopencv_cudaobjdetect.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_cudaobjdetect.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudaobjdetect.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_cudaobjdetect.so
+-- Installing: /usr/local/include/opencv4/opencv2/cudaobjdetect.hpp
+-- Installing: /usr/local/lib/libopencv_dnn_objdetect.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_dnn_objdetect.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_dnn_objdetect.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_dnn_objdetect.so
+-- Installing: /usr/local/include/opencv4/opencv2/core_detect.hpp
+-- Installing: /usr/local/lib/libopencv_dpm.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_dpm.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_dpm.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_dpm.so
+-- Installing: /usr/local/include/opencv4/opencv2/dpm.hpp
+-- Installing: /usr/local/lib/libopencv_face.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_face.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_face.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_face.so
