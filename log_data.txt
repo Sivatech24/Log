@@ -6498,3 +6498,103 @@ Install the project...
 -- Installing: /usr/local/share/opencv4/haarcascades/haarcascade_frontalface_alt.xml
 -- Installing: /usr/local/share/opencv4/haarcascades/haarcascade_frontalface_alt2.xml
 -- Installing: /usr/local/share/opencv4/haarcascades/haarcascade_frontalface_alt_tree.xml
+-- Installing: /usr/local/share/opencv4/haarcascades/haarcascade_frontalface_default.xml
+-- Installing: /usr/local/share/opencv4/haarcascades/haarcascade_fullbody.xml
+-- Installing: /usr/local/share/opencv4/haarcascades/haarcascade_lefteye_2splits.xml
+-- Installing: /usr/local/share/opencv4/haarcascades/haarcascade_license_plate_rus_16stages.xml
+-- Installing: /usr/local/share/opencv4/haarcascades/haarcascade_lowerbody.xml
+-- Installing: /usr/local/share/opencv4/haarcascades/haarcascade_profileface.xml
+-- Installing: /usr/local/share/opencv4/haarcascades/haarcascade_righteye_2splits.xml
+-- Installing: /usr/local/share/opencv4/haarcascades/haarcascade_russian_plate_number.xml
+-- Installing: /usr/local/share/opencv4/haarcascades/haarcascade_smile.xml
+-- Installing: /usr/local/share/opencv4/haarcascades/haarcascade_upperbody.xml
+-- Installing: /usr/local/share/opencv4/lbpcascades/lbpcascade_frontalcatface.xml
+-- Installing: /usr/local/share/opencv4/lbpcascades/lbpcascade_frontalface.xml
+-- Installing: /usr/local/share/opencv4/lbpcascades/lbpcascade_frontalface_improved.xml
+-- Installing: /usr/local/share/opencv4/lbpcascades/lbpcascade_profileface.xml
+-- Installing: /usr/local/share/opencv4/lbpcascades/lbpcascade_silverware.xml
+-- Installing: /usr/local/bin/opencv_annotation
+-- Set non-toolchain portion of runtime path of "/usr/local/bin/opencv_annotation" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_visualisation
+-- Set non-toolchain portion of runtime path of "/usr/local/bin/opencv_visualisation" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_interactive-calibration
+-- Set non-toolchain portion of runtime path of "/usr/local/bin/opencv_interactive-calibration" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_version
+-- Set non-toolchain portion of runtime path of "/usr/local/bin/opencv_version" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_model_diagnostics
+-- Set non-toolchain portion of runtime path of "/usr/local/bin/opencv_model_diagnostics" to "/usr/local/lib"
+tech24@DESKTOP-1VHTLCM:~/build$ sudo ldconfig
+tech24@DESKTOP-1VHTLCM:~/build$ python3 -c "import cv2; print(cv2.__file__)"
+/usr/lib/python3/dist-packages/cv2.cpython-312-x86_64-linux-gnu.so
+tech24@DESKTOP-1VHTLCM:~/build$ sudo apt remove python3-opencv
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  linux-headers-6.8.0-107 linux-headers-6.8.0-107-generic nvidia-cuda-toolkit-gcc
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  python3-opencv
+0 upgraded, 0 newly installed, 1 to remove and 2 not upgraded.
+After this operation, 8312 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 132297 files and directories currently installed.)
+Removing python3-opencv:amd64 (4.6.0+dfsg-13.1ubuntu1) ...
+tech24@DESKTOP-1VHTLCM:~/build$ python3 -c "import cv2; print(cv2.__file__)"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'cv2'
+tech24@DESKTOP-1VHTLCM:~/build$ find ~/build/lib/python3 -name "cv2*.so"
+find: ‘/home/tech24/build/lib/python3’: No such file or directory
+tech24@DESKTOP-1VHTLCM:~/build$ sudo make install
+[  0%] Built target opencv_dnn_plugins
+[  0%] Built target opencv_highgui_plugins
+[  1%] Built target libopenjp2
+[  2%] Built target ippiw
+[  3%] Built target ipphal
+[  3%] Built target opencv_videoio_plugins
+[  3%] Built target opencv_cudev
+[  3%] Built target ittnotify
+[  7%] Built target opencv_core
+[ 11%] Built target opencv_imgproc
+[ 12%] Built target opencv_imgcodecs
+[ 13%] Built target opencv_videoio
+[ 13%] Built target opencv_highgui
+[ 13%] Built target opencv_ts
+[ 14%] Built target opencv_test_cudev
+[ 16%] Built target opencv_test_core
+[ 18%] Built target opencv_perf_core
+[ 20%] Built target opencv_cudaarithm
+[ 21%] Built target opencv_test_cudaarithm
+[ 21%] Built target opencv_perf_cudaarithm
+[ 21%] Built target opencv_flann
+[ 21%] Built target opencv_test_flann
+[ 23%] Built target opencv_test_imgproc
+[ 25%] Built target opencv_perf_imgproc
+[ 25%] Built target opencv_intensity_transform
+[ 26%] Built target opencv_test_intensity_transform
+[ 26%] Built target opencv_ml
+[ 26%] Built target opencv_test_ml
+[ 26%] Built target opencv_phase_unwrapping
+[ 26%] Built target opencv_test_phase_unwrapping
+[ 26%] Built target opencv_plot
+[ 26%] Built target opencv_quality
+[ 26%] Built target opencv_test_quality
+[ 27%] Built target opencv_reg
+[ 27%] Built target opencv_test_reg
+[ 27%] Built target opencv_perf_reg
+[ 27%] Built target opencv_signal
+[ 27%] Built target opencv_test_signal
+[ 27%] Built target opencv_perf_signal
+[ 27%] Built target opencv_surface_matching
+[ 28%] Built target opencv_cudafilters
+[ 28%] Built target opencv_test_cudafilters
+[ 28%] Built target opencv_perf_cudafilters
+[ 30%] Built target opencv_cudaimgproc
+[ 31%] Built target opencv_test_cudaimgproc
+[ 32%] Built target opencv_perf_cudaimgproc
+[ 32%] Built target opencv_cudawarping
+[ 32%] Built target opencv_test_cudawarping
+[ 32%] Built target opencv_perf_cudawarping
+[ 34%] Built target libprotobuf
+[ 42%] Built target opencv_dnn
