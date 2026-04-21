@@ -3498,3 +3498,103 @@ In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::ra
 [ 47%] Built target opencv_test_core
 [ 47%] Building CXX object modules/cudawarping/CMakeFiles/opencv_test_cudawarping.dir/test/test_remap.cpp.o
 [ 47%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_color.cu.o
+[ 47%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/npy_blob.cpp.o
+[ 47%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_backends.cpp.o
+[ 47%] Linking CXX executable ../../bin/opencv_perf_cudawarping
+[ 47%] Built target opencv_perf_cudawarping
+[ 47%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_caffe_importer.cpp.o
+[ 47%] Building CXX object modules/cudawarping/CMakeFiles/opencv_test_cudawarping.dir/test/test_resize.cpp.o
+[ 47%] Building CXX object modules/cudawarping/CMakeFiles/opencv_test_cudawarping.dir/test/test_warp_affine.cpp.o
+[ 47%] Building CXX object modules/cudawarping/CMakeFiles/opencv_test_cudawarping.dir/test/test_warp_perspective.cpp.o
+[ 47%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_connectedcomponents.cu.o
+[ 47%] Linking CXX executable ../../bin/opencv_test_cudawarping
+[ 47%] Built target opencv_test_cudawarping
+[ 48%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_corners.cu.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_common.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_caffe.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_common.cpp.o
+[ 48%] Building CXX object modules/dnn_superres/CMakeFiles/opencv_dnn_superres.dir/src/dnn_superres.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_darknet_importer.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_convolution.cpp.o
+[ 48%] Linking CXX shared library ../../lib/libopencv_dnn_superres.so
+[ 48%] Built target opencv_dnn_superres
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_googlenet.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_convolution1d.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_graph_simplifier.cpp.o
+[ 48%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_debayer.cu.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/ocl/test_brute_force_matcher.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_ie_models.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_convolution3d.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_int8_layers.cpp.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/ocl/test_feature2d.cpp.o
+[ 48%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_generalized_hough.cu.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_einsum.cpp.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_affine_feature.cpp.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_agast.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_gemm.cpp.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_akaze.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_layers.cpp.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_blobdetector.cpp.o
+[ 48%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_gftt.cu.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_layer.cpp.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_brisk.cpp.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_descriptors_invariance.cpp.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_descriptors_regression.cpp.o
+[ 48%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hist.cu.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_detectors_invariance.cpp.o
+[ 48%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hough_circles.cu.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_main.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_net.cpp.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_detectors_regression.cpp.o
+[ 48%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hough_lines.cu.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_main.cpp.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_drawing.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_misc.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_recurrent.cpp.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_fast.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_resize.cpp.o
+[ 48%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_keypoints.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_model.cpp.o
+[ 48%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_slice.cpp.o
+[ 49%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_main.cpp.o
+[ 49%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_matchers_algorithmic.cpp.o
+[ 49%] Building CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_utils.cpp.o
+[ 49%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_nms.cpp.o
+[ 49%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_mser.cpp.o
+[ 49%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_onnx_conformance.cpp.o
+[ 49%] Linking CXX executable ../../bin/opencv_perf_dnn
+[ 49%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_nearestneighbors.cpp.o
+[ 49%] Built target opencv_perf_dnn
+[ 49%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hough_segments.cu.o
+[ 49%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_onnx_importer.cpp.o
+[ 49%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_orb.cpp.o
+[ 49%] Building CXX object modules/features2d/CMakeFiles/opencv_perf_features2d.dir/perf/opencl/perf_brute_force_matcher.cpp.o
+[ 49%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_sift.cpp.o
+[ 49%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_utils.cpp.o
+[ 49%] Linking CXX executable ../../bin/opencv_test_features2d
+[ 49%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_match_template.cu.o
+[ 49%] Built target opencv_test_features2d
+[ 49%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_tf_importer.cpp.o
+[ 49%] Building CXX object modules/features2d/CMakeFiles/opencv_perf_features2d.dir/perf/opencl/perf_feature2d.cpp.o
+[ 49%] Building CXX object modules/features2d/CMakeFiles/opencv_perf_features2d.dir/perf/perf_batchDistance.cpp.o
+[ 49%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mean_shift.cu.o
+[ 49%] Building CXX object modules/features2d/CMakeFiles/opencv_perf_features2d.dir/perf/perf_fast.cpp.o
+[ 49%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/bilateral_filter.cpp.o
+[ 49%] Building CXX object modules/freetype/CMakeFiles/opencv_test_freetype.dir/test/test_basic.cpp.o
+[ 49%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_tflite_importer.cpp.o
+[ 50%] Building CXX object modules/features2d/CMakeFiles/opencv_perf_features2d.dir/perf/perf_feature2d.cpp.o
+[ 50%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/blend.cpp.o
+[ 50%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/canny.cpp.o
+[ 50%] Building CXX object modules/freetype/CMakeFiles/opencv_test_freetype.dir/test/test_main.cpp.o
+[ 50%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/color.cpp.o
+[ 50%] Building CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_torch_importer.cpp.o
+[ 50%] Building CXX object modules/features2d/CMakeFiles/opencv_perf_features2d.dir/perf/perf_main.cpp.o
+[ 50%] Building CXX object modules/freetype/CMakeFiles/opencv_test_freetype.dir/test/test_putText.cpp.o
+[ 50%] Linking CXX executable ../../bin/opencv_perf_features2d
+[ 50%] Built target opencv_perf_features2d
+[ 50%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/connectedcomponents.cpp.o
+[ 50%] Building CXX object modules/fuzzy/CMakeFiles/opencv_test_fuzzy.dir/test/test_f0.cpp.o
+[ 50%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/corners.cpp.o
+[ 50%] Linking CXX executable ../../bin/opencv_test_freetype
+[ 50%] Building CXX object modules/fuzzy/CMakeFiles/opencv_test_fuzzy.dir/test/test_f1.cpp.o
+[ 50%] Linking CXX executable ../../bin/opencv_test_dnn
