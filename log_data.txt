@@ -4198,3 +4198,103 @@ In member function ‘cv::face::tree_node& cv::face::tree_node::operator=(const 
 [ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/common/reedsolomon/genericgfpoly.cpp.o
 [ 75%] Linking CXX executable ../../bin/opencv_test_video
 [ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/common/reedsolomon/reed_solomon_decoder.cpp.o
+[ 75%] Building CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_main.cpp.o
+[ 75%] Built target opencv_test_video
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/common/str.cpp.o
+[ 75%] Building CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_optflowpyrlk.cpp.o
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/common/stringutils.cpp.o
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/common/unicomblock.cpp.o
+[ 75%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_test_xfeatures2d.dir/test/test_detectors.cpp.o
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/errorhandler.cpp.o
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/luminance_source.cpp.o
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/decoder/bitmatrixparser.cpp.o
+[ 75%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_test_xfeatures2d.dir/test/test_features2d.cpp.o
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/decoder/datablock.cpp.o
+[ 75%] Linking CXX executable ../../bin/opencv_test_objdetect
+[ 75%] Built target opencv_test_objdetect
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/decoder/datamask.cpp.o
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/decoder/decoded_bit_stream_parser.cpp.o
+[ 75%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_perf_xfeatures2d.dir/perf/perf_beblid.cpp.o
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/decoder/decoder.cpp.o
+[ 75%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_perf_xfeatures2d.dir/perf/perf_daisy.cpp.o
+[ 75%] Building CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_trackers.cpp.o
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/decoder/mode.cpp.o
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/detector/alignment_pattern.cpp.o
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/detector/alignment_pattern_finder.cpp.o
+[ 75%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_test_xfeatures2d.dir/test/test_gms_matcher.cpp.o
+[ 75%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/detector/detector.cpp.o
+[ 75%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_perf_xfeatures2d.dir/perf/perf_latch.cpp.o
+[ 75%] Building CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_variational_refinement.cpp.o
+[ 75%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_test_xfeatures2d.dir/test/test_keypoints.cpp.o
+[ 75%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_perf_xfeatures2d.dir/perf/perf_main.cpp.o
+[ 76%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/detector/finder_pattern.cpp.o
+[ 76%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/detector/finder_pattern_finder.cpp.o
+[ 76%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_perf_xfeatures2d.dir/perf/perf_msd.cpp.o
+[ 76%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_test_xfeatures2d.dir/test/test_logos_matcher.cpp.o
+[ 76%] Linking CXX executable ../../bin/opencv_perf_video
+[ 76%] Built target opencv_perf_video
+[ 76%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/detector/finder_pattern_info.cpp.o
+[ 76%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_test_xfeatures2d.dir/test/test_main.cpp.o
+[ 76%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_perf_xfeatures2d.dir/perf/perf_surf.cpp.o
+[ 76%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_test_xfeatures2d.dir/test/test_rotation_and_scale_invariance.cpp.o
+[ 76%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/detector/pattern_result.cpp.o
+[ 76%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/error_correction_level.cpp.o
+[ 76%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/format_information.cpp.o
+[ 76%] Processing OpenCL kernels (ximgproc)
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/adaptive_manifold_filter_n.cpp.o
+[ 76%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_perf_xfeatures2d.dir/perf/perf_surf.cuda.cpp.o
+[ 76%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/qrcode_reader.cpp.o
+[ 76%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_perf_xfeatures2d.dir/perf/perf_surf.ocl.cpp.o
+[ 76%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/qrcode/version.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/anisodiff.cpp.o
+[ 76%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_perf_xfeatures2d.dir/perf/perf_teblid.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/bilateral_texture_filter.cpp.o
+[ 76%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_test_xfeatures2d.dir/test/test_surf.cuda.cpp.o
+[ 76%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_perf_xfeatures2d.dir/perf/perf_vgg.cpp.o
+[ 76%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/reader.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/brightedges.cpp.o
+[ 76%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_test_xfeatures2d.dir/test/test_surf.ocl.cpp.o
+[ 76%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/result.cpp.o
+[ 76%] Linking CXX executable ../../bin/opencv_perf_xfeatures2d
+[ 76%] Built target opencv_perf_xfeatures2d
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/deriche_filter.cpp.o
+[ 77%] Building CXX object modules/wechat_qrcode/CMakeFiles/opencv_wechat_qrcode.dir/src/zxing/resultpoint.cpp.o
+[ 77%] Building CXX object modules/xobjdetect/tools/waldboost_detector/CMakeFiles/opencv_waldboost_detector.dir/waldboost_detector.cpp.o
+[ 77%] Linking CXX executable ../../bin/opencv_test_xfeatures2d
+[ 77%] Linking CXX shared library ../../lib/libopencv_wechat_qrcode.so
+[ 77%] Built target opencv_test_xfeatures2d
+[ 77%] Built target opencv_wechat_qrcode
+[ 77%] Building CXX object modules/bgsegm/CMakeFiles/opencv_bgsegm.dir/src/bgfg_gaussmix.cpp.o
+[ 77%] Building CXX object modules/bgsegm/CMakeFiles/opencv_bgsegm.dir/src/bgfg_gmg.cpp.o
+[ 77%] Linking CXX executable ../../../../bin/opencv_waldboost_detector
+[ 77%] Built target opencv_waldboost_detector
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/disparity_filters.cpp.o
+[ 77%] Building CXX object modules/bgsegm/CMakeFiles/opencv_bgsegm.dir/src/bgfg_gsoc.cpp.o
+[ 77%] Building NVCC (Device) object modules/cudabgsegm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mog2.cu.o
+[ 77%] Building NVCC (Device) object modules/cudabgsegm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mog.cu.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/domain_transform.cpp.o
+[ 77%] Building CXX object modules/bgsegm/CMakeFiles/opencv_bgsegm.dir/src/bgfg_subcnt.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/dtfilter_cpu.cpp.o
+[ 77%] Building CXX object modules/bgsegm/CMakeFiles/opencv_bgsegm.dir/src/synthetic_seq.cpp.o
+[ 77%] Linking CXX shared library ../../lib/libopencv_bgsegm.so
+[ 77%] Built target opencv_bgsegm
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/edge_drawing.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/edgeaware_filters_common.cpp.o
+[ 77%] Building CXX object modules/cudabgsegm/CMakeFiles/opencv_cudabgsegm.dir/src/mog.cpp.o
+[ 77%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_needle_map.cu.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/edgeboxes.cpp.o
+[ 77%] Building CXX object modules/cudabgsegm/CMakeFiles/opencv_cudabgsegm.dir/src/mog2.cpp.o
+[ 77%] Linking CXX shared library ../../lib/libopencv_cudabgsegm.so
+[ 77%] Built target opencv_cudabgsegm
+[ 77%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCV.cu.o
+[ 77%] Building CXX object modules/face/CMakeFiles/opencv_test_face.dir/test/test_bif.cpp.o
+[ 77%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCVBroxOpticalFlow.cu.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/edgepreserving_filter.cpp.o
+[ 77%] Building CXX object modules/face/CMakeFiles/opencv_test_face.dir/test/test_face_align.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/estimated_covariance.cpp.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/grunarg.cpp.o
+[ 77%] Building CXX object modules/face/CMakeFiles/opencv_test_face.dir/test/test_facemark.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/fast_hough_transform.cpp.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gorigin.cpp.o
+[ 77%] Building CXX object modules/face/CMakeFiles/opencv_test_face.dir/test/test_facemark_aam.cpp.o
+[ 77%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCVHaarObjectDetection.cu.o
