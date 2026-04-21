@@ -9898,3 +9898,103 @@ Install the project...
 -- Up-to-date: /usr/local/lib/libopencv_plot.so.414
 -- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_plot.so.4.14.0" to "/usr/local/lib"
 -- Up-to-date: /usr/local/lib/libopencv_plot.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/plot.hpp
+-- Installing: /usr/local/lib/libopencv_quality.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_quality.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_quality.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_quality.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/quality.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/quality/quality_utils.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/quality/qualitybase.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/quality/qualitybrisque.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/quality/qualitygmsd.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/quality/qualitymse.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/quality/qualitypsnr.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/quality/qualityssim.hpp
+-- Up-to-date: /usr/local/share/opencv4/quality/brisque_model_live.yml
+-- Up-to-date: /usr/local/share/opencv4/quality/brisque_range_live.yml
+-- Installing: /usr/local/lib/libopencv_reg.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_reg.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_reg.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_reg.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/reg/map.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/reg/mapaffine.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/reg/mapper.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/reg/mappergradaffine.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/reg/mappergradeuclid.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/reg/mappergradproj.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/reg/mappergradshift.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/reg/mappergradsimilar.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/reg/mapperpyramid.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/reg/mapprojec.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/reg/mapshift.hpp
+-- Installing: /usr/local/lib/libopencv_signal.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_signal.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_signal.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_signal.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/signal.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/signal/signal_resample.hpp
+-- Installing: /usr/local/lib/libopencv_surface_matching.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_surface_matching.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_surface_matching.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_surface_matching.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/surface_matching.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/surface_matching/icp.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/surface_matching/pose_3d.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/surface_matching/ppf_helpers.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/surface_matching/ppf_match_3d.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/surface_matching/t_hash_int.hpp
+-- Installing: /usr/local/lib/libopencv_cudafilters.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_cudafilters.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudafilters.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_cudafilters.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudafilters.hpp
+-- Installing: /usr/local/lib/libopencv_cudaimgproc.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_cudaimgproc.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudaimgproc.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_cudaimgproc.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudaimgproc.hpp
+-- Installing: /usr/local/lib/libopencv_cudawarping.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_cudawarping.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudawarping.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_cudawarping.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudawarping.hpp
+-- Installing: /usr/local/lib/libopencv_dnn.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_dnn.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_dnn.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_dnn.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/dnn.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/dnn/all_layers.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/dnn/dict.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/dnn/dnn.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/dnn/layer.details.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/dnn/layer.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/dnn/shape_utils.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/dnn/utils/debug_utils.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/dnn/version.hpp
+-- Installing: /usr/local/lib/libopencv_dnn_superres.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_dnn_superres.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_dnn_superres.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_dnn_superres.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/dnn_superres.hpp
+-- Installing: /usr/local/lib/libopencv_features2d.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_features2d.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_features2d.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_features2d.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/features2d.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/features2d/features2d.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/features2d/hal/interface.h
+-- Up-to-date: /usr/local/share/licenses/opencv4/mscr-chi_table_LICENSE.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/features2d-LICENSE.KAZE
+-- Up-to-date: /usr/local/share/licenses/opencv4/features2d-LICENSE.AKAZE
+-- Installing: /usr/local/lib/libopencv_freetype.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_freetype.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_freetype.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_freetype.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/freetype.hpp
+-- Installing: /usr/local/lib/libopencv_fuzzy.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_fuzzy.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_fuzzy.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_fuzzy.so
