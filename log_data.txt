@@ -4298,3 +4298,103 @@ In member function ‘cv::face::tree_node& cv::face::tree_node::operator=(const 
 [ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gorigin.cpp.o
 [ 77%] Building CXX object modules/face/CMakeFiles/opencv_test_face.dir/test/test_facemark_aam.cpp.o
 [ 77%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCVHaarObjectDetection.cu.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gmat.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/fast_line_detector.cpp.o
+[ 77%] Building CXX object modules/face/CMakeFiles/opencv_test_face.dir/test/test_facemark_lbf.cpp.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/garray.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/fbs_filter.cpp.o
+[ 77%] Building CXX object modules/face/CMakeFiles/opencv_test_face.dir/test/test_loadsave.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/fgs_filter.cpp.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gopaque.cpp.o
+[ 77%] Building CXX object modules/face/CMakeFiles/opencv_test_face.dir/test/test_mace.cpp.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gscalar.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/find_ellipses.cpp.o
+[ 77%] Building CXX object modules/face/CMakeFiles/opencv_test_face.dir/test/test_main.cpp.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gframe.cpp.o
+[ 77%] Linking CXX executable ../../bin/opencv_test_face
+[ 77%] Built target opencv_test_face
+[ 77%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCVPyramid.cu.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gkernel.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/fourier_descriptors.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/graphsegmentation.cpp.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gbackend.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/guided_filter.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/joint_bilateral_filter.cpp.o
+[ 77%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NPP_staging.cu.o
+[ 77%] Processing OpenCL kernels (tracking)
+[ 77%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/augmented_unscented_kalman.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/l0_smooth.cpp.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gcommon.cpp.o
+[ 77%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/feature.cpp.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gproto.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/lsc.cpp.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gnode.cpp.o
+[ 77%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/featureColorName.cpp.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gcall.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/niblack_thresholding.cpp.o
+[ 77%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/gtrUtils.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/paillou_filter.cpp.o
+[ 77%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/kuhn_munkres.cpp.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gcomputation.cpp.o
+[ 77%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bm.cu.o
+[ 77%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/mosseTracker.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/peilin.cpp.o
+[ 77%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/multiTracker.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/quaternion.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/radon_transform.cpp.o
+[ 77%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/operators.cpp.o
+[ 78%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/multiTracker_alt.cpp.o
+[ 78%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bm_fast.cu.o
+[ 78%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/ridgedetectionfilter.cpp.o
+[ 78%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/onlineBoosting.cpp.o
+[ 78%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_core.cpp.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/rolling_guidance_filter.cpp.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/tldDataset.cpp.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/run_length_morphology.cpp.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/tldDetector.cpp.o
+[ 79%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_calib3d.cu.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/scansegment.cpp.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/tldEnsembleClassifier.cpp.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/tldModel.cpp.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/seeds.cpp.o
+[ 79%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_imgproc.cpp.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/tldTracker.cpp.o
+[ 79%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_ccomponetns.cu.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/selectivesearchsegmentation.cpp.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/tldUtils.cpp.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/tracker.cpp.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/slic.cpp.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerBoosting.cpp.o
+[ 79%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_fgd.cu.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerBoostingModel.cpp.o
+[ 79%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_video.cpp.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/sparse_match_interpolators.cpp.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerCSRT.cpp.o
+[ 79%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_nnparsers.cpp.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerCSRTScaleEstimation.cpp.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/structured_edge_detection.cpp.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerCSRTSegmentation.cpp.o
+[ 79%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_ot.cpp.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/thinning.cpp.o
+[ 79%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_gmg.cu.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerCSRTUtils.cpp.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/weighted_median_filter.cpp.o
+[ 79%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_streaming.cpp.o
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerFeature.cpp.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/opencl_kernels_ximgproc.cpp.o
+[ 79%] Linking CXX shared library ../../lib/libopencv_ximgproc.so
+[ 79%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerFeatureSet.cpp.o
+[ 79%] Built target opencv_ximgproc
+[ 80%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/render.cpp.o
+[ 80%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_stereo.cpp.o
+[ 80%] Building CXX object modules/tracking/CMakeFiles/opencv_tracking.dir/src/trackerKCF.cpp.o
+[ 80%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/NCV.cpp.o
+[ 81%] Building CXX object modules/xphoto/CMakeFiles/opencv_test_xphoto.dir/test/dct_image_denoising.cpp.o
+In file included from /usr/include/string.h:548,
+                 from /usr/include/c++/12/cstring:42,
+                 from /home/tech24/build/opencv/modules/core/include/opencv2/core/cvstd.hpp:53,
+                 from /home/tech24/build/opencv/modules/core/include/opencv2/core/base.hpp:58,
+                 from /home/tech24/build/opencv/modules/core/include/opencv2/core.hpp:53,
+                 from /home/tech24/build/opencv/modules/core/include/opencv2/core/cuda.hpp:51,
+                 from /home/tech24/build/opencv_contrib/modules/cudalegacy/include/opencv2/cudalegacy.hpp:46,
+                 from /home/tech24/build/opencv_contrib/modules/cudalegacy/src/precomp.hpp:57,
