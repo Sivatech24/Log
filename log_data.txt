@@ -5298,3 +5298,103 @@ CMake Warning at /home/tech24/build/opencv_contrib/modules/cudacodec/CMakeLists.
 [ 42%] Linking CXX executable ../../bin/opencv_test_dnn_superres
 [ 43%] Built target opencv_test_dnn_superres
 [ 43%] Linking CXX executable ../../bin/opencv_perf_dnn_superres
+[ 43%] Built target opencv_perf_dnn_superres
+[ 43%] Linking CXX shared library ../../lib/libopencv_features2d.so
+[ 44%] Built target opencv_features2d
+[ 44%] Linking CXX executable ../../bin/opencv_test_features2d
+[ 45%] Built target opencv_test_features2d
+[ 45%] Linking CXX executable ../../bin/opencv_perf_features2d
+[ 46%] Built target opencv_perf_features2d
+[ 46%] Linking CXX shared library ../../lib/libopencv_freetype.so
+[ 46%] Built target opencv_freetype
+[ 46%] Linking CXX executable ../../bin/opencv_test_freetype
+[ 46%] Built target opencv_test_freetype
+[ 46%] Linking CXX shared library ../../lib/libopencv_fuzzy.so
+[ 47%] Built target opencv_fuzzy
+[ 47%] Linking CXX executable ../../bin/opencv_test_fuzzy
+[ 47%] Built target opencv_test_fuzzy
+[ 47%] Linking CXX shared library ../../lib/libopencv_hfs.so
+[ 48%] Built target opencv_hfs
+[ 48%] Linking CXX shared library ../../lib/libopencv_img_hash.so
+[ 48%] Built target opencv_img_hash
+[ 48%] Linking CXX executable ../../bin/opencv_test_img_hash
+[ 48%] Built target opencv_test_img_hash
+[ 48%] Linking CXX executable ../../bin/opencv_test_imgcodecs
+[ 49%] Built target opencv_test_imgcodecs
+[ 49%] Linking CXX executable ../../bin/opencv_perf_imgcodecs
+[ 49%] Built target opencv_perf_imgcodecs
+[ 49%] Linking CXX shared library ../../lib/libopencv_line_descriptor.so
+[ 49%] Built target opencv_line_descriptor
+[ 49%] Linking CXX executable ../../bin/opencv_test_line_descriptor
+[ 49%] Built target opencv_test_line_descriptor
+[ 49%] Linking CXX executable ../../bin/opencv_perf_line_descriptor
+[ 49%] Built target opencv_perf_line_descriptor
+[ 49%] Linking CXX shared library ../../lib/libopencv_photo.so
+[ 50%] Built target opencv_photo
+[ 50%] Linking CXX executable ../../bin/opencv_test_photo
+[ 51%] Built target opencv_test_photo
+[ 51%] Linking CXX executable ../../bin/opencv_perf_photo
+[ 51%] Built target opencv_perf_photo
+[ 52%] Linking CXX shared library ../../lib/libopencv_saliency.so
+[ 52%] Built target opencv_saliency
+[ 52%] Linking CXX executable ../../bin/opencv_test_saliency
+[ 52%] Built target opencv_test_saliency
+[ 52%] Linking CXX shared library ../../lib/libopencv_text.so
+[ 52%] Built target opencv_text
+[ 52%] Linking CXX executable ../../bin/opencv_test_text
+[ 52%] Built target opencv_test_text
+[ 52%] Linking CXX executable ../../bin/opencv_test_videoio
+[ 53%] Built target opencv_test_videoio
+[ 53%] Linking CXX executable ../../bin/opencv_perf_videoio
+[ 53%] Built target opencv_perf_videoio
+[ 54%] Linking CXX shared library ../../lib/libopencv_xphoto.so
+[ 54%] Built target opencv_xphoto
+[ 54%] Linking CXX executable ../../bin/opencv_test_xphoto
+[ 55%] Built target opencv_test_xphoto
+[ 55%] Linking CXX executable ../../bin/opencv_perf_xphoto
+[ 55%] Built target opencv_perf_xphoto
+[ 55%] Linking CXX shared library ../../lib/libopencv_calib3d.so
+[ 57%] Built target opencv_calib3d
+[ 57%] Linking CXX executable ../../bin/opencv_test_calib3d
+[ 58%] Built target opencv_test_calib3d
+[ 58%] Linking CXX executable ../../bin/opencv_perf_calib3d
+[ 58%] Built target opencv_perf_calib3d
+[ 58%] Linking CXX shared library ../../lib/libopencv_cudacodec.so
+[ 58%] Built target opencv_cudacodec
+[ 58%] Linking CXX executable ../../bin/opencv_test_cudacodec
+[ 58%] Built target opencv_test_cudacodec
+[ 58%] Linking CXX executable ../../bin/opencv_perf_cudacodec
+[ 58%] Built target opencv_perf_cudacodec
+[ 58%] Linking CXX shared library ../../lib/libopencv_cudafeatures2d.so
+[ 59%] Built target opencv_cudafeatures2d
+[ 59%] Linking CXX executable ../../bin/opencv_test_cudafeatures2d
+[ 59%] Built target opencv_test_cudafeatures2d
+[ 59%] Linking CXX executable ../../bin/opencv_perf_cudafeatures2d
+[ 59%] Built target opencv_perf_cudafeatures2d
+[ 59%] Linking CXX shared library ../../lib/libopencv_cudastereo.so
+[ 60%] Built target opencv_cudastereo
+[ 60%] Linking CXX executable ../../bin/opencv_test_cudastereo
+[ 60%] Built target opencv_test_cudastereo
+[ 61%] Linking CXX executable ../../bin/opencv_perf_cudastereo
+[ 61%] Built target opencv_perf_cudastereo
+[ 61%] Linking CXX shared library ../../lib/libopencv_datasets.so
+[ 62%] Built target opencv_datasets
+[ 62%] Linking CXX executable ../../bin/opencv_test_highgui
+[ 62%] Built target opencv_test_highgui
+[ 63%] Linking CXX shared library ../../lib/libopencv_mcc.so
+[ 63%] Built target opencv_mcc
+[ 63%] Linking CXX executable ../../bin/opencv_test_mcc
+[ 63%] Built target opencv_test_mcc
+make[2]: Warning: File 'lib/libopencv_mcc.so.4.14.0' has modification time 1.4 s in the future
+[ 63%] Linking CXX executable ../../bin/opencv_perf_mcc
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 63%] Built target opencv_perf_mcc
+[ 63%] Linking CXX shared library ../../lib/libopencv_objdetect.so
+[ 64%] Built target opencv_objdetect
+[ 64%] Linking CXX executable ../../bin/opencv_test_objdetect
+[ 65%] Built target opencv_test_objdetect
+[ 65%] Linking CXX executable ../../bin/opencv_perf_objdetect
+[ 66%] Built target opencv_perf_objdetect
+[ 66%] Linking CXX shared library ../../lib/libopencv_rapid.so
+[ 66%] Built target opencv_rapid
+[ 66%] Linking CXX executable ../../bin/opencv_test_rapid
