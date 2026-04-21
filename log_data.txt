@@ -3598,3 +3598,103 @@ In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::ra
 [ 50%] Linking CXX executable ../../bin/opencv_test_freetype
 [ 50%] Building CXX object modules/fuzzy/CMakeFiles/opencv_test_fuzzy.dir/test/test_f1.cpp.o
 [ 50%] Linking CXX executable ../../bin/opencv_test_dnn
+[ 50%] Built target opencv_test_freetype
+[ 50%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/generalized_hough.cpp.o
+[ 50%] Built target opencv_test_dnn
+[ 50%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/gftt.cpp.o
+[ 50%] Building CXX object modules/fuzzy/CMakeFiles/opencv_test_fuzzy.dir/test/test_image.cpp.o
+[ 50%] Building CXX object modules/img_hash/CMakeFiles/opencv_test_img_hash.dir/test/test_average_hash.cpp.o
+[ 50%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/histogram.cpp.o
+[ 50%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_animation.cpp.o
+[ 50%] Building CXX object modules/fuzzy/CMakeFiles/opencv_test_fuzzy.dir/test/test_main.cpp.o
+[ 50%] Building CXX object modules/img_hash/CMakeFiles/opencv_test_img_hash.dir/test/test_block_mean_hash.cpp.o
+[ 50%] Linking CXX executable ../../bin/opencv_test_fuzzy
+[ 50%] Built target opencv_test_fuzzy
+[ 50%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/hough_circles.cpp.o
+[ 50%] Building CXX object modules/img_hash/CMakeFiles/opencv_test_img_hash.dir/test/test_main.cpp.o
+[ 50%] Building CXX object modules/img_hash/CMakeFiles/opencv_test_img_hash.dir/test/test_marr_hildreth_hash.cpp.o
+[ 50%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_decode_encode.cpp.o
+[ 50%] Building CXX object modules/img_hash/CMakeFiles/opencv_test_img_hash.dir/test/test_phash.cpp.o
+[ 50%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/hough_lines.cpp.o
+[ 50%] Building CXX object modules/img_hash/CMakeFiles/opencv_test_img_hash.dir/test/test_radial_variance_hash.cpp.o
+[ 50%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/hough_segments.cpp.o
+[ 50%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_avif.cpp.o
+[ 50%] Linking CXX executable ../../bin/opencv_test_img_hash
+[ 50%] Built target opencv_test_img_hash
+[ 50%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/match_template.cpp.o
+[ 50%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_bmp.cpp.o
+[ 50%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_jpeg.cpp.o
+[ 50%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_test_line_descriptor.dir/test/test_descriptors_regression.cpp.o
+[ 50%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.o
+[ 50%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/mean_shift.cpp.o
+[ 50%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_main.cpp.o
+[ 51%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_exif.cpp.o
+[ 51%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_png.cpp.o
+[ 51%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/moments.cpp.o
+[ 51%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_test_line_descriptor.dir/test/test_detector_regression.cpp.o
+[ 52%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/mssegmentation.cpp.o
+[ 52%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_test_line_descriptor.dir/test/test_main.cpp.o
+[ 52%] Linking CXX executable ../../bin/opencv_perf_imgcodecs
+[ 52%] Linking CXX shared library ../../lib/libopencv_cudaimgproc.so
+[ 52%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_test_line_descriptor.dir/test/test_matcher_regression.cpp.o
+[ 52%] Built target opencv_perf_imgcodecs
+[ 52%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_gdal.cpp.o
+[ 52%] Built target opencv_cudaimgproc
+[ 52%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_gif.cpp.o
+[ 52%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o
+[ 52%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_perf_line_descriptor.dir/perf/perf_descriptors.cpp.o
+[ 52%] Linking CXX executable ../../bin/opencv_test_line_descriptor
+[ 52%] Built target opencv_test_line_descriptor
+[ 52%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_perf_line_descriptor.dir/perf/perf_detection.cpp.o
+[ 52%] Processing OpenCL kernels (photo)
+[ 52%] Building NVCC (Device) object modules/photo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_nlm.cu.o
+[ 52%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_perf_line_descriptor.dir/perf/perf_main.cpp.o
+[ 52%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_perf_line_descriptor.dir/perf/perf_matching.cpp.o
+[ 52%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o
+[ 52%] Linking CXX executable ../../bin/opencv_perf_line_descriptor
+[ 52%] Building CXX object modules/saliency/CMakeFiles/opencv_test_saliency.dir/test/test_main.cpp.o
+[ 52%] Built target opencv_perf_line_descriptor
+[ 52%] Building CXX object modules/saliency/CMakeFiles/opencv_test_saliency.dir/test/test_static_saliency_spectral_residual.cpp.o
+[ 52%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpegxl.cpp.o
+[ 52%] Linking CXX executable ../../bin/opencv_test_saliency
+[ 52%] Built target opencv_test_saliency
+[ 52%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o
+[ 52%] Building CXX object modules/text/CMakeFiles/opencv_text.dir/src/erfilter.cpp.o
+[ 52%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_audio.cpp.o
+[ 52%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o
+[ 53%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o
+[ 53%] Building CXX object modules/text/CMakeFiles/opencv_text.dir/src/ocr_beamsearch_decoder.cpp.o
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o
+[ 53%] Building CXX object modules/text/CMakeFiles/opencv_text.dir/src/ocr_hmm_decoder.cpp.o
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.o
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o
+[ 53%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o
+[ 53%] Building CXX object modules/text/CMakeFiles/opencv_text.dir/src/ocr_holistic.cpp.o
+[ 53%] Building CXX object modules/text/CMakeFiles/opencv_text.dir/src/ocr_tesseract.cpp.o
+[ 53%] Building CXX object modules/text/CMakeFiles/opencv_text.dir/src/text_detectorCNN.cpp.o
+[ 53%] Building CXX object modules/text/CMakeFiles/opencv_text.dir/src/text_detector_swt.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o
+[ 53%] Linking CXX shared library ../../lib/libopencv_text.so
+[ 53%] Built target opencv_text
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o
+[ 53%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_images.cpp.o
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o
+[ 53%] Linking CXX executable ../../bin/opencv_test_imgcodecs
+[ 53%] Built target opencv_test_imgcodecs
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o
+[ 53%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o
+[ 53%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_microphone.cpp.o
