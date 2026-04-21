@@ -6098,3 +6098,103 @@ Install the project...
 -- Installing: /usr/local/include/opencv4/opencv2/datasets/or_sun.hpp
 -- Installing: /usr/local/include/opencv4/opencv2/datasets/pd_caltech.hpp
 -- Installing: /usr/local/include/opencv4/opencv2/datasets/pd_inria.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/slam_kitti.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/slam_tumindoor.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/sr_bsds.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/sr_div2k.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/sr_general100.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/tr_chars.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/tr_icdar.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/tr_svt.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/track_alov.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/track_vot.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/util.hpp
+-- Installing: /usr/local/lib/libopencv_highgui.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_highgui.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_highgui.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_highgui.so
+-- Installing: /usr/local/include/opencv4/opencv2/highgui.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/highgui/highgui.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/highgui/highgui_c.h
+-- Installing: /usr/local/lib/libopencv_mcc.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_mcc.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_mcc.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_mcc.so
+-- Installing: /usr/local/include/opencv4/opencv2/mcc.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/mcc/ccm.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/mcc/checker_detector.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/mcc/checker_model.hpp
+-- Installing: /usr/local/lib/libopencv_objdetect.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_objdetect.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_objdetect.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_objdetect.so
+-- Installing: /usr/local/include/opencv4/opencv2/objdetect.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/objdetect/face.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/objdetect/objdetect.hpp
+-- Installing: /usr/local/lib/libopencv_rapid.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_rapid.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_rapid.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_rapid.so
+-- Installing: /usr/local/include/opencv4/opencv2/rapid.hpp
+-- Installing: /usr/local/lib/libopencv_rgbd.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_rgbd.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_rgbd.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_rgbd.so
+-- Installing: /usr/local/include/opencv4/opencv2/rgbd.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/rgbd/colored_kinfu.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/rgbd/depth.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/rgbd/detail/pose_graph.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/rgbd/dynafu.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/rgbd/intrinsics.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/rgbd/kinfu.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/rgbd/large_kinfu.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/rgbd/linemod.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/rgbd/volume.hpp
+-- Installing: /usr/local/lib/libopencv_shape.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_shape.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_shape.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_shape.so
+-- Installing: /usr/local/include/opencv4/opencv2/shape.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/shape/emdL1.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/shape/hist_cost.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/shape/shape.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/shape/shape_distance.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/shape/shape_transformer.hpp
+-- Installing: /usr/local/lib/libopencv_structured_light.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_structured_light.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_structured_light.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_structured_light.so
+-- Installing: /usr/local/include/opencv4/opencv2/structured_light.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/structured_light/graycodepattern.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/structured_light/sinusoidalpattern.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/structured_light/structured_light.hpp
+-- Installing: /usr/local/lib/libopencv_video.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_video.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_video.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_video.so
+-- Installing: /usr/local/include/opencv4/opencv2/video.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/video/background_segm.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/video/detail/tracking.detail.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/video/legacy/constants_c.h
+-- Installing: /usr/local/include/opencv4/opencv2/video/tracking.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/video/video.hpp
+-- Installing: /usr/local/lib/libopencv_wechat_qrcode.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_wechat_qrcode.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_wechat_qrcode.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_wechat_qrcode.so
+-- Installing: /usr/local/include/opencv4/opencv2/wechat_qrcode.hpp
+-- Installing: /usr/local/lib/libopencv_xfeatures2d.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_xfeatures2d.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_xfeatures2d.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_xfeatures2d.so
+-- Installing: /usr/local/include/opencv4/opencv2/xfeatures2d.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/xfeatures2d/cuda.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
+-- Installing: /usr/local/lib/libopencv_ximgproc.so.4.14.0
