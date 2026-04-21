@@ -1898,3 +1898,103 @@ CMake Warning at /home/tech24/build/opencv_contrib/modules/cudacodec/CMakeLists.
 --     AVIF:                        NO
 --     PNG:                         /usr/lib/x86_64-linux-gnu/libpng.so (ver 1.6.43)
 --       Metadata Support:          EXIF XMP ICC
+--     TIFF:                        /usr/lib/x86_64-linux-gnu/libtiff.so (ver 42 / 4.5.1)
+--     JPEG 2000:                   build (ver 2.5.3)
+--     OpenEXR:                     OpenEXR::OpenEXR (ver 3.1.5)
+--     GIF:                         YES
+--     HDR:                         YES
+--     SUNRASTER:                   YES
+--     PXM:                         YES
+--     PFM:                         YES
+--
+--   Video I/O:
+--     FFMPEG:                      YES
+--       avcodec:                   YES (60.31.102)
+--       avformat:                  YES (60.16.100)
+--       avutil:                    YES (58.29.100)
+--       swscale:                   YES (7.5.100)
+--       avdevice:                  NO
+--     GStreamer:                   YES (1.24.2)
+--     v4l/v4l2:                    YES (linux/videodev2.h)
+--     Orbbec:                      YES
+--
+--   Parallel framework:            pthreads
+--
+--   Trace:                         YES (with Intel ITT(3.25.4))
+--
+--   Other third-party libraries:
+--     Intel IPP:                   2022.3.0 [2022.3.0]
+--            at:                   /home/tech24/build/3rdparty/ippicv/ippicv_lnx/icv
+--     Intel IPP IW:                sources (2022.3.0)
+--               at:                /home/tech24/build/3rdparty/ippicv/ippicv_lnx/iw
+--     VA:                          NO
+--     Lapack:                      NO
+--     Eigen:                       NO
+--     Custom HAL:                  YES (ipp (ver 0.0.1))
+--     Protobuf:                    build (3.19.1)
+--     Flatbuffers:                 builtin/3rdparty (25.9.23)
+--
+--   NVIDIA CUDA:                   YES (ver 12.0, CUFFT CUBLAS)
+--     NVIDIA GPU arch:             86
+--     NVIDIA PTX archs:
+--
+--   cuDNN:                         YES (ver 9.21.0)
+--
+--   OpenCL:                        YES (no extra features)
+--     Include path:                /home/tech24/build/opencv/3rdparty/include/opencl/1.2
+--     Link libraries:              Dynamic load
+--
+--   Python (for build):            NO
+--
+--   Java:
+--     ant:                         NO
+--     Java:                        NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+--
+--   Install to:                    /usr/local
+-- -----------------------------------------------------------------
+--
+-- Configuring done (124.9s)
+-- Generating done (1.3s)
+-- Build files have been written to: /home/tech24/build
+
+tech24@DESKTOP-1VHTLCM:~/build$ make -j4
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_core.c.o
+[  0%] Built target opencv_dnn_plugins
+[  0%] Built target opencv_highgui_plugins
+[  0%] Building C object 3rdparty/openjpeg/openjp2/CMakeFiles/libopenjp2.dir/thread.c.o
+[  0%] Building C object 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o
+[  0%] Built target opencv_videoio_plugins
+[  0%] Building C object 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_color_convert_all.c.o
+[  0%] Building C object 3rdparty/openjpeg/openjp2/CMakeFiles/libopenjp2.dir/bio.c.o
+[  0%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/any_lite.cc.o
+[  0%] Building C object 3rdparty/openjpeg/openjp2/CMakeFiles/libopenjp2.dir/cio.c.o
+[  0%] Building C object 3rdparty/openjpeg/openjp2/CMakeFiles/libopenjp2.dir/dwt.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_color_convert_rgbs.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_bilateral.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_box.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_canny.c.o
+[  0%] Linking C static library ../lib/libittnotify.a
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_gaussian.c.o
+[  0%] Built target ittnotify
+[  0%] Building C object 3rdparty/openjpeg/openjp2/CMakeFiles/libopenjp2.dir/event.c.o
+[  0%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/arena.cc.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_general.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_laplacian.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_morphology.c.o
+[  0%] Building CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2e/sources/ade/source/alloc.cpp.o
+[  0%] Building CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2e/sources/ade/source/assert.cpp.o
+[  0%] Building CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2e/sources/ade/source/check_cycles.cpp.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_scharr.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_sobel.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_op_copy.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_op_copy_channel.c.o
+[  0%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/arenastring.cc.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_op_copy_make_border.c.o
+[  0%] Building CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2e/sources/ade/source/edge.cpp.o
+[  0%] Building C object 3rdparty/openjpeg/openjp2/CMakeFiles/libopenjp2.dir/ht_dec.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_op_copy_merge.c.o
