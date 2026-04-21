@@ -9398,3 +9398,103 @@ sudo ldconfig
 [ 46%] Built target opencv_perf_features2d
 [ 46%] Built target opencv_freetype
 [ 46%] Built target opencv_test_freetype
+[ 47%] Built target opencv_fuzzy
+[ 47%] Built target opencv_test_fuzzy
+[ 48%] Built target opencv_hfs
+[ 48%] Built target opencv_img_hash
+[ 48%] Built target opencv_test_img_hash
+[ 49%] Built target opencv_test_imgcodecs
+[ 49%] Built target opencv_perf_imgcodecs
+[ 49%] Built target opencv_line_descriptor
+[ 49%] Built target opencv_test_line_descriptor
+[ 49%] Built target opencv_perf_line_descriptor
+[ 50%] Built target opencv_photo
+[ 51%] Built target opencv_test_photo
+[ 51%] Built target opencv_perf_photo
+[ 52%] Built target opencv_saliency
+[ 52%] Built target opencv_test_saliency
+[ 52%] Built target opencv_text
+[ 52%] Built target opencv_test_text
+[ 53%] Built target opencv_test_videoio
+[ 53%] Built target opencv_perf_videoio
+[ 54%] Built target opencv_xphoto
+[ 55%] Built target opencv_test_xphoto
+[ 55%] Built target opencv_perf_xphoto
+[ 57%] Built target opencv_calib3d
+[ 58%] Built target opencv_test_calib3d
+[ 58%] Built target opencv_perf_calib3d
+[ 58%] Built target opencv_cudacodec
+[ 58%] Built target opencv_test_cudacodec
+[ 58%] Built target opencv_perf_cudacodec
+[ 59%] Built target opencv_cudafeatures2d
+[ 59%] Built target opencv_test_cudafeatures2d
+[ 59%] Built target opencv_perf_cudafeatures2d
+[ 60%] Built target opencv_cudastereo
+[ 60%] Built target opencv_test_cudastereo
+[ 61%] Built target opencv_perf_cudastereo
+[ 62%] Built target opencv_datasets
+[ 62%] Built target opencv_test_highgui
+[ 63%] Built target opencv_mcc
+[ 63%] Built target opencv_test_mcc
+[ 63%] Built target opencv_perf_mcc
+[ 64%] Built target opencv_objdetect
+[ 65%] Built target opencv_test_objdetect
+[ 66%] Built target opencv_perf_objdetect
+[ 66%] Built target opencv_rapid
+[ 66%] Built target opencv_test_rapid
+[ 66%] Linking CXX shared library ../../lib/libopencv_rgbd.so
+[ 67%] Built target opencv_rgbd
+[ 67%] Linking CXX executable ../../bin/opencv_test_rgbd
+[ 68%] Built target opencv_test_rgbd
+[ 68%] Linking CXX executable ../../bin/opencv_perf_rgbd
+[ 68%] Built target opencv_perf_rgbd
+[ 68%] Linking CXX shared library ../../lib/libopencv_shape.so
+[ 68%] Built target opencv_shape
+[ 68%] Linking CXX executable ../../bin/opencv_test_shape
+[ 68%] Built target opencv_test_shape
+[ 68%] Linking CXX shared library ../../lib/libopencv_structured_light.so
+[ 68%] Built target opencv_structured_light
+[ 68%] Linking CXX executable ../../bin/opencv_test_structured_light
+[ 68%] Built target opencv_test_structured_light
+[ 68%] Linking CXX shared library ../../lib/libopencv_video.so
+[ 69%] Built target opencv_video
+[ 69%] Linking CXX executable ../../bin/opencv_test_video
+[ 70%] Built target opencv_test_video
+[ 70%] Linking CXX executable ../../bin/opencv_perf_video
+[ 71%] Built target opencv_perf_video
+[ 71%] Linking CXX shared library ../../lib/libopencv_wechat_qrcode.so
+[ 73%] Built target opencv_wechat_qrcode
+[ 73%] Linking CXX executable ../../bin/opencv_test_wechat_qrcode
+[ 73%] Built target opencv_test_wechat_qrcode
+[ 73%] Linking CXX executable ../../bin/opencv_perf_wechat_qrcode
+[ 73%] Built target opencv_perf_wechat_qrcode
+[ 73%] Linking CXX shared library ../../lib/libopencv_xfeatures2d.so
+[ 74%] Built target opencv_xfeatures2d
+[ 74%] Linking CXX executable ../../bin/opencv_test_xfeatures2d
+[ 74%] Built target opencv_test_xfeatures2d
+[ 74%] Linking CXX executable ../../bin/opencv_perf_xfeatures2d
+[ 74%] Built target opencv_perf_xfeatures2d
+[ 74%] Linking CXX shared library ../../lib/libopencv_ximgproc.so
+[ 76%] Built target opencv_ximgproc
+[ 76%] Linking CXX executable ../../bin/opencv_test_ximgproc
+[ 77%] Built target opencv_test_ximgproc
+[ 77%] Linking CXX executable ../../bin/opencv_perf_ximgproc
+[ 78%] Built target opencv_perf_ximgproc
+[ 78%] Linking CXX shared library ../../lib/libopencv_xobjdetect.so
+[ 78%] Built target opencv_xobjdetect
+[ 78%] Linking CXX executable ../../../../bin/opencv_waldboost_detector
+[ 78%] Built target opencv_waldboost_detector
+[ 78%] Linking CXX shared library ../../lib/libopencv_aruco.so
+[ 78%] Built target opencv_aruco
+[ 78%] Linking CXX shared library ../../lib/libopencv_bgsegm.so
+[ 78%] Built target opencv_bgsegm
+[ 78%] Linking CXX executable ../../bin/opencv_test_bgsegm
+[ 79%] Built target opencv_test_bgsegm
+[ 79%] Built target opencv_bioinspired
+[ 79%] Built target opencv_test_bioinspired
+[ 79%] Built target opencv_perf_bioinspired
+[ 80%] Built target opencv_ccalib
+[ 80%] Linking CXX shared library ../../lib/libopencv_cudabgsegm.so
+[ 80%] Built target opencv_cudabgsegm
+[ 80%] Linking CXX executable ../../bin/opencv_test_cudabgsegm
+[ 80%] Built target opencv_test_cudabgsegm
