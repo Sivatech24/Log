@@ -8998,3 +8998,103 @@ tech24@DESKTOP-1VHTLCM:~/build$ make -j4
 [  5%] Linking CXX shared library ../../lib/libopencv_core.so
 [  9%] Built target opencv_core
 [  9%] Linking CXX shared library ../../lib/libopencv_flann.so
+[  9%] Linking CXX shared library ../../lib/libopencv_ml.so
+[  9%] Linking CXX shared library ../../lib/libopencv_cudaarithm.so
+[  9%] Linking CXX shared library ../../lib/libopencv_imgproc.so
+[  9%] Built target opencv_flann
+[  9%] Built target opencv_ml
+[  9%] Linking CXX shared library ../../lib/libopencv_signal.so
+[  9%] Linking CXX shared library ../../lib/libopencv_surface_matching.so
+[  9%] Built target opencv_signal
+[  9%] Built target opencv_surface_matching
+[  9%] Linking CXX executable ../../bin/opencv_version
+[ 11%] Built target opencv_cudaarithm
+[ 11%] Built target opencv_version
+[ 15%] Built target opencv_imgproc
+[ 15%] Linking CXX shared library ../../lib/libopencv_phase_unwrapping.so
+[ 15%] Linking CXX shared library ../../lib/libopencv_plot.so
+[ 15%] Linking CXX shared library ../../lib/libopencv_intensity_transform.so
+[ 15%] Linking CXX shared library ../../lib/libopencv_imgcodecs.so
+[ 15%] Built target opencv_phase_unwrapping
+[ 15%] Built target opencv_plot
+[ 15%] Linking CXX shared library ../../lib/libopencv_quality.so
+[ 15%] Built target opencv_intensity_transform
+[ 15%] Linking CXX shared library ../../lib/libopencv_reg.so
+[ 15%] Linking CXX shared library ../../lib/libopencv_cudafilters.so
+[ 16%] Built target opencv_imgcodecs
+[ 16%] Linking CXX shared library ../../lib/libopencv_cudawarping.so
+[ 16%] Built target opencv_quality
+[ 17%] Built target opencv_reg
+[ 17%] Linking CXX shared library ../../lib/libopencv_features2d.so
+[ 17%] Linking CXX shared library ../../lib/libopencv_dnn.so
+[ 17%] Built target opencv_cudawarping
+[ 17%] Linking CXX shared library ../../lib/libopencv_freetype.so
+[ 18%] Built target opencv_features2d
+[ 18%] Linking CXX shared library ../../lib/libopencv_fuzzy.so
+[ 19%] Built target opencv_cudafilters
+[ 19%] Linking CXX shared library ../../lib/libopencv_hfs.so
+[ 19%] Built target opencv_freetype
+[ 20%] Built target opencv_fuzzy
+[ 20%] Linking CXX shared library ../../lib/libopencv_img_hash.so
+[ 20%] Linking CXX shared library ../../lib/libopencv_line_descriptor.so
+[ 21%] Built target opencv_hfs
+[ 22%] Linking CXX shared library ../../lib/libopencv_saliency.so
+[ 22%] Built target opencv_img_hash
+[ 22%] Built target opencv_line_descriptor
+[ 22%] Linking CXX shared library ../../lib/libopencv_cudafeatures2d.so
+[ 22%] Linking CXX shared library ../../lib/libopencv_calib3d.so
+[ 30%] Built target opencv_dnn
+[ 30%] Linking CXX shared library ../../lib/libopencv_videoio.so
+[ 30%] Built target opencv_saliency
+[ 30%] Linking CXX shared library ../../lib/libopencv_cudaimgproc.so
+[ 31%] Built target opencv_cudafeatures2d
+[ 31%] Linking CXX shared library ../../lib/libopencv_dnn_superres.so
+[ 33%] Built target opencv_calib3d
+[ 33%] Linking CXX shared library ../../lib/libopencv_text.so
+[ 34%] Built target opencv_videoio
+[ 34%] Linking CXX shared library ../../lib/libopencv_cudastereo.so
+[ 34%] Built target opencv_dnn_superres
+[ 35%] Linking CXX shared library ../../lib/libopencv_mcc.so
+[ 35%] Built target opencv_text
+[ 35%] Linking CXX shared library ../../lib/libopencv_objdetect.so
+[ 37%] Built target opencv_cudaimgproc
+[ 37%] Linking CXX shared library ../../lib/libopencv_rapid.so
+[ 38%] Built target opencv_cudastereo
+[ 38%] Linking CXX shared library ../../lib/libopencv_rgbd.so
+[ 38%] Built target opencv_mcc
+[ 39%] Built target opencv_objdetect
+[ 39%] Built target opencv_rapid
+[ 39%] Linking CXX shared library ../../lib/libopencv_shape.so
+[ 39%] Linking CXX shared library ../../lib/libopencv_structured_light.so
+[ 39%] Linking CXX shared library ../../lib/libopencv_video.so
+[ 39%] Built target opencv_shape
+[ 40%] Built target opencv_rgbd
+[ 40%] Built target opencv_structured_light
+make[2]: Warning: File 'lib/libopencv_objdetect.so.4.14.0' has modification time 1.2 s in the future
+[ 40%] Linking CXX shared library ../../lib/libopencv_xobjdetect.so
+make[2]: Warning: File 'lib/libopencv_objdetect.so.4.14.0' has modification time 1.2 s in the future
+make[2]: Warning: File 'lib/libopencv_calib3d.so.4.14.0' has modification time 0.055 s in the future
+[ 40%] Linking CXX shared library ../../lib/libopencv_wechat_qrcode.so
+[ 40%] Linking CXX shared library ../../lib/libopencv_xfeatures2d.so
+[ 41%] Built target opencv_video
+make[2]: Warning: File 'lib/libopencv_objdetect.so.4.14.0' has modification time 1.1 s in the future
+[ 41%] Linking CXX shared library ../../lib/libopencv_aruco.so
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 41%] Built target opencv_xobjdetect
+[ 43%] Built target opencv_wechat_qrcode
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 43%] Built target opencv_aruco
+[ 43%] Linking CXX shared library ../../lib/libopencv_bgsegm.so
+[ 43%] Linking CXX shared library ../../lib/libopencv_cudabgsegm.so
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 44%] Built target opencv_xfeatures2d
+make[2]: Warning: File 'lib/libopencv_cudaimgproc.so.4.14.0' has modification time 0.14 s in the future
+[ 44%] Linking CXX shared library ../../lib/libopencv_cudalegacy.so
+[ 44%] Linking CXX shared library ../../lib/libopencv_gapi.so
+[ 44%] Built target opencv_bgsegm
+[ 44%] Linking CXX executable ../../bin/opencv_model_diagnostics
+[ 44%] Built target opencv_cudabgsegm
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 44%] Built target opencv_cudalegacy
+[ 44%] Linking CXX shared library ../../lib/libopencv_highgui.so
