@@ -12298,3 +12298,103 @@ Install the project...
 -- Installing: /usr/local/lib/python3.12/dist-packages/cv2/Error/__init__.pyi
 -- Installing: /usr/local/lib/python3.12/dist-packages/cv2/signal
 -- Installing: /usr/local/lib/python3.12/dist-packages/cv2/signal/__init__.pyi
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/legacy
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/legacy/__init__.pyi
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/freetype
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/freetype/__init__.pyi
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/rapid
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/rapid/__init__.pyi
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/img_hash
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/img_hash/__init__.pyi
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/videostab
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/videostab/__init__.pyi
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/ccm
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/ccm/__init__.pyi
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/line_descriptor
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/line_descriptor/__init__.pyi
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/ipp
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/ipp/__init__.pyi
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/rgbd
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/rgbd/__init__.pyi
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/multicalib
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/multicalib/__init__.pyi
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/instr
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/instr/__init__.pyi
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/python-3.12/cv2.cpython-312-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/python3.12/dist-packages/cv2/python-3.12/cv2.cpython-312-x86_64-linux-gnu.so" to "/usr/local/lib"
+-- Installing: /usr/local/lib/python3.12/dist-packages/cv2/config-3.12.py
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_eye.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_eye_tree_eyeglasses.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_frontalcatface.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_frontalcatface_extended.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_frontalface_alt.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_frontalface_alt2.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_frontalface_alt_tree.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_frontalface_default.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_fullbody.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_lefteye_2splits.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_license_plate_rus_16stages.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_lowerbody.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_profileface.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_righteye_2splits.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_russian_plate_number.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_smile.xml
+-- Up-to-date: /usr/local/share/opencv4/haarcascades/haarcascade_upperbody.xml
+-- Up-to-date: /usr/local/share/opencv4/lbpcascades/lbpcascade_frontalcatface.xml
+-- Up-to-date: /usr/local/share/opencv4/lbpcascades/lbpcascade_frontalface.xml
+-- Up-to-date: /usr/local/share/opencv4/lbpcascades/lbpcascade_frontalface_improved.xml
+-- Up-to-date: /usr/local/share/opencv4/lbpcascades/lbpcascade_profileface.xml
+-- Up-to-date: /usr/local/share/opencv4/lbpcascades/lbpcascade_silverware.xml
+-- Installing: /usr/local/bin/opencv_annotation
+-- Set non-toolchain portion of runtime path of "/usr/local/bin/opencv_annotation" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_visualisation
+-- Set non-toolchain portion of runtime path of "/usr/local/bin/opencv_visualisation" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_interactive-calibration
+-- Set non-toolchain portion of runtime path of "/usr/local/bin/opencv_interactive-calibration" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_version
+-- Set non-toolchain portion of runtime path of "/usr/local/bin/opencv_version" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_model_diagnostics
+-- Set non-toolchain portion of runtime path of "/usr/local/bin/opencv_model_diagnostics" to "/usr/local/lib"
+tech24@DESKTOP-1VHTLCM:~/build$ python3 -c "import cv2; print('File:', cv2.__file__); print('CUDA:', cv2.cuda.getCudaEnabledDeviceCount())"
+File: /usr/local/lib/python3.12/dist-packages/cv2/__init__.py
+CUDA: 0
+tech24@DESKTOP-1VHTLCM:~/build$
+tech24@DESKTOP-1VHTLCM:~/build$ python3 -c "import cv2; print('File:', cv2.__file__); print('CUDA:', cv2.cuda.getCudaEnabledDeviceCount())"
+File: /usr/local/lib/python3.12/dist-packages/cv2/__init__.py
+CUDA: 0
+tech24@DESKTOP-1VHTLCM:~/build$  sudo mv /usr/local/lib/python3.12/dist-packages/cv2/python-3.12/cv2.cpython-312-x86_64-linux-gnu.so /usr/local/lib/python3.12/dist-packages/cv2/cv2.so
+tech24@DESKTOP-1VHTLCM:~/build$ sudo ldconfig /usr/lib/wsl/lib
+tech24@DESKTOP-1VHTLCM:~/build$ python3 -c "import cv2; print('File:', cv2.__file__); print('CUDA Devices:', cv2.cuda.getCudaEnabledDeviceCount())"
+['', '/usr/local/lib/python3.12/dist-packages/cv2/python-3.12', '/usr/lib/python312.zip', '/usr/lib/python3.12', '/usr/lib/python3.12/lib-dynload', '/usr/local/lib/python3.12/dist-packages', '/usr/lib/python3/dist-packages']
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/local/lib/python3.12/dist-packages/cv2/__init__.py", line 181, in <module>
+    bootstrap()
+  File "/usr/local/lib/python3.12/dist-packages/cv2/__init__.py", line 153, in bootstrap
+    native_module = importlib.import_module("cv2")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/cv2/__init__.py", line 181, in <module>
+    bootstrap()
+  File "/usr/local/lib/python3.12/dist-packages/cv2/__init__.py", line 76, in bootstrap
+    raise ImportError('ERROR: recursion is detected during loading of "cv2" binary extensions. Check OpenCV installation.')
+ImportError: ERROR: recursion is detected during loading of "cv2" binary extensions. Check OpenCV installation.
+tech24@DESKTOP-1VHTLCM:~/build$ # Move it out of the cv2 folder and into the main dist-packages folder
+sudo mv /usr/local/lib/python3.12/dist-packages/cv2/cv2.so /usr/local/lib/python3.12/dist-packages/cv2.so
+tech24@DESKTOP-1VHTLCM:~/build$ sudo rm -rf /usr/local/lib/python3.12/dist-packages/cv2/python-3.12^C
+tech24@DESKTOP-1VHTLCM:~/build$ sudo rm -rf /usr/local/lib/python3.12/dist-packages/cv2/python-3.12
+tech24@DESKTOP-1VHTLCM:~/build$ export LD_LIBRARY_PATH=/usr/lib/wsl/lib:$LD_LIBRARY_PATH
+echo 'export LD_LIBRARY_PATH=/usr/lib/wsl/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
+tech24@DESKTOP-1VHTLCM:~/build$ python3 -c "import cv2; print('Success! File:', cv2.__file__); print('CUDA Devices:', cv2.cuda.getCudaEnabledDeviceCount())"
+['', '/usr/local/lib/python3.12/dist-packages/cv2/python-3.12', '/usr/lib/python312.zip', '/usr/lib/python3.12', '/usr/lib/python3.12/lib-dynload', '/usr/local/lib/python3.12/dist-packages', '/usr/lib/python3/dist-packages']
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/local/lib/python3.12/dist-packages/cv2/__init__.py", line 181, in <module>
+    bootstrap()
+  File "/usr/local/lib/python3.12/dist-packages/cv2/__init__.py", line 153, in bootstrap
+    native_module = importlib.import_module("cv2")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
