@@ -9998,3 +9998,103 @@ Install the project...
 -- Up-to-date: /usr/local/lib/libopencv_fuzzy.so.414
 -- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_fuzzy.so.4.14.0" to "/usr/local/lib"
 -- Up-to-date: /usr/local/lib/libopencv_fuzzy.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/fuzzy.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/fuzzy/fuzzy_F0_math.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/fuzzy/fuzzy_F1_math.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/fuzzy/fuzzy_image.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/fuzzy/types.hpp
+-- Installing: /usr/local/lib/libopencv_hfs.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_hfs.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_hfs.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_hfs.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/hfs.hpp
+-- Installing: /usr/local/lib/libopencv_img_hash.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_img_hash.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_img_hash.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_img_hash.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/img_hash.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/img_hash/average_hash.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/img_hash/block_mean_hash.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/img_hash/color_moment_hash.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/img_hash/img_hash_base.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/img_hash/marr_hildreth_hash.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/img_hash/phash.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/img_hash/radial_variance_hash.hpp
+-- Installing: /usr/local/lib/libopencv_imgcodecs.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_imgcodecs.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_imgcodecs.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_imgcodecs.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/imgcodecs.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/imgcodecs/imgcodecs.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/imgcodecs/imgcodecs_c.h
+-- Up-to-date: /usr/local/include/opencv4/opencv2/imgcodecs/ios.h
+-- Up-to-date: /usr/local/include/opencv4/opencv2/imgcodecs/legacy/constants_c.h
+-- Up-to-date: /usr/local/include/opencv4/opencv2/imgcodecs/macosx.h
+-- Installing: /usr/local/lib/libopencv_line_descriptor.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_line_descriptor.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_line_descriptor.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_line_descriptor.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/line_descriptor.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/line_descriptor/descriptor.hpp
+-- Installing: /usr/local/lib/libopencv_photo.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_photo.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_photo.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_photo.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/photo.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/photo/cuda.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/photo/legacy/constants_c.h
+-- Up-to-date: /usr/local/include/opencv4/opencv2/photo/photo.hpp
+-- Installing: /usr/local/lib/libopencv_saliency.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_saliency.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_saliency.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_saliency.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/saliency.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/saliency/saliencyBaseClasses.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/saliency/saliencySpecializedClasses.hpp
+-- Installing: /usr/local/lib/libopencv_text.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_text.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_text.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_text.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/text.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/text/erfilter.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/text/ocr.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/text/swt_text_detection.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/text/textDetector.hpp
+-- Installing: /usr/local/lib/libopencv_videoio.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_videoio.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_videoio.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_videoio.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videoio.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videoio/legacy/constants_c.h
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videoio/registry.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videoio/videoio.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/videoio/videoio_c.h
+-- Installing: /usr/local/lib/libopencv_xphoto.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_xphoto.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_xphoto.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_xphoto.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/xphoto.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/xphoto/bm3d_image_denoising.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/xphoto/dct_image_denoising.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/xphoto/inpainting.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/xphoto/oilpainting.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/xphoto/tonemap.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/xphoto/white_balance.hpp
+-- Installing: /usr/local/lib/libopencv_calib3d.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_calib3d.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_calib3d.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_calib3d.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/calib3d.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/calib3d/calib3d.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/calib3d/calib3d_c.h
+-- Installing: /usr/local/lib/libopencv_cudacodec.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_cudacodec.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudacodec.so.4.14.0" to "/usr/local/lib:/usr/lib/wsl/lib"
+-- Up-to-date: /usr/local/lib/libopencv_cudacodec.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudacodec.hpp
+-- Installing: /usr/local/lib/libopencv_cudafeatures2d.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_cudafeatures2d.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudafeatures2d.so.4.14.0" to "/usr/local/lib"
+-- Up-to-date: /usr/local/lib/libopencv_cudafeatures2d.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudafeatures2d.hpp
+-- Installing: /usr/local/lib/libopencv_cudastereo.so.4.14.0
