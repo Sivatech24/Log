@@ -1698,3 +1698,103 @@ tech24@DESKTOP-1VHTLCM:~/build$ cmake \
 -- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE
 -- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE - Failed
 -- Performing Test HAVE_CXX_WNO_IMPLICIT_FALLTHROUGH
+-- Performing Test HAVE_CXX_WNO_IMPLICIT_FALLTHROUGH - Success
+-- Performing Test HAVE_CXX_WNO_ARRAY_BOUNDS
+-- Performing Test HAVE_CXX_WNO_ARRAY_BOUNDS - Success
+-- Performing Test HAVE_CXX_WNO_STRINGOP_OVERFLOW
+-- Performing Test HAVE_CXX_WNO_STRINGOP_OVERFLOW - Success
+-- Performing Test HAVE_CXX_WNO_STRINGOP_OVERREAD
+-- Performing Test HAVE_CXX_WNO_STRINGOP_OVERREAD - Success
+-- Performing Test HAVE_CXX_WNO_EXTRA_SEMI
+-- Performing Test HAVE_CXX_WNO_EXTRA_SEMI - Success
+-- Performing Test HAVE_CXX_WNO_COMMA
+-- Performing Test HAVE_CXX_WNO_COMMA - Failed
+-- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS
+-- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS - Success
+-- Could NOT find JNI (missing: JAVA_INCLUDE_PATH JAVA_INCLUDE_PATH2 AWT)
+-- VTK is not found. Please set -DVTK_DIR in CMake to VTK build directory, or to VTK install subdirectory with VTKConfig.cmake file
+-- Looking for dlerror in dl
+-- Looking for dlerror in dl - found
+-- Performing Test HAVE_C_WNO_IMPLICIT_FALLTHROUGH
+-- Performing Test HAVE_C_WNO_IMPLICIT_FALLTHROUGH - Success
+-- Performing Test HAVE_C_WNO_SIGN_COMPARE
+-- Performing Test HAVE_C_WNO_SIGN_COMPARE - Success
+-- ADE: Downloading v0.1.2e.zip from https://github.com/opencv/ade/archive/v0.1.2e.zip
+-- Checking for module 'gtk+-3.0'
+--   Package 'gtk+-3.0', required by 'virtual:world', not found
+-- Checking for module 'gtk+-2.0'
+--   Found gtk+-2.0, version 2.24.33
+-- Performing Test HAVE_CXX_WNO_STRICT_ALIASING
+-- Performing Test HAVE_CXX_WNO_STRICT_ALIASING - Success
+-- Checking for modules 'libavcodec;libavformat;libavutil;libswscale'
+--   Found libavcodec, version 60.31.102
+--   Found libavformat, version 60.16.100
+--   Found libavutil, version 58.29.100
+--   Found libswscale, version 7.5.100
+-- Checking for module 'libavdevice'
+--   Package 'libavdevice', required by 'virtual:world', not found
+-- Checking for module 'gstreamer-base-1.0'
+--   Found gstreamer-base-1.0, version 1.24.2
+-- Checking for module 'gstreamer-app-1.0'
+--   Found gstreamer-app-1.0, version 1.24.2
+-- Checking for module 'gstreamer-riff-1.0'
+--   Found gstreamer-riff-1.0, version 1.24.2
+-- Checking for module 'gstreamer-pbutils-1.0'
+--   Found gstreamer-pbutils-1.0, version 1.24.2
+-- Checking for module 'gstreamer-video-1.0'
+--   Found gstreamer-video-1.0, version 1.24.2
+-- Checking for module 'gstreamer-audio-1.0'
+--   Found gstreamer-audio-1.0, version 1.24.2
+-- Module opencv_alphamat disabled because the following dependencies are not found: Eigen
+-- Performing Test HAVE_CXX_WNO_ENUM_COMPARE
+-- Performing Test HAVE_CXX_WNO_ENUM_COMPARE - Success
+-- Performing Test HAVE_CXX_WNO_UNINITIALIZED
+-- Performing Test HAVE_CXX_WNO_UNINITIALIZED - Success
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_WNO_TAUTOLOGICAL_COMPARE
+-- Performing Test HAVE_CXX_WNO_TAUTOLOGICAL_COMPARE - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_VARIABLE
+-- Performing Test HAVE_CXX_WNO_UNUSED_VARIABLE - Success
+-- Checking for module 'freetype2'
+--   Found freetype2, version 26.1.20
+-- Checking for module 'harfbuzz'
+--   Found harfbuzz, version 8.3.0
+-- freetype2:   YES (ver 26.1.20)
+-- harfbuzz:    YES (ver 8.3.0)
+-- Could NOT find HDF5 (missing: HDF5_LIBRARIES HDF5_INCLUDE_DIRS) (found version "")
+-- Julia not found. Not compiling Julia Bindings.
+-- Module opencv_ovis disabled because OGRE3D was not found
+-- No preference for use of exported gflags CMake configuration set, and no hints for include/library directories provided. Defaulting to preferring an installed/exported gflags CMake configuration if available.
+-- Failed to find installed gflags CMake configuration, searching for gflags build directories exported with CMake.
+-- Failed to find gflags - Failed to find an installed/exported CMake configuration for gflags, will perform search for installed gflags components.
+-- Failed to find gflags - Could not find gflags include directory, set GFLAGS_INCLUDE_DIR to directory containing gflags/gflags.h
+-- Failed to find glog - Could not find glog include directory, set GLOG_INCLUDE_DIR to directory containing glog/logging.h
+-- Module opencv_sfm disabled because the following dependencies are not found: Eigen Glog/Gflags
+-- Checking for module 'tesseract'
+--   Package 'tesseract', required by 'virtual:world', not found
+-- Tesseract:   NO
+-- Allocator metrics storage type: 'long long'
+-- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_VARIABLE
+-- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_VARIABLE - Success
+-- Excluding from source files list: <BUILD>/modules/core/test/test_intrin256.lasx.cpp
+-- Excluding from source files list: <BUILD>/opencv/modules/imgproc/src/imgwarp.lasx.cpp
+-- Excluding from source files list: <BUILD>/opencv/modules/imgproc/src/resize.lasx.cpp
+-- Registering hook 'INIT_MODULE_SOURCES_opencv_dnn': /home/tech24/build/opencv/modules/dnn/cmake/hooks/INIT_MODULE_SOURCES_opencv_dnn.cmake
+-- Excluding from source files list: <BUILD>/modules/dnn/layers/layers_common.rvv.cpp
+-- Excluding from source files list: <BUILD>/modules/dnn/layers/layers_common.lasx.cpp
+-- Excluding from source files list: <BUILD>/modules/dnn/layers/layers_common.neon.cpp
+-- Excluding from source files list: <BUILD>/modules/dnn/layers/layers_common.sve.cpp
+-- Excluding from source files list: <BUILD>/modules/dnn/int8layers/layers_common.rvv.cpp
+-- Excluding from source files list: <BUILD>/modules/dnn/int8layers/layers_common.lasx.cpp
+-- Excluding from source files list: <BUILD>/modules/dnn/int8layers/layers_common.neon.cpp
+-- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_block.neon.cpp
+-- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_block.neon_fp16.cpp
+-- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_depthwise.rvv.cpp
+-- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_depthwise.lasx.cpp
+-- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/fast_gemm_kernels.neon.cpp
+-- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/fast_gemm_kernels.lasx.cpp
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL - Success
+CMake Warning at /home/tech24/build/opencv_contrib/modules/cudacodec/CMakeLists.txt:26 (message):
+  cudacodec::VideoReader requires Nvidia Video Codec SDK.  Please resolve
