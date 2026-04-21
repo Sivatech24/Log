@@ -1298,3 +1298,103 @@ ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
   libavcodec     60. 31.102 / 60. 31.102
   libavformat    60. 16.100 / 60. 16.100
   libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+ V....D av1_nvenc            NVIDIA NVENC av1 encoder (codec av1)
+ V....D h264_nvenc           NVIDIA NVENC H.264 encoder (codec h264)
+ V....D hevc_nvenc           NVIDIA NVENC hevc encoder (codec hevc)
+tech24@DESKTOP-1VHTLCM:~/build/nv-codec-headers$ cd ~/build
+rm -rf * cmake \
+-D WITH_CUDA=ON \
+-D WITH_CUDNN=ON \
+-D OPENCV_DNN_CUDA=ON \
+-D CUDA_ARCH_BIN=8.6 \
+-D CMAKE_C_COMPILER=gcc-12 \
+-D CMAKE_CXX_COMPILER=g++-12 \
+-D WITH_NVCUVID=ON \
+-D WITH_NVCUVENC=ON \
+-D VIDEO_CODEC_SDK_INCLUDE_DIR=/home/tech24/nv_sdk/Interface/ \
+-D OPENCV_EXTRA_MODULES_PATH=/home/tech24/build/opencv_contrib/modules/ \
+-D PYTHON3_EXECUTABLE=/home/tech24/anaconda3/envs/cv/bin/python \
+/home/tech24/build/opencv
+rm: invalid option -- 'D'
+Try 'rm --help' for more information.
+tech24@DESKTOP-1VHTLCM:~/build$ cd ~/build
+rm -rf *
+tech24@DESKTOP-1VHTLCM:~/build$ cmake \
+-D WITH_CUDA=ON \
+-D WITH_CUDNN=ON \
+-D OPENCV_DNN_CUDA=ON \
+-D CUDA_ARCH_BIN=8.6 \
+-D CMAKE_C_COMPILER=gcc-12 \
+-D CMAKE_CXX_COMPILER=g++-12 \
+-D WITH_NVCUVID=ON \
+-D WITH_NVCUVENC=ON \
+-D VIDEO_CODEC_SDK_INCLUDE_DIR=/home/tech24/nv_sdk/Interface/ \
+-D OPENCV_EXTRA_MODULES_PATH=/home/tech24/build/opencv_contrib/modules/ \
+-D PYTHON3_EXECUTABLE=/home/tech24/anaconda3/envs/cv/bin/python \
+/home/tech24/build/opencv
+CMake Error: The source directory "/home/tech24/build/opencv" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+tech24@DESKTOP-1VHTLCM:~/build$ cd ~/build
+tech24@DESKTOP-1VHTLCM:~/build$ git clone https://github.com/opencv/opencv.git
+Cloning into 'opencv'...
+remote: Enumerating objects: 354621, done.
+remote: Counting objects: 100% (45/45), done.
+remote: Compressing objects: 100% (36/36), done.
+remote: Total 354621 (delta 16), reused 12 (delta 9), pack-reused 354576 (from 2)
+Receiving objects: 100% (354621/354621), 542.67 MiB | 1.92 MiB/s, done.
+Resolving deltas: 100% (247770/247770), done.
+Updating files: 100% (7695/7695), done.
+tech24@DESKTOP-1VHTLCM:~/build$ git clone https://github.com/opencv/opencv_contrib.git
+Cloning into 'opencv_contrib'...
+remote: Enumerating objects: 44661, done.
+remote: Counting objects: 100% (3423/3423), done.
+remote: Compressing objects: 100% (1383/1383), done.
+remote: Total 44661 (delta 2408), reused 2040 (delta 2040), pack-reused 41238 (from 3)
+Receiving objects: 100% (44661/44661), 152.90 MiB | 2.07 MiB/s, done.
+Resolving deltas: 100% (27529/27529), done.
+tech24@DESKTOP-1VHTLCM:~/build$ ls
+opencv  opencv_contrib
+tech24@DESKTOP-1VHTLCM:~/build$ cmake \
+-D WITH_CUDA=ON \
+-D WITH_CUDNN=ON \
+-D OPENCV_DNN_CUDA=ON \
+-D CUDA_ARCH_BIN=8.6 \
+-D CMAKE_C_COMPILER=gcc-12 \
+-D CMAKE_CXX_COMPILER=g++-12 \
+-D WITH_NVCUVID=ON \
+-D WITH_NVCUVENC=ON \
+-D VIDEO_CODEC_SDK_INCLUDE_DIR=/home/tech24/nv_sdk/Interface/ \
+-D OPENCV_EXTRA_MODULES_PATH=/home/tech24/build/opencv_contrib/modules/ \
+-D PYTHON3_EXECUTABLE=/home/tech24/anaconda3/envs/cv/bin/python \
+/home/tech24/build/opencv
+-- 'Release' build type is used by default. Use CMAKE_BUILD_TYPE to specify build type (Release or Debug)
+-- The CXX compiler identification is GNU 12.4.0
+-- The C compiler identification is GNU 12.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++-12 - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc-12 - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detected processor: x86_64
+-- Found PythonInterp: /home/tech24/anaconda3/envs/cv/bin/python (Required is at least version "3.2")
+-- Looking for ccache - not found
+-- Performing Test HAVE_CXX_FSIGNED_CHAR
+-- Performing Test HAVE_CXX_FSIGNED_CHAR - Success
+-- Performing Test HAVE_C_FSIGNED_CHAR
+-- Performing Test HAVE_C_FSIGNED_CHAR - Success
+-- Performing Test HAVE_CXX_W
+-- Performing Test HAVE_CXX_W - Success
+-- Performing Test HAVE_C_W
+-- Performing Test HAVE_C_W - Success
+-- Performing Test HAVE_CXX_WALL
+-- Performing Test HAVE_CXX_WALL - Success
+-- Performing Test HAVE_C_WALL
