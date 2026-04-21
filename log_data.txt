@@ -4898,3 +4898,103 @@ In file included from /home/tech24/build/opencv/modules/gapi/src/streaming/onevp
 [ 97%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_util_tests.cpp.o
 [ 97%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gpu/gapi_core_tests_gpu.cpp.o
 [ 97%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/input_array_utility.cpp.o
+[ 97%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/deblurring.cpp.o
+[ 97%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/optical_flow.cpp.o
+[ 97%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/fast_marching.cpp.o
+[ 97%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/frame_source.cpp.o
+[ 97%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/super_resolution.cpp.o
+[ 97%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/global_motion.cpp.o
+[ 97%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/inpainting.cpp.o
+[ 97%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/opencl_kernels_superres.cpp.o
+[ 97%] Linking CXX shared library ../../lib/libopencv_superres.so
+[ 97%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gpu/gapi_imgproc_tests_gpu.cpp.o
+[ 97%] Built target opencv_superres
+[ 97%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/log.cpp.o
+[ 97%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gpu/gapi_operators_tests_gpu.cpp.o
+[ 97%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/motion_stabilizing.cpp.o
+[ 97%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/optical_flow.cpp.o
+[ 97%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/outlier_rejection.cpp.o
+[ 98%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/stabilizer.cpp.o
+[ 98%] Building CXX object modules/superres/CMakeFiles/opencv_test_superres.dir/test/test_main.cpp.o
+[ 98%] Building CXX object modules/superres/CMakeFiles/opencv_test_superres.dir/test/test_superres.cpp.o
+[ 98%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/wobble_suppression.cpp.o
+[ 98%] Linking CXX executable ../../bin/opencv_test_superres
+[ 98%] Built target opencv_test_superres
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/infer/gapi_infer_ie_test.cpp.o
+[ 98%] Linking CXX shared library ../../lib/libopencv_videostab.so
+[ 98%] Built target opencv_videostab
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/infer/gapi_infer_onnx_test.cpp.o
+[ 98%] Building CXX object modules/superres/CMakeFiles/opencv_perf_superres.dir/perf/perf_main.cpp.o
+[ 98%] Building CXX object modules/superres/CMakeFiles/opencv_perf_superres.dir/perf/perf_superres.cpp.o
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/infer/gapi_infer_ov_tests.cpp.o
+[ 98%] Building CXX object modules/videostab/CMakeFiles/opencv_test_videostab.dir/test/test_main.cpp.o
+[ 98%] Building CXX object modules/videostab/CMakeFiles/opencv_test_videostab.dir/test/test_motion_estimation.cpp.o
+[ 98%] Building CXX object modules/videostab/CMakeFiles/opencv_test_videostab.dir/test/test_stabilizer.cpp.o
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/infer/gapi_infer_tests.cpp.o
+[ 98%] Linking CXX executable ../../bin/opencv_perf_superres
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_backend_tests.cpp.o
+[ 98%] Built target opencv_perf_superres
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_dynamic_graph.cpp.o
+[ 98%] Linking CXX executable ../../bin/opencv_test_videostab
+[ 98%] Built target opencv_test_videostab
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_executor_tests.cpp.o
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_garg_test.cpp.o
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_gmetaarg_test.cpp.o
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_gmodel_builder_test.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_island_fusion_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_island_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_pattern_matching_test.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_perform_substitution_test.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_proto_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_recompilation_test.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_vectorref_test.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_transactions_test.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/oak/gapi_tests_oak.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/own/conc_queue_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/own/gapi_types_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/own/last_written_value_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/own/mat_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/own/scalar_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/own/thread_pool_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/render/ftp_render_test.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/render/gapi_render_tests_ocv.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/rmat/rmat_integration_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/rmat/rmat_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/rmat/rmat_view_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/s11n/gapi_s11n_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/s11n/gapi_sample_pipelines_s11n.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_gstreamer_pipeline_facade_int_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_gstreamersource_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_queue_source_tests.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_sync_tests.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_tests.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_utils_test.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_vpl_core_test.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_vpl_data_provider.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_vpl_device_selector.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_vpp_preproc_test.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/test_main.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/util/any_tests.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/util/optional_tests.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/util/variant_tests.cpp.o
+[100%] Linking CXX executable ../../bin/opencv_test_gapi
+[100%] Built target opencv_test_gapi
+tech24@DESKTOP-1VHTLCM:~/build$ sudo ldconfig
+[sudo] password for tech24:
+tech24@DESKTOP-1VHTLCM:~/build$ ls
+3rdparty              CPackConfig.cmake           OpenCVConfig.cmake   cmake_uninstall.cmake  data       lib                           opencv_contrib              python_loader    tmp
+CMakeCache.txt        CPackSourceConfig.cmake     OpenCVModules.cmake  configured             doc        modules                       opencv_data_config.hpp      setup_vars.sh    unix-install
+CMakeDownloadLog.txt  CTestTestfile.cmake         apps                 custom_hal.hpp         downloads  opencv                        opencv_python_config.cmake  share            version_string.tmp
+CMakeFiles            Makefile                    bin                  cv_cpu_config.h        hal        opencv2                       opencv_python_tests.cfg     test-reports
+CMakeVars.txt         OpenCVConfig-version.cmake  cmake_install.cmake  cvconfig.h             include    opencv_apps_python_tests.cfg  opencv_tests_config.hpp     text_config.hpp
+tech24@DESKTOP-1VHTLCM:~/build$ nano su.py
+tech24@DESKTOP-1VHTLCM:~/build$ python3 su.py
+CUDA is not detected in this OpenCV build.
+tech24@DESKTOP-1VHTLCM:~/build$ sudo make install
+-- Detected processor: x86_64
+-- Looking for ccache - not found
+-- Could NOT find AVIF (missing: AVIF_LIBRARY AVIF_INCLUDE_DIR)
+-- Could NOT find OpenJPEG (minimal suitable version: 2.0, recommended version >= 2.3.1). OpenJPEG will be built from sources
+-- OpenJPEG: VERSION = 2.5.3, BUILD = opencv-4.14.0-pre-openjp2-2.5.3
+-- OpenJPEG libraries will be built from sources: libopenjp2 (version "2.5.3")
+-- libva: missing va.h header (VA_INCLUDE_DIR)
