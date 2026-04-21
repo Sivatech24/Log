@@ -2598,3 +2598,103 @@ In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::ra
 [ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.o
 [ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.o
 [ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.o
+[ 19%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_concat.cu.o
+[ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.o
+[ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/main.cpp.o
+[ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.cpp.o
+[ 19%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_crop_and_resize.cu.o
+[ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.cpp.o
+[ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/orb.cpp.o
+[ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/sift.dispatch.cpp.o
+[ 19%] Building NVCC (Device) object modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_resize.cu.o
+[ 19%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_detection_output.cu.o
+[ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o
+[ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/sift.sse4_1.cpp.o
+[ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.avx2.cpp.o
+[ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/sift.avx2.cpp.o
+[ 19%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.32fc1.cu.o
+[ 19%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_eltwise_activation.cu.o
+[ 19%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/sift.avx512_skx.cpp.o
+[ 19%] Linking CXX shared library ../../lib/libopencv_features2d.so
+[ 19%] Built target opencv_features2d
+[ 19%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.32fc3.cu.o
+[ 19%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_eltwise_ops.cu.o
+[ 19%] Building CXX object modules/cudawarping/CMakeFiles/opencv_cudawarping.dir/src/pyramids.cpp.o
+[ 19%] Building CXX object modules/cudawarping/CMakeFiles/opencv_cudawarping.dir/src/remap.cpp.o
+[ 19%] Building CXX object modules/cudawarping/CMakeFiles/opencv_cudawarping.dir/src/resize.cpp.o
+[ 19%] Building CXX object modules/cudawarping/CMakeFiles/opencv_cudawarping.dir/src/warp.cpp.o
+[ 19%] Building CXX object modules/freetype/CMakeFiles/opencv_freetype.dir/src/freetype.cpp.o
+[ 19%] Linking CXX shared library ../../lib/libopencv_freetype.so
+[ 19%] Built target opencv_freetype
+[ 19%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.32fc4.cu.o
+[ 19%] Linking CXX shared library ../../lib/libopencv_cudawarping.so
+[ 19%] Built target opencv_cudawarping
+[ 19%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_fill_copy.cu.o
+[ 20%] Building CXX object modules/fuzzy/CMakeFiles/opencv_fuzzy.dir/src/fuzzy_F0_math.cpp.o
+[ 20%] Building CXX object modules/fuzzy/CMakeFiles/opencv_fuzzy.dir/src/fuzzy_F1_math.cpp.o
+[ 20%] Building CXX object modules/fuzzy/CMakeFiles/opencv_fuzzy.dir/src/fuzzy_image.cpp.o
+[ 20%] Linking CXX shared library ../../lib/libopencv_fuzzy.so
+[ 20%] Built target opencv_fuzzy
+[ 20%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_fp_conversion.cu.o
+[ 20%] Building NVCC (Device) object modules/hfs/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_magnitude.cu.o
+[ 20%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.32sc1.cu.o
+[ 20%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_grid_nms.cu.o
+[ 20%] Building NVCC (Device) object modules/hfs/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_gslic_seg_engine_gpu.cu.o
+[ 20%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_max_unpooling.cu.o
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_memory_block.hpp: In instantiation of ‘void cv::hfs::orutils::MemoryBlock<T>::clear(unsigned char) [with T = cv::hfs::orutils::Vector4<unsigned char>]’:
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_memory_block.hpp:42:1:   required from ‘cv::hfs::orutils::MemoryBlock<T>::MemoryBlock(size_t) [with T = cv::hfs::orutils::Vector4<unsigned char>; size_t = long unsigned int]’
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_image.hpp:18:84:   required from ‘cv::hfs::orutils::Image<T>::Image(cv::hfs::orutils::Vector2<int>) [with T = cv::hfs::orutils::Vector4<unsigned char>]’
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/gslic_seg_engine_gpu.cu:43:115:   required from here
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_memory_block.hpp:47:7: warning: ‘void* memset(void*, int, size_t)’ writing to an object of non-trivial type ‘class cv::hfs::orutils::Vector4<unsigned char>’; use assignment instead [-Wclass-memaccess]
+   47 |         memset(data_cpu, defaultValue, dataSize * sizeof(T));
+      |       ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_vector.hpp:63:26: note: ‘class cv::hfs::orutils::Vector4<unsigned char>’ declared here
+   63 | template <class T> class Vector4 : public Vector4_ < T >
+      |                          ^~~~~~~
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_memory_block.hpp: In instantiation of ‘void cv::hfs::orutils::MemoryBlock<T>::clear(unsigned char) [with T = cv::hfs::orutils::Vector4<float>]’:
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_memory_block.hpp:42:1:   required from ‘cv::hfs::orutils::MemoryBlock<T>::MemoryBlock(size_t) [with T = cv::hfs::orutils::Vector4<float>; size_t = long unsigned int]’
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_image.hpp:18:84:   required from ‘cv::hfs::orutils::Image<T>::Image(cv::hfs::orutils::Vector2<int>) [with T = cv::hfs::orutils::Vector4<float>]’
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/gslic_seg_engine_gpu.cu:44:104:   required from here
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_memory_block.hpp:47:7: warning: ‘void* memset(void*, int, size_t)’ writing to an object of non-trivial type ‘class cv::hfs::orutils::Vector4<float>’; use assignment instead [-Wclass-memaccess]
+   47 |         memset(data_cpu, defaultValue, dataSize * sizeof(T));
+      |       ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_vector.hpp:63:26: note: ‘class cv::hfs::orutils::Vector4<float>’ declared here
+   63 | template <class T> class Vector4 : public Vector4_ < T >
+      |                          ^~~~~~~
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_memory_block.hpp: In instantiation of ‘void cv::hfs::orutils::MemoryBlock<T>::clear(unsigned char) [with T = cv::hfs::slic::gSpixelInfo]’:
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_memory_block.hpp:42:1:   required from ‘cv::hfs::orutils::MemoryBlock<T>::MemoryBlock(size_t) [with T = cv::hfs::slic::gSpixelInfo; size_t = long unsigned int]’
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_image.hpp:18:84:   required from ‘cv::hfs::orutils::Image<T>::Image(cv::hfs::orutils::Vector2<int>) [with T = cv::hfs::slic::gSpixelInfo]’
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/gslic_seg_engine_gpu.cu:54:80:   required from here
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../or_utils/or_memory_block.hpp:47:7: warning: ‘void* memset(void*, int, size_t)’ writing to an object of non-trivial type ‘struct cv::hfs::slic::gSpixelInfo’; use assignment instead [-Wclass-memaccess]
+   47 |         memset(data_cpu, defaultValue, dataSize * sizeof(T));
+      |       ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tech24/build/opencv_contrib/modules/hfs/src/cuda/../slic/slic.hpp:67:8: note: ‘struct cv::hfs::slic::gSpixelInfo’ declared here
+   67 | struct gSpixelInfo
+      |        ^~~~~~~~~~~
+[ 21%] Building CXX object modules/hfs/CMakeFiles/opencv_hfs.dir/src/hfs.cpp.o
+[ 21%] Building CXX object modules/hfs/CMakeFiles/opencv_hfs.dir/src/hfs_core.cpp.o
+In file included from /home/tech24/build/opencv_contrib/modules/hfs/src/or_utils/or_image.hpp:9,
+                 from /home/tech24/build/opencv_contrib/modules/hfs/src/or_utils/or_types.hpp:9,
+                 from /home/tech24/build/opencv_contrib/modules/hfs/src/precomp.hpp:12,
+                 from /home/tech24/build/opencv_contrib/modules/hfs/src/hfs_core.cpp:5:
+/home/tech24/build/opencv_contrib/modules/hfs/src/or_utils/or_memory_block.hpp: In instantiation of ‘void cv::hfs::orutils::MemoryBlock<T>::clear(unsigned char) [with T = cv::hfs::orutils::Vector4<unsigned char>]’:
+/home/tech24/build/opencv_contrib/modules/hfs/src/or_utils/or_memory_block.hpp:42:9:   required from ‘cv::hfs::orutils::MemoryBlock<T>::MemoryBlock(size_t) [with T = cv::hfs::orutils::Vector4<unsigned char>; size_t = long unsigned int]’
+/home/tech24/build/opencv_contrib/modules/hfs/src/or_utils/or_image.hpp:19:49:   required from ‘cv::hfs::orutils::Image<T>::Image(cv::hfs::orutils::Vector2<int>) [with T = cv::hfs::orutils::Vector4<unsigned char>]’
+/home/tech24/build/opencv_contrib/modules/hfs/src/hfs_core.cpp:66:58:   required from here
+/home/tech24/build/opencv_contrib/modules/hfs/src/or_utils/or_memory_block.hpp:47:15: warning: ‘void* memset(void*, int, size_t)’ writing to an object of non-trivial type ‘class cv::hfs::orutils::Vector4<unsigned char>’; use assignment instead [-Wclass-memaccess]
+   47 |         memset(data_cpu, defaultValue, dataSize * sizeof(T));
+      |         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tech24/build/opencv_contrib/modules/hfs/src/or_utils/or_types.hpp:8:
+/home/tech24/build/opencv_contrib/modules/hfs/src/or_utils/or_vector.hpp:63:26: note: ‘class cv::hfs::orutils::Vector4<unsigned char>’ declared here
+   63 | template <class T> class Vector4 : public Vector4_ < T >
+      |                          ^~~~~~~
+[ 21%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/average_hash.cpp.o
+[ 21%] Building CXX object modules/hfs/CMakeFiles/opencv_hfs.dir/src/magnitude/magnitude.cpp.o
+[ 21%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/block_mean_hash.cpp.o
+[ 21%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mvn.cu.o
+[ 21%] Building CXX object modules/hfs/CMakeFiles/opencv_hfs.dir/src/merge/merge.cpp.o
+[ 21%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/color_moment_hash.cpp.o
+[ 21%] Building CXX object modules/hfs/CMakeFiles/opencv_hfs.dir/src/slic/gslic_engine.cpp.o
+[ 21%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/img_hash_base.cpp.o
+[ 21%] Building CXX object modules/hfs/CMakeFiles/opencv_hfs.dir/src/slic/slic.cpp.o
+[ 21%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/marr_hildreth_hash.cpp.o
