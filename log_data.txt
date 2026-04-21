@@ -2998,3 +2998,103 @@ In static member function ‘static _Up* std::__copy_move<_IsMove, true, std::ra
 [ 30%] Building CXX object apps/visualisation/CMakeFiles/opencv_visualisation.dir/opencv_visualisation.cpp.o
 [ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/flow_warp_layer.cpp.o
 [ 30%] Linking CXX executable ../../bin/opencv_visualisation
+[ 30%] Built target opencv_visualisation
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/fully_connected_layer.cpp.o
+[ 30%] Building CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/cuda_perf.cpp.o
+[ 30%] Building CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/cuda_test.cpp.o
+[ 30%] Building CXX object modules/ccalib/CMakeFiles/opencv_ccalib.dir/src/randpattern.cpp.o
+[ 30%] Linking CXX shared library ../../lib/libopencv_ccalib.so
+[ 30%] Building CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ocl_perf.cpp.o
+[ 30%] Built target opencv_ccalib
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/gather_elements_layer.cpp.o
+[ 30%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.32sc3.cu.o
+[ 30%] Building CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ocl_test.cpp.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/gather_layer.cpp.o
+[ 30%] Building NVCC (Device) object modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_util.cu.o
+[ 30%] Building CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ts.cpp.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/gemm_layer.cpp.o
+[ 30%] Building CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ts_arrtest.cpp.o
+[ 30%] Building NVCC (Device) object modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_disparity_bilateral_filter.cu.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/group_norm_layer.cpp.o
+[ 30%] Building CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ts_func.cpp.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/instance_norm_layer.cpp.o
+[ 30%] Building NVCC (Device) object modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_stereobm.cu.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/layer_norm.cpp.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/layers_common.cpp.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/lrn_layer.cpp.o
+[ 30%] Building CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ts_gtest.cpp.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/matmul_layer.cpp.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/max_unpooling_layer.cpp.o
+[ 30%] Building CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ts_perf.cpp.o
+[ 30%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.32sc4.cu.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/mvn_layer.cpp.o
+[ 30%] Building NVCC (Device) object modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_stereobp.cu.o
+[ 30%] Building CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ts_tags.cpp.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/nary_eltwise_layers.cpp.o
+[ 30%] Linking CXX static library ../../lib/libopencv_ts.a
+[ 30%] Built target opencv_ts
+[ 30%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.8uc1.cu.o
+[ 30%] Building NVCC (Device) object modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_stereocsbp.cu.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/normalize_bbox_layer.cpp.o
+[ 30%] Building NVCC (Device) object modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_stereosgm.cu.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/not_implemented_layer.cpp.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/padding_layer.cpp.o
+[ 30%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/permute_layer.cpp.o
+[ 30%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.8uc3.cu.o
+[ 30%] Building CXX object modules/rapid/CMakeFiles/opencv_rapid.dir/src/histogram.cpp.o
+[ 31%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/pooling_layer.cpp.o
+[ 31%] Building CXX object modules/rapid/CMakeFiles/opencv_rapid.dir/src/rapid.cpp.o
+[ 31%] Linking CXX shared library ../../lib/libopencv_rapid.so
+[ 31%] Built target opencv_rapid
+[ 31%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/prior_box_layer.cpp.o
+[ 31%] Building CXX object modules/cudastereo/CMakeFiles/opencv_cudastereo.dir/src/disparity_bilateral_filter.cpp.o
+[ 31%] Processing OpenCL kernels (rgbd)
+[ 31%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/colored_kinfu.cpp.o
+[ 31%] Building CXX object modules/cudastereo/CMakeFiles/opencv_cudastereo.dir/src/stereobm.cpp.o
+[ 31%] Building CXX object modules/cudastereo/CMakeFiles/opencv_cudastereo.dir/src/stereobp.cpp.o
+[ 31%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/colored_tsdf.cpp.o
+[ 31%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/proposal_layer.cpp.o
+[ 31%] Building CXX object modules/cudastereo/CMakeFiles/opencv_cudastereo.dir/src/stereocsbp.cpp.o
+[ 31%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/depth_cleaner.cpp.o
+[ 31%] Building CXX object modules/cudastereo/CMakeFiles/opencv_cudastereo.dir/src/stereosgm.cpp.o
+[ 31%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/randomnormallike_layer.cpp.o
+[ 32%] Building CXX object modules/cudastereo/CMakeFiles/opencv_cudastereo.dir/src/util.cpp.o
+[ 32%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/recurrent_layers.cpp.o
+[ 32%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/depth_registration.cpp.o
+[ 32%] Linking CXX shared library ../../lib/libopencv_cudastereo.so
+[ 32%] Built target opencv_cudastereo
+[ 32%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/depth_to_3d.cpp.o
+[ 32%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/reduce_layer.cpp.o
+[ 32%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/dqb.cpp.o
+[ 32%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/dynafu.cpp.o
+[ 32%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/dynafu_tsdf.cpp.o
+[ 32%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/region_layer.cpp.o
+[ 32%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/fast_icp.cpp.o
+[ 32%] Building CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/aff_trans.cpp.o
+[ 32%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/reorg_layer.cpp.o
+[ 32%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/hash_tsdf.cpp.o
+[ 32%] Building CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/emdL1.cpp.o
+[ 32%] Building CXX object modules/cudafilters/CMakeFiles/opencv_cudafilters.dir/src/filtering.cpp.o
+[ 32%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/reshape_layer.cpp.o
+[ 32%] Building CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/haus_dis.cpp.o
+[ 32%] Linking CXX shared library ../../lib/libopencv_cudafilters.so
+[ 32%] Building CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/hist_cost.cpp.o
+[ 32%] Built target opencv_cudafilters
+[ 32%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/kinfu.cpp.o
+[ 32%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/resize_layer.cpp.o
+[ 32%] Building CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/sc_dis.cpp.o
+[ 32%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/kinfu_frame.cpp.o
+[ 32%] Building CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/tps_trans.cpp.o
+[ 32%] Building CXX object modules/structured_light/CMakeFiles/opencv_structured_light.dir/src/graycodepattern.cpp.o
+[ 32%] Linking CXX shared library ../../lib/libopencv_shape.so
+[ 32%] Built target opencv_shape
+[ 32%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/large_kinfu.cpp.o
+[ 32%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/scale_layer.cpp.o
+[ 32%] Building CXX object modules/structured_light/CMakeFiles/opencv_structured_light.dir/src/sinusoidalpattern.cpp.o
+[ 32%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/scatterND_layer.cpp.o
+[ 32%] Linking CXX shared library ../../lib/libopencv_structured_light.so
+[ 32%] Built target opencv_structured_light
+[ 32%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/scatter_layer.cpp.o
+[ 33%] Building CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/linemod.cpp.o
+[ 33%] Building CXX object modules/bioinspired/CMakeFiles/opencv_test_bioinspired.dir/test/test_main.cpp.o
+[ 33%] Building CXX object modules/bioinspired/CMakeFiles/opencv_perf_bioinspired.dir/perf/opencl/perf_retina.ocl.cpp.o
