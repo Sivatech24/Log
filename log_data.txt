@@ -2698,3 +2698,103 @@ In file included from /home/tech24/build/opencv_contrib/modules/hfs/src/or_utils
 [ 21%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/img_hash_base.cpp.o
 [ 21%] Building CXX object modules/hfs/CMakeFiles/opencv_hfs.dir/src/slic/slic.cpp.o
 [ 21%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/marr_hildreth_hash.cpp.o
+[ 21%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/phash.cpp.o
+[ 21%] Linking CXX shared library ../../lib/libopencv_hfs.so
+[ 21%] Built target opencv_hfs
+[ 21%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.32sc3.cu.o
+[ 21%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/radial_variance_hash.cpp.o
+[ 21%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_normalize.cu.o
+[ 21%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_line_descriptor.dir/src/LSDDetector.cpp.o
+[ 21%] Linking CXX shared library ../../lib/libopencv_img_hash.so
+[ 21%] Built target opencv_img_hash
+[ 21%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_padding.cu.o
+[ 21%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_line_descriptor.dir/src/binary_descriptor.cpp.o
+[ 21%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.32sc4.cu.o
+[ 21%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_line_descriptor.dir/src/binary_descriptor_matcher.cpp.o
+[ 21%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_permute.cu.o
+[ 21%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_line_descriptor.dir/src/draw.cpp.o
+[ 21%] Linking CXX shared library ../../lib/libopencv_line_descriptor.so
+[ 21%] Built target opencv_line_descriptor
+[ 21%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.8uc1.cu.o
+[ 21%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_prior_box.cu.o
+[ 21%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_region.cu.o
+[ 21%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_resize.cu.o
+[ 21%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_roi_pooling.cu.o
+[ 21%] Building CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/BING/CmFile.cpp.o
+[ 21%] Building CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/BING/CmShow.cpp.o
+[ 21%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.8uc3.cu.o
+[ 21%] Building CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/BING/FilterTIG.cpp.o
+[ 21%] Building CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/BING/ValStructVec.cpp.o
+[ 21%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_scale_shift.cu.o
+[ 21%] Building CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/BING/objectnessBING.cpp.o
+[ 22%] Processing OpenCL kernels (calib3d)
+[ 22%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ap3p.cpp.o
+[ 22%] Building CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/motionSaliency.cpp.o
+[ 22%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.cpp.o
+[ 22%] Building CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/motionSaliencyBinWangApr2014.cpp.o
+[ 22%] Building CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/objectness.cpp.o
+[ 22%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_shortcut.cu.o
+[ 22%] Building CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/saliency.cpp.o
+[ 22%] Building CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/staticSaliency.cpp.o
+[ 22%] Building CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/staticSaliencyFineGrained.cpp.o
+[ 22%] Building CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/staticSaliencySpectralResidual.cpp.o
+[ 23%] Linking CXX shared library ../../lib/libopencv_saliency.so
+[ 23%] Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_slice.cu.o
+[ 23%] Built target opencv_saliency
+[ 23%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.8uc4.cu.o
+[ 23%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.cpp.o
+[ 23%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/caffe/opencv-caffe.pb.cc.o
+[ 23%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration_base.cpp.o
+[ 23%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration_handeye.cpp.o
+[ 23%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.cpp.o
+[ 23%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/onnx/opencv-onnx.pb.cc.o
+[ 23%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/chessboard.cpp.o
+[ 24%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/videoio_registry.cpp.o
+[ 24%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/videoio_c.cpp.o
+[ 24%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/circlesgrid.cpp.o
+[ 24%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/attr_value.pb.cc.o
+[ 24%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap.cpp.o
+[ 24%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_images.cpp.o
+[ 25%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/function.pb.cc.o
+[ 25%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_ptsetreg.cpp.o
+[ 25%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_filter2d.cu.o
+[ 25%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_encoder.cpp.o
+[ 25%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/dls.cpp.o
+[ 25%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/graph.pb.cc.o
+[ 25%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_decoder.cpp.o
+[ 25%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/backend_plugin.cpp.o
+[ 25%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/epnp.cpp.o
+[ 25%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/op_def.pb.cc.o
+[ 26%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_median_filter.cu.o
+[ 26%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fisheye.cpp.o
+[ 26%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/tensor.pb.cc.o
+[ 26%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/backend_static.cpp.o
+[ 26%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/tensor_shape.pb.cc.o
+[ 26%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/container_avi.cpp.o
+/home/tech24/build/opencv_contrib/modules/cudafilters/src/cuda/wavelet_matrix_2d.cuh(451): warning #2912-D: constexpr if statements are a C++17 feature
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+[ 26%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/types.pb.cc.o
+[ 26%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/versions.pb.cc.o
+[ 26%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_gstreamer.cpp.o
+[ 26%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/five-point.cpp.o
+[ 26%] Building CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/backend.cpp.o
+/home/tech24/build/opencv_contrib/modules/cudafilters/src/cuda/wavelet_matrix_float_supporter.cuh(81): warning #2912-D: constexpr if statements are a C++17 feature
+          detected during:
+            instantiation of "void cv::cuda::device::wavelet_matrix_median::WMMedianFloatSupporter::WMMedianFloatSupporter<ValT, CH_NUM, IdxT>::sort_and_set(IdxT *, IdxT) [with ValT=float, CH_NUM=1, IdxT=uint32_t]"
+/home/tech24/build/opencv_contrib/modules/cudafilters/src/cuda/median_filter.cu(381): here
+            instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=unsigned char]"
+/home/tech24/build/opencv_contrib/modules/cudafilters/src/cuda/median_filter.cu(400): here
+            instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=unsigned char]"
+/home/tech24/build/opencv_contrib/modules/cudafilters/src/cuda/median_filter.cu(410): here
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+          detected during:
+            instantiation of "void cv::cuda::device::wavelet_matrix_median::WMMedianFloatSupporter::WMMedianFloatSupporter<ValT, CH_NUM, IdxT>::sort_and_set(IdxT *, IdxT) [with ValT=float, CH_NUM=1, IdxT=uint32_t]"
+/home/tech24/build/opencv_contrib/modules/cudafilters/src/cuda/median_filter.cu(381): here
+            instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=unsigned char]"
+/home/tech24/build/opencv_contrib/modules/cudafilters/src/cuda/median_filter.cu(400): here
+            instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=unsigned char]"
+/home/tech24/build/opencv_contrib/modules/cudafilters/src/cuda/median_filter.cu(410): here
+
