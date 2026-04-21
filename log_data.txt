@@ -7798,3 +7798,103 @@ tech24@DESKTOP-1VHTLCM:~/build$ sudo make install
 [ 87%] Built target opencv_gapi
 [ 91%] Built target opencv_test_gapi
 [ 91%] Built target opencv_perf_gapi
+[ 92%] Built target opencv_optflow
+[ 92%] Built target opencv_test_optflow
+[ 92%] Built target opencv_perf_optflow
+[ 93%] Built target opencv_stitching
+[ 94%] Built target opencv_test_stitching
+[ 94%] Built target opencv_perf_stitching
+[ 96%] Built target opencv_tracking
+[ 96%] Built target opencv_test_tracking
+[ 96%] Built target opencv_perf_tracking
+[ 96%] Built target opencv_cudaoptflow
+[ 97%] Built target opencv_test_cudaoptflow
+[ 97%] Built target opencv_perf_cudaoptflow
+[ 97%] Built target opencv_stereo
+[ 97%] Built target opencv_test_stereo
+[ 98%] Built target opencv_perf_stereo
+[ 98%] Built target opencv_superres
+[ 98%] Built target opencv_test_superres
+[ 98%] Built target opencv_perf_superres
+[ 99%] Built target opencv_videostab
+[ 99%] Built target opencv_test_videostab
+[ 99%] Built target opencv_annotation
+[ 99%] Built target opencv_visualisation
+[100%] Built target opencv_interactive-calibration
+[100%] Built target opencv_version
+[100%] Built target opencv_model_diagnostics
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /usr/local/share/licenses/opencv4/dlpack-LICENSE
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippicv-readme.htm
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippicv-EULA.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippicv-third-party-programs.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippiw-support.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippiw-third-party-programs.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippiw-EULA.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/flatbuffers-LICENSE.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/opencl-headers-LICENSE.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ade-LICENSE
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cvconfig.h
+-- Up-to-date: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
+-- Up-to-date: /usr/local/lib/cmake/opencv4/OpenCVModules.cmake
+-- Up-to-date: /usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake
+-- Up-to-date: /usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake
+-- Up-to-date: /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake
+-- Up-to-date: /usr/local/bin/setup_vars_opencv4.sh
+-- Up-to-date: /usr/local/share/opencv4/valgrind.supp
+-- Up-to-date: /usr/local/share/opencv4/valgrind_3rdparty.supp
+-- Up-to-date: /usr/local/share/licenses/opencv4/libopenjp2-README.md
+-- Up-to-date: /usr/local/share/licenses/opencv4/libopenjp2-LICENSE
+-- Up-to-date: /usr/local/share/licenses/opencv4/protobuf-LICENSE
+-- Up-to-date: /usr/local/share/licenses/opencv4/protobuf-README.md
+-- Up-to-date: /usr/local/share/licenses/opencv4/ittnotify-BSD-3-Clause.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ittnotify-GPL-2.0-only.txt
+-- Up-to-date: /usr/local/include/opencv4/opencv2/opencv.hpp
+-- Up-to-date: /usr/local/lib/libopencv_cudev.so.4.14.0
+-- Up-to-date: /usr/local/lib/libopencv_cudev.so.414
+-- Up-to-date: /usr/local/lib/libopencv_cudev.so
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/block/block.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/block/detail/reduce.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/block/detail/reduce_key_val.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/block/dynamic_smem.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/block/reduce.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/block/scan.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/block/vec_distance.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/common.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/common.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/expr/binary_func.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/expr/binary_op.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/expr/color.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/expr/deriv.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/expr/expr.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/expr/per_element_func.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/expr/reduction.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/expr/unary_func.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/expr/unary_op.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/expr/warping.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/functional/color_cvt.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/functional/detail/color_cvt.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/functional/functional.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/functional/tuple_adapter.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/copy.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/detail/copy.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/detail/histogram.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/detail/integral.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/detail/minmaxloc.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/detail/pyr_down.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/detail/pyr_up.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/detail/reduce.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/detail/reduce_to_column.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/detail/reduce_to_row.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/detail/split_merge.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/detail/transform.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/detail/transpose.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/histogram.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/integral.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/pyramids.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/reduce.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/reduce_to_vec.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/split_merge.hpp
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cudev/grid/transform.hpp
