@@ -4798,3 +4798,103 @@ In file included from /home/tech24/build/opencv/modules/gapi/src/streaming/onevp
 [ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/kalman_filter/kalman_filter_no_opencv.cpp.o
 [ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/mtt/hungarian_wrap.cpp.o
 [ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/mtt/objects_associator.cpp.o
+[ 94%] Building CXX object modules/stereo/CMakeFiles/opencv_perf_stereo.dir/perf/perf_main.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/mtt/rgb_histogram.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/object_tracker.cpp.o
+[ 94%] Linking CXX executable ../../bin/opencv_perf_stereo
+[ 94%] Built target opencv_perf_stereo
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/short_term_imageless_tracker.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/tracker.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/tracklet.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/zero_term_imageless_tracker.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/backends/fluid/gfluidimgproc_func.sse4_1.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/backends/fluid/gfluidcore_func.sse4_1.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/backends/fluid/gfluidimgproc_func.avx2.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/backends/fluid/gfluidcore_func.avx2.cpp.o
+[ 94%] Linking CXX shared library ../../lib/libopencv_gapi.so
+[ 94%] Built target opencv_gapi
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/common/gapi_core_perf_tests.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/common/gapi_imgproc_perf_tests.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_compoundkernel_tests.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_core_tests.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/common/gapi_render_perf_tests.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_imgproc_tests.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/common/gapi_video_perf_tests.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_operators_tests.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/cpu/gapi_core_perf_tests_cpu.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_render_tests.cpp.o
+[ 94%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/cpu/gapi_core_perf_tests_fluid.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_stereo_tests.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_video_tests.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_core_tests_cpu.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/cpu/gapi_imgproc_perf_tests_cpu.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_core_tests_fluid.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_imgproc_tests_cpu.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_imgproc_tests_fluid.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/cpu/gapi_imgproc_perf_tests_fluid.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/cpu/gapi_video_perf_tests_cpu.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_ocv_stateful_kernel_tests.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/gpu/gapi_core_perf_tests_gpu.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/gpu/gapi_imgproc_perf_tests_gpu.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_operators_tests_cpu.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_operators_tests_fluid.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_ot_tests_cpu.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_stereo_tests_cpu.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/internal/gapi_compiler_perf_tests.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_video_tests_cpu.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/perf_bench.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/executor/gtbbexecutor_internal_tests.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/perf_main.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_array_tests.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/render/gapi_render_perf_tests_ocv.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/streaming/gapi_streaming_source_perf_tests.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_async_test.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_basic_hetero_tests.cpp.o
+[ 95%] Linking CXX executable ../../bin/opencv_perf_gapi
+[ 95%] Built target opencv_perf_gapi
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_compile_args_tests.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_desc_tests.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_fluid_parallel_rois_test.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_fluid_resize_test.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_fluid_roi_test.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_fluid_test.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_fluid_test_kernels.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_frame_tests.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_gcompiled_tests.cpp.o
+[ 95%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_gcomputation_tests.cpp.o
+[ 96%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_gpu_test.cpp.o
+[ 96%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_graph_meta_tests.cpp.o
+[ 96%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_kernel_tests.cpp.o
+[ 96%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_mat_tests.cpp.o
+[ 96%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_cudaoptflow.dir/src/brox.cpp.o
+[ 96%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_cudaoptflow.dir/src/farneback.cpp.o
+[ 96%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_cudaoptflow.dir/src/nvidiaOpticalFlow.cpp.o
+[ 96%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_cudaoptflow.dir/src/pyrlk.cpp.o
+[ 96%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_opaque_tests.cpp.o
+[ 96%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_cudaoptflow.dir/src/tvl1flow.cpp.o
+[ 96%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_plaidml_pipelines.cpp.o
+[ 96%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_planar_test.cpp.o
+[ 96%] Linking CXX shared library ../../lib/libopencv_cudaoptflow.so
+[ 96%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_sample_pipelines.cpp.o
+[ 96%] Built target opencv_cudaoptflow
+[ 96%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_test_cudaoptflow.dir/test/test_main.cpp.o
+[ 96%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_test_cudaoptflow.dir/test/test_optflow.cpp.o
+[ 96%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_perf_cudaoptflow.dir/perf/perf_main.cpp.o
+[ 96%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_perf_cudaoptflow.dir/perf/perf_optflow.cpp.o
+[ 96%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_scalar_tests.cpp.o
+[ 96%] Processing OpenCL kernels (superres)
+[ 96%] Building NVCC (Device) object modules/superres/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_btv_l1_gpu.cu.o
+[ 96%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_smoke_test.cpp.o
+[ 97%] Linking CXX executable ../../bin/opencv_test_cudaoptflow
+[ 97%] Linking CXX executable ../../bin/opencv_perf_cudaoptflow
+[ 97%] Built target opencv_test_cudaoptflow
+[ 97%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_transform_tests.cpp.o
+[ 97%] Building NVCC (Device) object modules/videostab/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_global_motion.cu.o
+[ 97%] Built target opencv_perf_cudaoptflow
+[ 97%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_typed_tests.cpp.o
+[ 97%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1.cpp.o
+[ 97%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1_cuda.cpp.o
+[ 97%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/frame_source.cpp.o
+[ 97%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_util_tests.cpp.o
+[ 97%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gpu/gapi_core_tests_gpu.cpp.o
+[ 97%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/input_array_utility.cpp.o
