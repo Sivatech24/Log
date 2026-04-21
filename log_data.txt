@@ -11098,3 +11098,103 @@ sudo ldconfig
 [ 60%] Built target opencv_test_mcc
 [ 60%] Built target opencv_perf_mcc
 [ 61%] Built target opencv_objdetect
+[ 62%] Built target opencv_test_objdetect
+[ 63%] Built target opencv_perf_objdetect
+[ 64%] Built target opencv_rapid
+[ 64%] Built target opencv_test_rapid
+[ 65%] Built target opencv_rgbd
+[ 66%] Built target opencv_test_rgbd
+[ 66%] Built target opencv_perf_rgbd
+[ 66%] Built target opencv_shape
+[ 66%] Built target opencv_test_shape
+[ 66%] Built target opencv_structured_light
+[ 66%] Built target opencv_test_structured_light
+[ 67%] Built target opencv_video
+[ 68%] Built target opencv_test_video
+[ 69%] Built target opencv_perf_video
+[ 71%] Built target opencv_wechat_qrcode
+[ 71%] Built target opencv_test_wechat_qrcode
+[ 71%] Built target opencv_perf_wechat_qrcode
+[ 72%] Built target opencv_xfeatures2d
+[ 72%] Built target opencv_test_xfeatures2d
+[ 72%] Built target opencv_perf_xfeatures2d
+[ 74%] Built target opencv_ximgproc
+[ 76%] Built target opencv_test_ximgproc
+[ 77%] Built target opencv_perf_ximgproc
+[ 77%] Built target opencv_xobjdetect
+[ 77%] Built target opencv_waldboost_detector
+[ 77%] Built target opencv_aruco
+[ 77%] Built target opencv_bgsegm
+[ 77%] Built target opencv_test_bgsegm
+[ 77%] Built target opencv_bioinspired
+[ 77%] Built target opencv_test_bioinspired
+[ 77%] Built target opencv_perf_bioinspired
+[ 78%] Built target opencv_ccalib
+[ 78%] Built target opencv_cudabgsegm
+[ 78%] Built target opencv_test_cudabgsegm
+[ 78%] Built target opencv_perf_cudabgsegm
+[ 78%] Built target opencv_cudalegacy
+[ 78%] Built target opencv_test_cudalegacy
+[ 78%] Built target opencv_perf_cudalegacy
+[ 79%] Built target opencv_cudaobjdetect
+[ 79%] Built target opencv_test_cudaobjdetect
+[ 79%] Built target opencv_perf_cudaobjdetect
+[ 79%] Built target opencv_dnn_objdetect
+[ 79%] Built target opencv_dpm
+[ 80%] Built target opencv_face
+[ 80%] Built target opencv_test_face
+[ 80%] Built target ade
+[ 85%] Built target opencv_gapi
+[ 89%] Built target opencv_test_gapi
+[ 90%] Built target opencv_perf_gapi
+[ 91%] Built target opencv_optflow
+[ 91%] Built target opencv_test_optflow
+[ 91%] Built target opencv_perf_optflow
+[ 92%] Built target opencv_stitching
+[ 93%] Built target opencv_test_stitching
+[ 93%] Built target opencv_perf_stitching
+[ 95%] Built target opencv_tracking
+[ 95%] Built target opencv_test_tracking
+[ 95%] Built target opencv_perf_tracking
+[ 95%] Built target opencv_cudaoptflow
+[ 96%] Built target opencv_test_cudaoptflow
+[ 96%] Built target opencv_perf_cudaoptflow
+[ 96%] Built target opencv_stereo
+[ 96%] Built target opencv_test_stereo
+[ 97%] Built target opencv_perf_stereo
+[ 97%] Built target opencv_superres
+[ 97%] Built target opencv_test_superres
+[ 97%] Built target opencv_perf_superres
+[ 98%] Built target opencv_videostab
+[ 98%] Built target opencv_test_videostab
+[ 98%] Built target gen_opencv_python_source
+[ 98%] Built target opencv_python3
+[ 99%] Built target opencv_annotation
+[ 99%] Built target opencv_visualisation
+[100%] Built target opencv_interactive-calibration
+[100%] Built target opencv_version
+[100%] Built target opencv_model_diagnostics
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /usr/local/share/licenses/opencv4/dlpack-LICENSE
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippicv-readme.htm
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippicv-EULA.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippicv-third-party-programs.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippiw-support.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippiw-third-party-programs.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ippiw-EULA.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/flatbuffers-LICENSE.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/opencl-headers-LICENSE.txt
+-- Up-to-date: /usr/local/share/licenses/opencv4/ade-LICENSE
+-- Up-to-date: /usr/local/include/opencv4/opencv2/cvconfig.h
+-- Up-to-date: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
+-- Up-to-date: /usr/local/lib/cmake/opencv4/OpenCVModules.cmake
+-- Up-to-date: /usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake
+-- Up-to-date: /usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake
+-- Up-to-date: /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake
+-- Installing: /usr/local/bin/setup_vars_opencv4.sh
+-- Up-to-date: /usr/local/share/opencv4/valgrind.supp
+-- Up-to-date: /usr/local/share/opencv4/valgrind_3rdparty.supp
+-- Up-to-date: /usr/local/share/licenses/opencv4/libopenjp2-README.md
+-- Up-to-date: /usr/local/share/licenses/opencv4/libopenjp2-LICENSE
+-- Up-to-date: /usr/local/share/licenses/opencv4/protobuf-LICENSE
