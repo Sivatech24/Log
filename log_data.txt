@@ -9298,3 +9298,103 @@ make[2]: warning:  Clock skew detected.  Your build may be incomplete.
 [ 94%] Linking CXX executable ../../bin/opencv_test_imgcodecs
 [ 94%] Built target opencv_test_img_hash
 [ 94%] Built target opencv_test_fuzzy
+[ 94%] Linking CXX executable ../../bin/opencv_test_line_descriptor
+[ 94%] Linking CXX executable ../../bin/opencv_perf_line_descriptor
+[ 94%] Built target opencv_perf_imgcodecs
+[ 94%] Linking CXX executable ../../bin/opencv_test_photo
+[ 95%] Built target opencv_test_imgcodecs
+[ 95%] Linking CXX executable ../../bin/opencv_perf_photo
+[ 95%] Built target opencv_test_line_descriptor
+[ 95%] Built target opencv_perf_line_descriptor
+[ 95%] Linking CXX executable ../../bin/opencv_test_saliency
+[ 95%] Linking CXX executable ../../bin/opencv_test_text
+[ 96%] Built target opencv_test_photo
+[ 96%] Linking CXX executable ../../bin/opencv_test_videoio
+[ 96%] Built target opencv_test_saliency
+[ 96%] Built target opencv_perf_photo
+[ 96%] Linking CXX executable ../../bin/opencv_perf_videoio
+[ 96%] Built target opencv_test_text
+[ 96%] Linking CXX executable ../../bin/opencv_test_xphoto
+[ 96%] Linking CXX executable ../../bin/opencv_perf_xphoto
+[ 97%] Built target opencv_test_xphoto
+[ 97%] Built target opencv_perf_xphoto
+[ 98%] Linking CXX executable ../../bin/opencv_test_cudaoptflow
+[ 98%] Linking CXX executable ../../bin/opencv_perf_cudaoptflow
+[ 98%] Built target opencv_perf_videoio
+[ 98%] Linking CXX executable ../../bin/opencv_test_stereo
+[ 99%] Built target opencv_test_videoio
+[ 99%] Linking CXX executable ../../bin/opencv_perf_stereo
+[ 99%] Built target opencv_perf_cudaoptflow
+[ 99%] Linking CXX executable ../../bin/opencv_test_superres
+[ 99%] Built target opencv_test_cudaoptflow
+[ 99%] Linking CXX executable ../../bin/opencv_perf_superres
+[ 99%] Built target opencv_test_stereo
+[ 99%] Built target opencv_test_superres
+[ 99%] Linking CXX executable ../../bin/opencv_test_videostab
+[100%] Built target opencv_perf_stereo
+[100%] Built target opencv_perf_superres
+[100%] Built target opencv_test_videostab
+tech24@DESKTOP-1VHTLCM:~/build$ cd ~/build
+sudo make install
+sudo ldconfig
+[  0%] Built target opencv_dnn_plugins
+[  0%] Built target opencv_highgui_plugins
+[  1%] Built target libopenjp2
+[  2%] Built target ippiw
+[  3%] Built target ipphal
+[  3%] Built target opencv_videoio_plugins
+[  3%] Built target opencv_cudev
+[  3%] Built target ittnotify
+[  7%] Built target opencv_core
+[ 11%] Built target opencv_imgproc
+[ 12%] Built target opencv_imgcodecs
+[ 13%] Built target opencv_videoio
+[ 13%] Built target opencv_highgui
+[ 13%] Built target opencv_ts
+[ 14%] Built target opencv_test_cudev
+[ 16%] Built target opencv_test_core
+[ 18%] Built target opencv_perf_core
+[ 20%] Built target opencv_cudaarithm
+[ 21%] Built target opencv_test_cudaarithm
+[ 21%] Built target opencv_perf_cudaarithm
+[ 21%] Built target opencv_flann
+[ 21%] Built target opencv_test_flann
+[ 23%] Built target opencv_test_imgproc
+[ 25%] Built target opencv_perf_imgproc
+[ 25%] Built target opencv_intensity_transform
+[ 26%] Built target opencv_test_intensity_transform
+[ 26%] Built target opencv_ml
+[ 26%] Built target opencv_test_ml
+[ 26%] Built target opencv_phase_unwrapping
+[ 26%] Built target opencv_test_phase_unwrapping
+[ 26%] Built target opencv_plot
+[ 26%] Built target opencv_quality
+[ 26%] Built target opencv_test_quality
+[ 27%] Built target opencv_reg
+[ 27%] Built target opencv_test_reg
+[ 27%] Built target opencv_perf_reg
+[ 27%] Built target opencv_signal
+[ 27%] Built target opencv_test_signal
+[ 27%] Built target opencv_perf_signal
+[ 27%] Built target opencv_surface_matching
+[ 28%] Built target opencv_cudafilters
+[ 28%] Built target opencv_test_cudafilters
+[ 28%] Built target opencv_perf_cudafilters
+[ 30%] Built target opencv_cudaimgproc
+[ 31%] Built target opencv_test_cudaimgproc
+[ 32%] Built target opencv_perf_cudaimgproc
+[ 32%] Built target opencv_cudawarping
+[ 32%] Built target opencv_test_cudawarping
+[ 32%] Built target opencv_perf_cudawarping
+[ 34%] Built target libprotobuf
+[ 42%] Built target opencv_dnn
+[ 42%] Built target opencv_test_dnn
+[ 42%] Built target opencv_perf_dnn
+[ 42%] Built target opencv_dnn_superres
+[ 43%] Built target opencv_test_dnn_superres
+[ 43%] Built target opencv_perf_dnn_superres
+[ 44%] Built target opencv_features2d
+[ 45%] Built target opencv_test_features2d
+[ 46%] Built target opencv_perf_features2d
+[ 46%] Built target opencv_freetype
+[ 46%] Built target opencv_test_freetype
