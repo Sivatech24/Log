@@ -5998,3 +5998,103 @@ Install the project...
 -- Installing: /usr/local/include/opencv4/opencv2/imgcodecs.hpp
 -- Installing: /usr/local/include/opencv4/opencv2/imgcodecs/imgcodecs.hpp
 -- Installing: /usr/local/include/opencv4/opencv2/imgcodecs/imgcodecs_c.h
+-- Installing: /usr/local/include/opencv4/opencv2/imgcodecs/ios.h
+-- Installing: /usr/local/include/opencv4/opencv2/imgcodecs/legacy/constants_c.h
+-- Installing: /usr/local/include/opencv4/opencv2/imgcodecs/macosx.h
+-- Installing: /usr/local/lib/libopencv_line_descriptor.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_line_descriptor.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_line_descriptor.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_line_descriptor.so
+-- Installing: /usr/local/include/opencv4/opencv2/line_descriptor.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/line_descriptor/descriptor.hpp
+-- Installing: /usr/local/lib/libopencv_photo.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_photo.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_photo.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_photo.so
+-- Installing: /usr/local/include/opencv4/opencv2/photo.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/photo/cuda.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/photo/legacy/constants_c.h
+-- Installing: /usr/local/include/opencv4/opencv2/photo/photo.hpp
+-- Installing: /usr/local/lib/libopencv_saliency.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_saliency.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_saliency.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_saliency.so
+-- Installing: /usr/local/include/opencv4/opencv2/saliency.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/saliency/saliencyBaseClasses.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/saliency/saliencySpecializedClasses.hpp
+-- Installing: /usr/local/lib/libopencv_text.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_text.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_text.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_text.so
+-- Installing: /usr/local/include/opencv4/opencv2/text.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/text/erfilter.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/text/ocr.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/text/swt_text_detection.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/text/textDetector.hpp
+-- Installing: /usr/local/lib/libopencv_videoio.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_videoio.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_videoio.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_videoio.so
+-- Installing: /usr/local/include/opencv4/opencv2/videoio.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/videoio/legacy/constants_c.h
+-- Installing: /usr/local/include/opencv4/opencv2/videoio/registry.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/videoio/videoio.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/videoio/videoio_c.h
+-- Installing: /usr/local/lib/libopencv_xphoto.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_xphoto.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_xphoto.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_xphoto.so
+-- Installing: /usr/local/include/opencv4/opencv2/xphoto.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/xphoto/bm3d_image_denoising.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/xphoto/dct_image_denoising.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/xphoto/inpainting.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/xphoto/oilpainting.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/xphoto/tonemap.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/xphoto/white_balance.hpp
+-- Installing: /usr/local/lib/libopencv_calib3d.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_calib3d.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_calib3d.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_calib3d.so
+-- Installing: /usr/local/include/opencv4/opencv2/calib3d.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/calib3d/calib3d.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/calib3d/calib3d_c.h
+-- Installing: /usr/local/lib/libopencv_cudacodec.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_cudacodec.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudacodec.so.4.14.0" to "/usr/local/lib:/usr/lib/wsl/lib"
+-- Installing: /usr/local/lib/libopencv_cudacodec.so
+-- Installing: /usr/local/include/opencv4/opencv2/cudacodec.hpp
+-- Installing: /usr/local/lib/libopencv_cudafeatures2d.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_cudafeatures2d.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudafeatures2d.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_cudafeatures2d.so
+-- Installing: /usr/local/include/opencv4/opencv2/cudafeatures2d.hpp
+-- Installing: /usr/local/lib/libopencv_cudastereo.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_cudastereo.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_cudastereo.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_cudastereo.so
+-- Installing: /usr/local/include/opencv4/opencv2/cudastereo.hpp
+-- Installing: /usr/local/lib/libopencv_datasets.so.4.14.0
+-- Installing: /usr/local/lib/libopencv_datasets.so.414
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libopencv_datasets.so.4.14.0" to "/usr/local/lib"
+-- Installing: /usr/local/lib/libopencv_datasets.so
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/ar_hmdb.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/ar_sports.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/dataset.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/fr_adience.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/fr_lfw.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/gr_chalearn.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/gr_skig.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/hpe_humaneva.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/hpe_parse.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/ir_affine.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/ir_robot.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/is_bsds.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/is_weizmann.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/msm_epfl.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/msm_middlebury.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/or_imagenet.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/or_mnist.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/or_pascal.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/or_sun.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/pd_caltech.hpp
+-- Installing: /usr/local/include/opencv4/opencv2/datasets/pd_inria.hpp
